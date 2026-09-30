@@ -35,12 +35,22 @@
     #highlights,#credentials{position:relative;overflow:hidden;isolation:isolate}#highlights>* ,#credentials>*{position:relative;z-index:1}#highlights::before,#credentials::before{position:absolute;z-index:0;width:420px;height:420px;border-radius:50%;content:"";background:radial-gradient(circle,rgba(255,200,87,.24),rgba(255,200,87,.07) 33%,transparent 69%);filter:blur(2px);animation:ambient-orbit 15s ease-in-out infinite}#highlights::before{top:-220px;right:-140px}#credentials::before{bottom:-245px;left:-140px;background:radial-gradient(circle,rgba(72,157,105,.36),rgba(255,255,255,.07) 35%,transparent 70%)}
     @keyframes cinematic-pan{0%{transform:scale(1.08) translate3d(-1.5%,-.8%,0);background-position:46% 52%}100%{transform:scale(1.2) translate3d(1.5%,.8%,0);background-position:57% 44%}}@keyframes orb-glow{0%,100%{opacity:.55;filter:brightness(.9)}50%{opacity:1;filter:brightness(1.25)}}@keyframes float-ring{0%,100%{transform:translate3d(0,0,0) rotate(0deg);opacity:.45}50%{transform:translate3d(18px,-22px,0) rotate(28deg);opacity:.9}}@keyframes ambient-orbit{0%,100%{transform:translate3d(0,0,0) scale(.82);opacity:.45}50%{transform:translate3d(-115px,72px,0) scale(1.18);opacity:1}}
     @media(prefers-reduced-motion:reduce){.hero-panel::before,.hero-panel::after,.hero-grid::after,#highlights::before,#credentials::before{animation:none!important}}
+    /* tsParticles hero background: kept below content so every control remains interactive. */
+    .hero-panel{background:#061b2b}
+    .hero-panel::before{z-index:0;inset:0;opacity:1;background:linear-gradient(112deg,rgba(3,15,29,.94) 8%,rgba(5,29,49,.78) 58%,rgba(8,55,75,.58)),radial-gradient(circle at 84% 18%,rgba(32,191,210,.17),transparent 25rem),#061b2b;filter:none;transform:none;animation:none}
+    .hero-panel::after,.hero-grid::after{display:none}
+    #heroParticles{position:absolute;z-index:0;inset:0;overflow:hidden;pointer-events:none}
+    #heroParticles canvas{display:block;width:100%!important;height:100%!important}
+    @media(max-width:760px){#heroParticles{opacity:.82}}
+    @media(prefers-reduced-motion:reduce),print{#heroParticles{display:none}}
+    @media print{.hero-panel{background:#fff}.hero-panel::before{display:none}}
+
   </style>
 </head>
 <body>
   <nav class="nav" aria-label="主导航"><div class="container nav-inner"><a class="brand" href="#top"><span class="brand-mark">张</span><span id="brandName">张名宇</span></a><div class="nav-links"><a href="#highlights">亮点</a><a href="#experience">经历</a><a href="#projects">项目</a><a href="#skills">技能</a><a href="#education">教育证书</a></div><div class="nav-actions"><button class="icon-btn" id="langToggle" aria-label="切换中英文">EN</button><button class="icon-btn" id="themeToggle" aria-label="切换深浅色模式">◐</button><button class="button" id="printBtn"><span>⎙</span><span class="print-label">打印</span></button></div></div></nav>
   <main id="top" class="container">
-    <section class="hero"><div class="hero-panel fade-in"><div class="hero-grid"><div><p class="eyebrow" id="heroEyebrow"></p><h1 id="heroName"></h1><p class="hero-subtitle" id="heroTitle"></p><p class="summary" id="heroSummary"></p><div class="badge-row" id="heroBadges"></div><div class="contact-row"><a class="button primary" id="phoneBtn"><span>☎</span><span id="phoneText"></span></a><button class="button ghost" id="copyEmail"><span>✉</span><span id="emailAction">复制邮箱</span></button></div></div><div class="avatar">张</div></div></div></section>
+    <section class="hero"><div class="hero-panel fade-in"><div id="heroParticles" aria-hidden="true"></div><div class="hero-grid"><div><p class="eyebrow" id="heroEyebrow"></p><h1 id="heroName"></h1><p class="hero-subtitle" id="heroTitle"></p><p class="summary" id="heroSummary"></p><div class="badge-row" id="heroBadges"></div><div class="contact-row"><a class="button primary" id="phoneBtn"><span>☎</span><span id="phoneText"></span></a><button class="button ghost" id="copyEmail"><span>✉</span><span id="emailAction">复制邮箱</span></button></div></div><div class="avatar">张</div></div></div></section>
     <section id="highlights"><p class="section-kicker">KEY HIGHLIGHTS</p><h2 id="highlightsTitle">亮点成果</h2><div class="metrics" id="metrics"></div></section>
     <section id="experience"><p class="section-kicker">EXPERIENCE</p><h2 id="experienceTitle">实践经历</h2><div class="tabs" id="experienceTabs" role="tablist"></div><div id="experiencePanels"></div></section>
     <section id="projects"><p class="section-kicker">SELECTED PROJECTS</p><h2 id="projectsTitle">项目经历</h2><div class="tabs" id="projectTabs" role="tablist"></div><div id="projectPanels"></div></section>
@@ -95,5 +105,6 @@
     $('#modalClose').onclick=closeModal;$('#imageModal').onclick=e=>{if(e.target===$('#imageModal'))closeModal()};addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
     $('#themeToggle').onclick=()=>{const n=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=n;localStorage.setItem('resume-theme',n)};$('#langToggle').onclick=()=>{lang=lang==='zh'?'en':'zh';render()};$('#printBtn').onclick=()=>print();$('#copyEmail').onclick=async()=>{const e=mail[0]+mail[1]+'@'+mail[2];try{await navigator.clipboard.writeText(e);toast(lang==='zh'?'邮箱已复制':'Email copied')}catch{location.href='mailto:'+e}};addEventListener('scroll',()=>$('#toTop').classList.toggle('show',scrollY>480));$('#toTop').onclick=()=>scrollTo({top:0,behavior:'smooth'});document.documentElement.dataset.theme=localStorage.getItem('resume-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');render();
   </script>
+  <script src="hero-particles.js" defer></script>
 </body>
 </html>
