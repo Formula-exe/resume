@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#176b87" />
+  <meta name="theme-color" content="#071b30" />
   <title>张名宇｜个人简历</title>
   <style>
     :root { --bg:#f5f8fb;--surface:rgba(255,255,255,.84);--surface-solid:#fff;--text:#102a36;--muted:#607580;--line:#dce7eb;--primary:#176b87;--primary-2:#229e9a;--accent:#f09b4e;--shadow:0 16px 40px rgba(21,67,84,.1);--radius:20px }
@@ -46,11 +46,15 @@
     @media print{.hero-panel{background:#fff}.hero-panel::before{display:none}}
 
   </style>
+  <link rel="stylesheet" href="site-motion.css" />
 </head>
 <body>
+  <a class="skip-link" href="#top">跳至简历内容</a>
+  <div id="pageParticles" aria-hidden="true"></div>
+  <div class="reading-progress" aria-hidden="true"></div>
   <nav class="nav" aria-label="主导航"><div class="container nav-inner"><a class="brand" href="#top"><span class="brand-mark">张</span><span id="brandName">张名宇</span></a><div class="nav-links"><a href="#highlights">亮点</a><a href="#experience">经历</a><a href="#projects">项目</a><a href="#skills">技能</a><a href="#education">教育证书</a></div><div class="nav-actions"><button class="icon-btn" id="langToggle" aria-label="切换中英文">EN</button><button class="icon-btn" id="themeToggle" aria-label="切换深浅色模式">◐</button><button class="button" id="printBtn"><span>⎙</span><span class="print-label">打印</span></button></div></div></nav>
-  <main id="top" class="container">
-    <section class="hero"><div class="hero-panel fade-in"><div id="heroParticles" aria-hidden="true"></div><div class="hero-grid"><div><p class="eyebrow" id="heroEyebrow"></p><h1 id="heroName"></h1><p class="hero-subtitle" id="heroTitle"></p><p class="summary" id="heroSummary"></p><div class="badge-row" id="heroBadges"></div><div class="contact-row"><a class="button primary" id="phoneBtn"><span>☎</span><span id="phoneText"></span></a><button class="button ghost" id="copyEmail"><span>✉</span><span id="emailAction">复制邮箱</span></button></div></div><div class="avatar">张</div></div></div></section>
+  <main id="top" class="container" tabindex="-1">
+    <section class="hero"><div class="hero-panel fade-in"><div class="hero-grid"><div><p class="eyebrow" id="heroEyebrow"></p><h1 id="heroName"></h1><p class="hero-subtitle" id="heroTitle"></p><p class="summary" id="heroSummary"></p><div class="badge-row" id="heroBadges"></div><div class="contact-row"><a class="button primary" id="phoneBtn"><span>☎</span><span id="phoneText"></span></a><button class="button ghost" id="copyEmail"><span>✉</span><span id="emailAction">复制邮箱</span></button></div></div><div class="avatar">张</div></div></div></section>
     <section id="highlights"><p class="section-kicker">KEY HIGHLIGHTS</p><h2 id="highlightsTitle">亮点成果</h2><div class="metrics" id="metrics"></div></section>
     <section id="experience"><p class="section-kicker">EXPERIENCE</p><h2 id="experienceTitle">实践经历</h2><div class="tabs" id="experienceTabs" role="tablist"></div><div id="experiencePanels"></div></section>
     <section id="projects"><p class="section-kicker">SELECTED PROJECTS</p><h2 id="projectsTitle">项目经历</h2><div class="tabs" id="projectTabs" role="tablist"></div><div id="projectPanels"></div></section>
@@ -77,34 +81,17 @@
       $('#experienceTabs').innerHTML='';$('#experiencePanels').innerHTML='';const b=document.createElement('button');b.type='button';b.role='tab';b.textContent=r.experience.label;b.setAttribute('aria-selected','true');$('#experienceTabs').append(b);const p=el('div','timeline');const c=el('article','experience card');const h=el('div','card-head'),a=el('div');a.append(el('h3','',r.experience.title),el('div','org',r.experience.org));h.append(a,el('time','meta',r.experience.time));const u=document.createElement('ul');r.experience.bullets.forEach(x=>u.append(el('li','',x)));c.append(h,u);p.append(c);$('#experiencePanels').append(p);
       const gs={};r.projects.forEach(x=>(gs[x.group]??=[]).push(x));tabs($('#projectTabs'),$('#projectPanels'),gs);$('#skillGrid').innerHTML='';r.skills.forEach(g=>{const c=el('article','skill-card card');c.append(el('h3','',g.title));if(g.items)g.items.forEach(([n,v])=>{const x=el('div','skill-item'),l=el('div','skill-label');l.append(el('span','',n),el('span','',v+'%'));const bar=el('div','bar'),i=document.createElement('i');i.style.width=v+'%';bar.append(i);x.append(l,bar);c.append(x)});else{const s=el('div','cert-tags');g.tags.forEach(x=>s.append(el('span','tag',x)));c.append(s)}$('#skillGrid').append(c)});$('#educationList').innerHTML='';r.education.forEach(([n,m,d])=>{const c=el('article','education card');c.append(el('h3','',n),el('div','org',m));if(d)c.append(el('p','',d));$('#educationList').append(c)});$('#certificateList').innerHTML='';const cert=el('article','certificate card');cert.append(el('h3','',lang==='zh'?'认证与奖项':'Certifications & Awards'));const list=el('div','certificate-list'),certOrder=[4,5,0,1,2,3];r.certs.forEach((x,i)=>{const item=document.createElement('button');item.type='button';item.className='certificate-item';item.textContent=x;item.onclick=()=>focusCertificate(certOrder[i]);list.append(item)});cert.append(list);$('#certificateList').append(cert);$('#galleryTitle').textContent=lang==='zh'?'证书展示':'Certificate Gallery';$('#gallery').innerHTML='';certImages.forEach(([src,zh,en],i)=>{const f=el('figure','gallery-card'),img=document.createElement('img');img.src=src;img.alt=lang==='zh'?zh:en;img.loading='lazy';f.dataset.index=i;f.append(img,el('figcaption','',lang==='zh'?zh:en));f.onclick=()=>setActiveCertificate(i);f.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();setActiveCertificate(i)}};f.tabIndex=0;f.setAttribute('role','button');$('#gallery').append(f)});setActiveCertificate(window.activeCertificate??2,false);$('#footerText').textContent=lang==='zh'?'© 2026 张名宇 · 特别鸣谢·浪尖儿 · 最后更新：2026 年 8 月':'© 2026 Mingyu Zhang · Special thanks: 浪尖儿 · Last updated: August 2026';requestAnimationFrame(initMotion)}
     function initMotion(){
-      const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
-      window.resumeRevealObserver?.disconnect();
-      const groups=[
-        ['#highlights .section-kicker,#highlights h2',0],['#metrics .metric',1],
-        ['#experience .section-kicker,#experience h2,#experience .tabs',0],['#experience .card',1],
-        ['#projects .section-kicker,#projects h2,#projects .tabs',0],['#projectPanels .card',1],
-        ['#skills .section-kicker,#skills h2',0],['#skillGrid .card',1],
-        ['#education .section-kicker,#education h2',0],['#education .card',1],
-        ['#credentials .section-kicker,#credentials h2,#gallery',0]
-      ];
-      const targets=[];
-      groups.forEach(([selector,base])=>document.querySelectorAll(selector).forEach((node,index)=>{
-        node.classList.add('reveal');node.dataset.revealDelay=String(Math.min(base+index,3));targets.push(node);
-      }));
-      if(reduced){targets.forEach(node=>node.classList.add('is-visible'));return}
-      window.resumeRevealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{
-        if(entry.isIntersecting){entry.target.classList.add('is-visible');window.resumeRevealObserver.unobserve(entry.target)}
-      }),{threshold:.14,rootMargin:'0px 0px -36px'});
-      targets.forEach(node=>window.resumeRevealObserver.observe(node));
+      window.dispatchEvent(new Event('resume:render'));
     }
     function toast(x){const t=$('#toast');t.textContent=x;t.classList.add('show');clearTimeout(window.tt);window.tt=setTimeout(()=>t.classList.remove('show'),1800)}
     function openModal(src,alt){$('#modalImage').src=src;$('#modalImage').alt=alt;$('#imageModal').hidden=false;document.body.style.overflow='hidden'}
-    function setActiveCertificate(index,animate=true){const cards=[...document.querySelectorAll('#gallery .gallery-card')];if(!cards.length)return;window.activeCertificate=index;const len=cards.length;cards.forEach((card,i)=>{let d=i-index;if(d>len/2)d-=len;if(d<-len/2)d+=len;const offset=d*176;const active=d===0;card.classList.toggle('active',active);card.style.zIndex=String(20-Math.abs(d));card.style.opacity=Math.abs(d)>3?'.18':String(1-Math.abs(d)*.13);card.style.filter=active?'none':'saturate(.72) brightness(.86)';card.style.transform=`translateX(calc(-50% + ${offset}px)) translateY(${active?0:Math.abs(d)*14}px) scale(${active?1:.82})`;card.setAttribute('aria-pressed',active?'true':'false')})}
+    function setActiveCertificate(index,animate=true){const cards=[...document.querySelectorAll('#gallery .gallery-card')];if(!cards.length)return;const len=cards.length;index=(index+len)%len;window.activeCertificate=index;cards.forEach((card,i)=>{let d=i-index;if(d>len/2)d-=len;if(d<-len/2)d+=len;const offset=d*176,active=d===0;card.classList.toggle('active',active);card.style.zIndex=String(20-Math.abs(d));card.style.opacity=Math.abs(d)>3?'.18':String(1-Math.abs(d)*.18);card.style.filter=active?'none':'saturate(.72) brightness(.86)';card.style.transitionDuration=animate?'': '0s';card.style.transform=`translate3d(calc(-50% + ${offset}px),${active?0:Math.abs(d)*14}px,${active?0:-Math.abs(d)*55}px) rotateY(${-d*8}deg) scale(${active?1:.88})`;card.setAttribute('aria-pressed',active?'true':'false')});window.dispatchEvent(new Event('resume:certificate'))}
     function focusCertificate(index){setActiveCertificate(index);$('#credentials').scrollIntoView({behavior:'smooth',block:'center'})}
     function closeModal(){$('#imageModal').hidden=true;document.body.style.overflow=''}
     $('#modalClose').onclick=closeModal;$('#imageModal').onclick=e=>{if(e.target===$('#imageModal'))closeModal()};addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
     $('#themeToggle').onclick=()=>{const n=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=n;localStorage.setItem('resume-theme',n)};$('#langToggle').onclick=()=>{lang=lang==='zh'?'en':'zh';render()};$('#printBtn').onclick=()=>print();$('#copyEmail').onclick=async()=>{const e=mail[0]+mail[1]+'@'+mail[2];try{await navigator.clipboard.writeText(e);toast(lang==='zh'?'邮箱已复制':'Email copied')}catch{location.href='mailto:'+e}};addEventListener('scroll',()=>$('#toTop').classList.toggle('show',scrollY>480));$('#toTop').onclick=()=>scrollTo({top:0,behavior:'smooth'});document.documentElement.dataset.theme=localStorage.getItem('resume-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');render();
   </script>
+  <script src="site-motion.js" defer></script>
   <script src="hero-particles.js" defer></script>
 </body>
 </html>
