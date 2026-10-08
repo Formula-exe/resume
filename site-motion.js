@@ -1,9 +1,9 @@
 (() => {
   const root = document.documentElement;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  let enabled = true, frame = 0, skillObserver;
+  let enabled = true;
   try { enabled = localStorage.getItem('resume-motion') !== 'off'; } catch {}
-  const motionButton = document.createElement('button');
+  const motionButton = document.getElementById('motionToggle') || document.createElement('button');
   motionButton.type = 'button';
   motionButton.id = 'motionToggle';
   motionButton.className = 'icon-btn';
@@ -31,8 +31,6 @@
   function updateMotion() {
     root.dataset.motion = enabled && !reduced.matches ? 'on' : 'off';
     labels();
-    initSkills();
-    scheduleScroll();
     window.dispatchEvent(new Event('resume:motionchange'));
   }
   motionButton.addEventListener('click', () => {
@@ -42,39 +40,6 @@
   });
   reduced.addEventListener('change', updateMotion);
 
-  function initSkills() {
-    skillObserver?.disconnect();
-    const cards = document.querySelectorAll('.skill-card');
-    if (root.dataset.motion === 'off' || !('IntersectionObserver' in window)) {
-      cards.forEach(card => card.classList.add('is-visible'));
-      return;
-    }
-    skillObserver = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          skillObserver.unobserve(entry.target);
-        }
-      });
-    }, { threshold: .15 });
-    cards.forEach(card => skillObserver.observe(card));
-  }
-
-  function updateScroll() {
-    frame = 0;
-    const height = root.scrollHeight - window.innerHeight;
-    const progress = height > 0 ? Math.min(1, Math.max(0, window.scrollY / height)) : 1;
-    const timeline = document.querySelector('.timeline');
-    const rect = timeline?.getBoundingClientRect();
-    const line = rect ? Math.min(1, Math.max(0, (innerHeight * .78 - rect.top) / rect.height)) : 0;
-    root.style.setProperty('--reading-progress', progress.toFixed(4));
-    timeline?.style.setProperty('--timeline-progress', line.toFixed(4));
-  }
-  function scheduleScroll() {
-    if (!frame) frame = requestAnimationFrame(updateScroll);
-  }
-  addEventListener('scroll', scheduleScroll, { passive: true });
-  addEventListener('resize', scheduleScroll, { passive: true });
 
   const controls = document.createElement('div');
   controls.className = 'gallery-controls';
@@ -143,7 +108,7 @@
   main.addEventListener('pointerup', event => {
     if (event.pointerType !== 'mouse') setTimeout(() => glowCard?.classList.remove('is-interacting'), 250);
   }, { passive: true });
-  window.addEventListener('resume:render', () => { labels(); initSkills(); updateCertificate(); scheduleScroll(); });
+  window.addEventListener('resume:render', () => { labels(); updateCertificate(); });
   window.addEventListener('resume:certificate', updateCertificate);
   new MutationObserver(labels).observe(root, { attributes: true, attributeFilter: ['data-theme'] });
   updateMotion();
