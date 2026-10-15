@@ -1,0 +1,71 @@
+{
+  "source": "../portrait-static-review/portrait-review.js",
+  "width": 1254,
+  "height": 1254,
+  "particleCount": 36000,
+  "highlightCount": 33,
+  "camera": {
+    "position": [
+      0,
+      0,
+      2200
+    ],
+    "quaternion": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "fov": 31.815103861051682,
+    "aspect": 1,
+    "near": 1,
+    "far": 8000,
+    "projection": [
+      3.5087719298245617,
+      0,
+      0,
+      0,
+      0,
+      3.5087719298245617,
+      0,
+      0,
+      0,
+      0,
+      -1.0002500312539067,
+      -1,
+      0,
+      0,
+      -2.000250031253907,
+      0
+    ]
+  },
+  "sections": {
+    "positions": {
+      "offset": 0,
+      "length": 108000,
+      "sha256": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0"
+    },
+    "colors": {
+      "offset": 432000,
+      "length": 144000,
+      "sha256": "aac05c209c51ed52fa028d09c6ffb731285e7e74ac9df545b1cfc43e2f3d08c4"
+    },
+    "sizes": {
+      "offset": 1008000,
+      "length": 36000,
+      "sha256": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6"
+    },
+    "highlights": {
+      "offset": 1152000,
+      "length": 99,
+      "sha256": "f310329345e798be256ca7326a396cffc5a3a3fc6deefe15f0bab3722548feb1"
+    },
+    "highlightColors": {
+      "offset": 1152396,
+      "length": 99,
+      "sha256": "14f5a478087b04036b27d8fc5cb92cd473f08cf124321f17d579f8b8be35780f"
+    }
+  },
+  "sha256": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+  "bytes": 1152792
+}

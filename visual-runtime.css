@@ -1,0 +1,21 @@
+.visual-settings-trigger{font-size:18px}.visual-settings-footer{display:block;margin:12px auto 0;padding:5px 12px;color:var(--muted);border:1px solid var(--line);border-radius:5px;background:none;font:inherit;font-size:12px;cursor:pointer}
+#visualSettingsDialog{width:min(380px,calc(100vw - 32px));padding:22px;border:1px solid #46516a;border-radius:12px;background:#111a29;color:#edf3fc;font:14px/1.8 "Microsoft YaHei",sans-serif}
+#visualSettingsDialog::backdrop{background:#0009}.visual-settings-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:18px}.visual-settings-heading h2{font-size:21px;font-weight:500;margin:0}.visual-settings-close{background:none;color:inherit;border:0;font-size:27px;cursor:pointer;padding:0 5px}
+#visualSettingsDialog select{display:block;width:100%;padding:10px;margin:7px 0 18px;border:1px solid #526079;border-radius:5px;background:#172235;color:inherit;font:inherit}.visual-post-label{display:flex;align-items:center;gap:10px}#visualQualityStatus{color:#aebfd6;font-size:12px}#visualRetry{color:#f0cfaa;border:1px solid #8c6c4d;background:none;border-radius:5px;padding:7px 12px;font:inherit;cursor:pointer}
+#visualSettingsMobile{display:block;width:100%;text-align:left;padding:12px 14px;background:none;color:inherit;border:0;font:inherit;cursor:pointer}
+.visual-static-image{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none}.hero-visual-space[data-ready="true"] .visual-static-image{visibility:hidden}
+.hero-visual-space[data-fallback-ready="true"] .signature-fallback{visibility:hidden}
+#chapterVisuals{background:transparent url('assets/visual-fallback/sky.svg') center/cover no-repeat}
+html:not([data-visual-quality="static"]) #chapterVisuals{background-image:none}
+[data-visual-quality="static"] #pageParticles,[data-visual-quality="static"] #musicMeteorCanvas{display:none!important}
+[data-visual-quality="low"] .nav{backdrop-filter:none}[data-visual-quality="low"] .card::after{display:none}
+@media(max-width:760px),(pointer:coarse) and (max-width:1024px){
+  .mobile-menu{position:absolute;top:100%;left:0;right:0;max-height:calc(100dvh - 68px - env(safe-area-inset-bottom));overflow:auto}
+  .nav-actions .visual-settings-trigger{display:none}
+  .chapter-actor.hero-visual-space{width:calc(100vw - var(--visual-mobile-inset,24px));height:var(--visual-mobile-height,clamp(200px,62vw,300px))}
+  .chapter-about{padding-bottom:calc(var(--visual-mobile-height,clamp(200px,62vw,300px))*1.2 + 48px)}
+  .audio-meter{position:static;width:max-content;max-width:calc(100vw - 24px);margin:12px auto max(12px,env(safe-area-inset-bottom));padding:7px 10px;opacity:.94}
+  .audio-meter-heading,.audio-rms-bar,.audio-meter-status{display:none}.audio-stars-toggle{margin-top:0}
+  .hero-panel{padding-top:34px;padding-bottom:24px}.hero-title-line{white-space:normal}
+}
+@media print{#visualSettingsDialog,.visual-settings-trigger,.visual-settings-footer,#visualSettingsMobile{display:none!important}}

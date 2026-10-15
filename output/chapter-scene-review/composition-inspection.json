@@ -1,0 +1,591 @@
+{
+  "states": {
+    "top": {
+      "section": "top",
+      "current": {
+        "x": 0.695,
+        "y": 0.54,
+        "scale": 1,
+        "signatureOpacity": 1,
+        "portraitOpacity": 0,
+        "background": 1
+      },
+      "target": {
+        "x": 0.695,
+        "y": 0.54,
+        "scale": 1,
+        "signatureOpacity": 1,
+        "portraitOpacity": 0,
+        "background": 1
+      },
+      "settled": true,
+      "pendingFrames": 0,
+      "updateCount": 2,
+      "lastDeltaTime": 0,
+      "lastRawDeltaTime": 0,
+      "maxDeltaTime": 0.05,
+      "response": 7,
+      "motionEnabled": false,
+      "sections": [
+        {
+          "id": "top",
+          "top": 81
+        },
+        {
+          "id": "highlights",
+          "top": 1036
+        },
+        {
+          "id": "projects",
+          "top": 1193.453125
+        },
+        {
+          "id": "about",
+          "top": 1876.453125
+        },
+        {
+          "id": "experience",
+          "top": 2656.453125
+        },
+        {
+          "id": "skills",
+          "top": 3156.625
+        },
+        {
+          "id": "education",
+          "top": 3779.15625
+        },
+        {
+          "id": "credentials",
+          "top": 4489.15625
+        },
+        {
+          "id": "contact",
+          "top": 5044.15625
+        }
+      ]
+    },
+    "highlights": {
+      "section": "highlights",
+      "current": {
+        "x": 0.88,
+        "y": 0.55,
+        "scale": 0.55,
+        "signatureOpacity": 0.16,
+        "portraitOpacity": 0,
+        "background": 0.4
+      },
+      "target": {
+        "x": 0.88,
+        "y": 0.55,
+        "scale": 0.55,
+        "signatureOpacity": 0.16,
+        "portraitOpacity": 0,
+        "background": 0.4
+      },
+      "settled": true,
+      "pendingFrames": 0,
+      "updateCount": 3,
+      "lastDeltaTime": 0,
+      "lastRawDeltaTime": 0,
+      "maxDeltaTime": 0.05,
+      "response": 7,
+      "motionEnabled": false,
+      "sections": [
+        {
+          "id": "top",
+          "top": 81
+        },
+        {
+          "id": "highlights",
+          "top": 1036
+        },
+        {
+          "id": "projects",
+          "top": 1193.453125
+        },
+        {
+          "id": "about",
+          "top": 1876.453125
+        },
+        {
+          "id": "experience",
+          "top": 2656.453125
+        },
+        {
+          "id": "skills",
+          "top": 3156.625
+        },
+        {
+          "id": "education",
+          "top": 3779.15625
+        },
+        {
+          "id": "credentials",
+          "top": 4489.15625
+        },
+        {
+          "id": "contact",
+          "top": 5044.15625
+        }
+      ]
+    },
+    "projects": {
+      "section": "projects",
+      "current": {
+        "x": 0.88,
+        "y": 0.56,
+        "scale": 0.55,
+        "signatureOpacity": 0,
+        "portraitOpacity": 0,
+        "background": 0.2
+      },
+      "target": {
+        "x": 0.88,
+        "y": 0.56,
+        "scale": 0.55,
+        "signatureOpacity": 0,
+        "portraitOpacity": 0,
+        "background": 0.2
+      },
+      "settled": true,
+      "pendingFrames": 0,
+      "updateCount": 6,
+      "lastDeltaTime": 0,
+      "lastRawDeltaTime": 0,
+      "maxDeltaTime": 0.05,
+      "response": 7,
+      "motionEnabled": false,
+      "sections": [
+        {
+          "id": "top",
+          "top": 81
+        },
+        {
+          "id": "highlights",
+          "top": 1036
+        },
+        {
+          "id": "projects",
+          "top": 1193.453125
+        },
+        {
+          "id": "about",
+          "top": 1981.640625
+        },
+        {
+          "id": "experience",
+          "top": 2761.640625
+        },
+        {
+          "id": "skills",
+          "top": 3261.8125
+        },
+        {
+          "id": "education",
+          "top": 3884.34375
+        },
+        {
+          "id": "credentials",
+          "top": 4594.34375
+        },
+        {
+          "id": "contact",
+          "top": 5149.34375
+        }
+      ]
+    },
+    "about": {
+      "section": "about",
+      "current": {
+        "x": 0.71,
+        "y": 0.53,
+        "scale": 1,
+        "signatureOpacity": 0,
+        "portraitOpacity": 0.94,
+        "background": 0.55
+      },
+      "target": {
+        "x": 0.71,
+        "y": 0.53,
+        "scale": 1,
+        "signatureOpacity": 0,
+        "portraitOpacity": 0.94,
+        "background": 0.55
+      },
+      "settled": true,
+      "pendingFrames": 0,
+      "updateCount": 7,
+      "lastDeltaTime": 0,
+      "lastRawDeltaTime": 0,
+      "maxDeltaTime": 0.05,
+      "response": 7,
+      "motionEnabled": false,
+      "sections": [
+        {
+          "id": "top",
+          "top": 81
+        },
+        {
+          "id": "highlights",
+          "top": 1036
+        },
+        {
+          "id": "projects",
+          "top": 1193.453125
+        },
+        {
+          "id": "about",
+          "top": 1981.640625
+        },
+        {
+          "id": "experience",
+          "top": 2761.640625
+        },
+        {
+          "id": "skills",
+          "top": 3261.8125
+        },
+        {
+          "id": "education",
+          "top": 3884.34375
+        },
+        {
+          "id": "credentials",
+          "top": 4594.34375
+        },
+        {
+          "id": "contact",
+          "top": 5149.34375
+        }
+      ]
+    },
+    "experience": {
+      "section": "experience",
+      "current": {
+        "x": 0.87,
+        "y": 0.56,
+        "scale": 0.78,
+        "signatureOpacity": 0,
+        "portraitOpacity": 0.15,
+        "background": 0.32
+      },
+      "target": {
+        "x": 0.87,
+        "y": 0.56,
+        "scale": 0.78,
+        "signatureOpacity": 0,
+        "portraitOpacity": 0.15,
+        "background": 0.32
+      },
+      "settled": true,
+      "pendingFrames": 0,
+      "updateCount": 8,
+      "lastDeltaTime": 0,
+      "lastRawDeltaTime": 0,
+      "maxDeltaTime": 0.05,
+      "response": 7,
+      "motionEnabled": false,
+      "sections": [
+        {
+          "id": "top",
+          "top": 81
+        },
+        {
+          "id": "highlights",
+          "top": 1036
+        },
+        {
+          "id": "projects",
+          "top": 1193.453125
+        },
+        {
+          "id": "about",
+          "top": 1981.640625
+        },
+        {
+          "id": "experience",
+          "top": 2761.640625
+        },
+        {
+          "id": "skills",
+          "top": 3261.8125
+        },
+        {
+          "id": "education",
+          "top": 3884.34375
+        },
+        {
+          "id": "credentials",
+          "top": 4594.34375
+        },
+        {
+          "id": "contact",
+          "top": 5149.34375
+        }
+      ]
+    },
+    "skills": {
+      "section": "skills",
+      "current": {
+        "x": 0.91,
+        "y": 0.55,
+        "scale": 0.68,
+        "signatureOpacity": 0,
+        "portraitOpacity": 0.07,
+        "background": 0.25
+      },
+      "target": {
+        "x": 0.91,
+        "y": 0.55,
+        "scale": 0.68,
+        "signatureOpacity": 0,
+        "portraitOpacity": 0.07,
+        "background": 0.25
+      },
+      "settled": true,
+      "pendingFrames": 0,
+      "updateCount": 9,
+      "lastDeltaTime": 0,
+      "lastRawDeltaTime": 0,
+      "maxDeltaTime": 0.05,
+      "response": 7,
+      "motionEnabled": false,
+      "sections": [
+        {
+          "id": "top",
+          "top": 81
+        },
+        {
+          "id": "highlights",
+          "top": 1036
+        },
+        {
+          "id": "projects",
+          "top": 1193.453125
+        },
+        {
+          "id": "about",
+          "top": 1981.640625
+        },
+        {
+          "id": "experience",
+          "top": 2761.640625
+        },
+        {
+          "id": "skills",
+          "top": 3261.8125
+        },
+        {
+          "id": "education",
+          "top": 3884.34375
+        },
+        {
+          "id": "credentials",
+          "top": 4594.34375
+        },
+        {
+          "id": "contact",
+          "top": 5149.34375
+        }
+      ]
+    },
+    "education": {
+      "section": "education",
+      "current": {
+        "x": 0.92,
+        "y": 0.56,
+        "scale": 0.65,
+        "signatureOpacity": 0,
+        "portraitOpacity": 0.05,
+        "background": 0.22
+      },
+      "target": {
+        "x": 0.92,
+        "y": 0.56,
+        "scale": 0.65,
+        "signatureOpacity": 0,
+        "portraitOpacity": 0.05,
+        "background": 0.22
+      },
+      "settled": true,
+      "pendingFrames": 0,
+      "updateCount": 10,
+      "lastDeltaTime": 0,
+      "lastRawDeltaTime": 0,
+      "maxDeltaTime": 0.05,
+      "response": 7,
+      "motionEnabled": false,
+      "sections": [
+        {
+          "id": "top",
+          "top": 81
+        },
+        {
+          "id": "highlights",
+          "top": 1036
+        },
+        {
+          "id": "projects",
+          "top": 1193.453125
+        },
+        {
+          "id": "about",
+          "top": 1981.640625
+        },
+        {
+          "id": "experience",
+          "top": 2761.640625
+        },
+        {
+          "id": "skills",
+          "top": 3261.8125
+        },
+        {
+          "id": "education",
+          "top": 3884.34375
+        },
+        {
+          "id": "credentials",
+          "top": 4594.34375
+        },
+        {
+          "id": "contact",
+          "top": 5149.34375
+        }
+      ]
+    },
+    "credentials": {
+      "section": "credentials",
+      "current": {
+        "x": 0.92,
+        "y": 0.56,
+        "scale": 0.62,
+        "signatureOpacity": 0,
+        "portraitOpacity": 0,
+        "background": 0.16
+      },
+      "target": {
+        "x": 0.92,
+        "y": 0.56,
+        "scale": 0.62,
+        "signatureOpacity": 0,
+        "portraitOpacity": 0,
+        "background": 0.16
+      },
+      "settled": true,
+      "pendingFrames": 0,
+      "updateCount": 11,
+      "lastDeltaTime": 0,
+      "lastRawDeltaTime": 0,
+      "maxDeltaTime": 0.05,
+      "response": 7,
+      "motionEnabled": false,
+      "sections": [
+        {
+          "id": "top",
+          "top": 81
+        },
+        {
+          "id": "highlights",
+          "top": 1036
+        },
+        {
+          "id": "projects",
+          "top": 1193.453125
+        },
+        {
+          "id": "about",
+          "top": 1981.640625
+        },
+        {
+          "id": "experience",
+          "top": 2761.640625
+        },
+        {
+          "id": "skills",
+          "top": 3261.8125
+        },
+        {
+          "id": "education",
+          "top": 3884.34375
+        },
+        {
+          "id": "credentials",
+          "top": 4594.34375
+        },
+        {
+          "id": "contact",
+          "top": 5149.34375
+        }
+      ]
+    },
+    "contact": {
+      "section": "contact",
+      "current": {
+        "x": 0.92,
+        "y": 0.59,
+        "scale": 0.58,
+        "signatureOpacity": 0,
+        "portraitOpacity": 0,
+        "background": 0.07
+      },
+      "target": {
+        "x": 0.92,
+        "y": 0.59,
+        "scale": 0.58,
+        "signatureOpacity": 0,
+        "portraitOpacity": 0,
+        "background": 0.07
+      },
+      "settled": true,
+      "pendingFrames": 0,
+      "updateCount": 12,
+      "lastDeltaTime": 0,
+      "lastRawDeltaTime": 0,
+      "maxDeltaTime": 0.05,
+      "response": 7,
+      "motionEnabled": false,
+      "sections": [
+        {
+          "id": "top",
+          "top": 81
+        },
+        {
+          "id": "highlights",
+          "top": 1036
+        },
+        {
+          "id": "projects",
+          "top": 1193.453125
+        },
+        {
+          "id": "about",
+          "top": 1981.640625
+        },
+        {
+          "id": "experience",
+          "top": 2761.640625
+        },
+        {
+          "id": "skills",
+          "top": 3261.8125
+        },
+        {
+          "id": "education",
+          "top": 3884.34375
+        },
+        {
+          "id": "credentials",
+          "top": 4594.34375
+        },
+        {
+          "id": "contact",
+          "top": 5149.34375
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

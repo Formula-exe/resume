@@ -1,0 +1,35 @@
+{
+  "testAudio": {
+    "duration": 8.0,
+    "rms": 0.1175,
+    "sampleRate": 22050
+  },
+  "repeatedClicks": {
+    "regularCycles": 6,
+    "rapidClicks": 61,
+    "stats": {
+      "contexts": 1,
+      "mediaSources": 1,
+      "gains": 1,
+      "analysers": 1,
+      "connections": 3,
+      "audioConstructors": 0
+    },
+    "sameElementAndGraph": true
+  },
+  "keyboardAndExternalPause": true,
+  "sceneUnchanged": true,
+  "liveOutputRms": 0.025188299073708505,
+  "playRejectionAndRetry": "NotAllowedError injected; recovered with the same graph",
+  "loadFailureAndRetry": {
+    "failureState": "unsupported",
+    "recovered": true
+  },
+  "cancelPendingLoad": true,
+  "loadTimeoutAndRetry": true,
+  "naturalEnd": true,
+  "outputResumeTimeoutRetry": true,
+  "responsiveAndLocalization": true,
+  "singleAudioElement": 1,
+  "browserScriptErrors": []
+}

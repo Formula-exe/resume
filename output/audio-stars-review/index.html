@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>音乐与星点 · 同段对照</title>
+<style>
+  :root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#080c12;color:#eeeae2;font:15px/1.8 "Microsoft YaHei",sans-serif}main{max-width:1640px;margin:auto;padding:32px 24px}h1{margin:0;font-size:30px;font-weight:500}p{margin:10px 0 18px;color:#afbdd1}a{color:#e7c19b;text-underline-offset:4px}button{font:inherit;padding:7px 18px;border:1px solid #52637b;border-radius:5px;background:transparent;color:#dae6f7;cursor:pointer}button[aria-pressed="true"]{color:#efd2b3;border-color:#c5a17b;background:#1a1a1c}button:focus-visible{outline:2px solid #e5b582;outline-offset:4px}button:disabled{opacity:.5;cursor:default}.controls{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}img{display:block;width:100%;height:auto;border:1px solid #283344}.details{padding-top:24px}.details img{margin:12px 0}.note{font-size:13px}.checks{border-top:1px solid #283344;margin-top:26px;padding-top:16px;display:flex;gap:14px 36px;flex-wrap:wrap}.checks span{color:#b4c6df}
+</style>
+<main>
+  <h1>音乐与星点 · 同段对照</h1>
+  <p>《Moonlight》45.75 秒，同一音轨、相机和构图。只有一组近层星点随强弱轻微变亮，正文保持清楚。</p>
+  <div class="controls" aria-label="查看联动对照">
+    <button type="button" data-mode="pair" aria-pressed="true">并排与局部放大</button>
+    <button type="button" data-mode="off" aria-pressed="false">无联动 · 原尺寸</button>
+    <button type="button" data-mode="on" aria-pressed="false">有联动 · 原尺寸</button>
+  </div>
+  <img id="preview" src="comparison.png" alt="同一段音乐的无联动与有联动截图，并排展示并放大相同星点">
+  <div class="details">
+    <button type="button" id="detailToggle" aria-pressed="false">播放星点局部对照</button>
+    <img id="detail" alt="同段音乐播放时的星点局部对照" hidden style="display:none">
+    <p class="note">局部素材来自真实播放截图，已放大便于观察细微亮度变化。暂停音乐后回到原亮度；减少动效时关闭视觉联动。</p>
+  </div>
+  <div class="checks"><span>相机、星点位置与数量保持相同</span><span>正文截图像素一致</span><span>复用 1 条音轨与原分析链路</span><span>作品与正文段降低响应</span></div>
+  <p><a href="../../#top">回到网站</a>，左下角「星点联动」按钮可在同一条正在播放的音乐上切换。<a href="REVIEW.md">查看检查记录与参数说明</a></p>
+</main>
+<script>
+  const images={pair:'comparison.png',off:'off.png',on:'on.png'};
+  const descriptions={pair:'同一段音乐的无联动与有联动截图，并排展示并放大相同星点',off:'无联动：基础亮度，Moonlight 45.75秒',on:'有联动：仅近层星点亮度变化，Moonlight 45.75秒'};
+  document.querySelectorAll('[data-mode]').forEach(button=>button.addEventListener('click',()=>{
+    document.querySelectorAll('[data-mode]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));
+    document.getElementById('preview').src=images[button.dataset.mode];
+    document.getElementById('preview').alt=descriptions[button.dataset.mode];
+  }));
+  const reduced=matchMedia('(prefers-reduced-motion:reduce)'),toggle=document.getElementById('detailToggle'),detail=document.getElementById('detail');
+  function stop(){detail.hidden=true;detail.style.display='none';detail.removeAttribute('src');toggle.setAttribute('aria-pressed','false');toggle.textContent='播放星点局部对照';}
+  function motion(){if(reduced.matches)stop();toggle.disabled=reduced.matches;if(reduced.matches)toggle.textContent='减少动效 · 使用静态对照';}
+  toggle.addEventListener('click',()=>{if(toggle.getAttribute('aria-pressed')==='true'){stop();return;}detail.src='star-detail.gif';detail.hidden=false;detail.style.display='block';toggle.setAttribute('aria-pressed','true');toggle.textContent='关闭动态局部对照';});
+  reduced.addEventListener('change',motion);motion();
+</script>
+</html>

@@ -1,0 +1,3860 @@
+{
+  "method": "Windows Edge/Chromium headless; SwiftShader; browser viewport/DPR/touch/reduced-motion emulation",
+  "physicalPhone": "Not tested; no physical device connected",
+  "cases": {
+    "320": {
+      "settings": {
+        "pixelRatio": 1,
+        "signatureParticles": 4500,
+        "portraitParticles": 9000,
+        "portraitHighlights": 10,
+        "starCountScale": 0.45,
+        "postProcessingAllowed": false,
+        "portraitFps": 10,
+        "visualFps": 24,
+        "meterFps": 15,
+        "antialias": false,
+        "mode": "low",
+        "selected": "auto",
+        "mobile": true,
+        "reason": null,
+        "reducedMotion": false,
+        "postProcessing": false
+      },
+      "signature": {
+        "disposed": false,
+        "particleCount": 4500,
+        "pixelRatio": 1,
+        "buffer": [
+          296,
+          200
+        ],
+        "canvasConnected": true,
+        "memory": {
+          "geometries": 5,
+          "textures": 2
+        },
+        "programs": 2,
+        "contextLost": false
+      },
+      "portrait": {
+        "mode": "off",
+        "particleCount": 9000,
+        "softHighlights": 10,
+        "warmParticles": 144,
+        "regionCounts": {
+          "face": 4605,
+          "hair": 3379,
+          "shoulders": 1015,
+          "body": 1
+        },
+        "camera": {
+          "position": [
+            0,
+            0,
+            2200
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "fov": 31.815103861051682,
+          "aspect": 1,
+          "near": 1,
+          "far": 8000,
+          "projection": [
+            3.5087719298245617,
+            0,
+            0,
+            0,
+            0,
+            3.5087719298245617,
+            0,
+            0,
+            0,
+            0,
+            -1.0002500312539067,
+            -1,
+            0,
+            0,
+            -2.000250031253907,
+            0
+          ]
+        },
+        "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+        "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+        "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+        "bloom": {
+          "enabled": false,
+          "created": false,
+          "resolution": null,
+          "resolutionScale": 0.5,
+          "threshold": 0.46,
+          "knee": 0.08,
+          "radius": 1.2,
+          "strength": 0.7,
+          "maxOpacity": 0.14
+        },
+        "audio": {
+          "energy": 0,
+          "height": 0.5,
+          "drawnEnergy": 0,
+          "renderCount": 0,
+          "contourParticles": 3234
+        },
+        "animation": false,
+        "pointerResponse": false,
+        "disposed": false,
+        "pixelRatio": 1,
+        "buffer": [
+          200,
+          200
+        ],
+        "canvasConnected": true,
+        "renderCount": 4,
+        "sourceParticleCount": 36000,
+        "memory": {
+          "geometries": 2,
+          "textures": 1
+        },
+        "programs": 2,
+        "contextLost": false
+      },
+      "noHorizontalOverflow": true,
+      "projects": [
+        "大模型应用与智能体构建学习项目",
+        "AIGC 视觉设计学习项目"
+      ]
+    },
+    "390": {
+      "settings": {
+        "pixelRatio": 1,
+        "signatureParticles": 4500,
+        "portraitParticles": 9000,
+        "portraitHighlights": 10,
+        "starCountScale": 0.45,
+        "postProcessingAllowed": false,
+        "portraitFps": 10,
+        "visualFps": 24,
+        "meterFps": 15,
+        "antialias": false,
+        "mode": "low",
+        "selected": "auto",
+        "mobile": true,
+        "reason": null,
+        "reducedMotion": false,
+        "postProcessing": false
+      },
+      "signature": {
+        "disposed": false,
+        "particleCount": 4500,
+        "pixelRatio": 1,
+        "buffer": [
+          366,
+          242
+        ],
+        "canvasConnected": true,
+        "memory": {
+          "geometries": 5,
+          "textures": 2
+        },
+        "programs": 2,
+        "contextLost": false
+      },
+      "portrait": {
+        "mode": "off",
+        "particleCount": 9000,
+        "softHighlights": 10,
+        "warmParticles": 144,
+        "regionCounts": {
+          "face": 4605,
+          "hair": 3379,
+          "shoulders": 1015,
+          "body": 1
+        },
+        "camera": {
+          "position": [
+            0,
+            0,
+            2200
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "fov": 31.815103861051682,
+          "aspect": 1,
+          "near": 1,
+          "far": 8000,
+          "projection": [
+            3.5087719298245617,
+            0,
+            0,
+            0,
+            0,
+            3.5087719298245617,
+            0,
+            0,
+            0,
+            0,
+            -1.0002500312539067,
+            -1,
+            0,
+            0,
+            -2.000250031253907,
+            0
+          ]
+        },
+        "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+        "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+        "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+        "bloom": {
+          "enabled": false,
+          "created": false,
+          "resolution": null,
+          "resolutionScale": 0.5,
+          "threshold": 0.46,
+          "knee": 0.08,
+          "radius": 1.2,
+          "strength": 0.7,
+          "maxOpacity": 0.14
+        },
+        "audio": {
+          "energy": 0,
+          "height": 0.5,
+          "drawnEnergy": 0,
+          "renderCount": 0,
+          "contourParticles": 3234
+        },
+        "animation": false,
+        "pointerResponse": false,
+        "disposed": false,
+        "pixelRatio": 1,
+        "buffer": [
+          242,
+          242
+        ],
+        "canvasConnected": true,
+        "renderCount": 4,
+        "sourceParticleCount": 36000,
+        "memory": {
+          "geometries": 2,
+          "textures": 1
+        },
+        "programs": 2,
+        "contextLost": false
+      },
+      "noHorizontalOverflow": true,
+      "projects": [
+        "大模型应用与智能体构建学习项目",
+        "AIGC 视觉设计学习项目"
+      ],
+      "staticProjects": [
+        "大模型应用与智能体构建学习项目",
+        "AIGC 视觉设计学习项目"
+      ],
+      "settingsKeyboard": true
+    },
+    "430": {
+      "settings": {
+        "pixelRatio": 1,
+        "signatureParticles": 4500,
+        "portraitParticles": 9000,
+        "portraitHighlights": 10,
+        "starCountScale": 0.45,
+        "postProcessingAllowed": false,
+        "portraitFps": 10,
+        "visualFps": 24,
+        "meterFps": 15,
+        "antialias": false,
+        "mode": "low",
+        "selected": "auto",
+        "mobile": true,
+        "reason": null,
+        "reducedMotion": false,
+        "postProcessing": false
+      },
+      "signature": {
+        "disposed": false,
+        "particleCount": 4500,
+        "pixelRatio": 1,
+        "buffer": [
+          406,
+          267
+        ],
+        "canvasConnected": true,
+        "memory": {
+          "geometries": 5,
+          "textures": 2
+        },
+        "programs": 2,
+        "contextLost": false
+      },
+      "portrait": {
+        "mode": "off",
+        "particleCount": 9000,
+        "softHighlights": 10,
+        "warmParticles": 144,
+        "regionCounts": {
+          "face": 4605,
+          "hair": 3379,
+          "shoulders": 1015,
+          "body": 1
+        },
+        "camera": {
+          "position": [
+            0,
+            0,
+            2200
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "fov": 31.815103861051682,
+          "aspect": 1,
+          "near": 1,
+          "far": 8000,
+          "projection": [
+            3.5087719298245617,
+            0,
+            0,
+            0,
+            0,
+            3.5087719298245617,
+            0,
+            0,
+            0,
+            0,
+            -1.0002500312539067,
+            -1,
+            0,
+            0,
+            -2.000250031253907,
+            0
+          ]
+        },
+        "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+        "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+        "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+        "bloom": {
+          "enabled": false,
+          "created": false,
+          "resolution": null,
+          "resolutionScale": 0.5,
+          "threshold": 0.46,
+          "knee": 0.08,
+          "radius": 1.2,
+          "strength": 0.7,
+          "maxOpacity": 0.14
+        },
+        "audio": {
+          "energy": 0,
+          "height": 0.5,
+          "drawnEnergy": 0,
+          "renderCount": 0,
+          "contourParticles": 3234
+        },
+        "animation": false,
+        "pointerResponse": false,
+        "disposed": false,
+        "pixelRatio": 1,
+        "buffer": [
+          267,
+          267
+        ],
+        "canvasConnected": true,
+        "renderCount": 4,
+        "sourceParticleCount": 36000,
+        "memory": {
+          "geometries": 2,
+          "textures": 1
+        },
+        "programs": 2,
+        "contextLost": false
+      },
+      "noHorizontalOverflow": true,
+      "projects": [
+        "大模型应用与智能体构建学习项目",
+        "AIGC 视觉设计学习项目"
+      ]
+    },
+    "landscape": {
+      "settings": {
+        "pixelRatio": 1,
+        "signatureParticles": 4500,
+        "portraitParticles": 9000,
+        "portraitHighlights": 10,
+        "starCountScale": 0.45,
+        "postProcessingAllowed": false,
+        "portraitFps": 10,
+        "visualFps": 24,
+        "meterFps": 15,
+        "antialias": false,
+        "mode": "low",
+        "selected": "auto",
+        "mobile": true,
+        "reason": null,
+        "reducedMotion": false,
+        "postProcessing": false
+      },
+      "signature": {
+        "disposed": false,
+        "particleCount": 4500,
+        "pixelRatio": 1,
+        "buffer": [
+          820,
+          300
+        ],
+        "canvasConnected": true,
+        "memory": {
+          "geometries": 5,
+          "textures": 2
+        },
+        "programs": 2,
+        "contextLost": false
+      },
+      "portrait": {
+        "mode": "off",
+        "particleCount": 9000,
+        "softHighlights": 10,
+        "warmParticles": 144,
+        "regionCounts": {
+          "face": 4605,
+          "hair": 3379,
+          "shoulders": 1015,
+          "body": 1
+        },
+        "camera": {
+          "position": [
+            0,
+            0,
+            2200
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "fov": 31.815103861051682,
+          "aspect": 1,
+          "near": 1,
+          "far": 8000,
+          "projection": [
+            3.5087719298245617,
+            0,
+            0,
+            0,
+            0,
+            3.5087719298245617,
+            0,
+            0,
+            0,
+            0,
+            -1.0002500312539067,
+            -1,
+            0,
+            0,
+            -2.000250031253907,
+            0
+          ]
+        },
+        "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+        "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+        "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+        "bloom": {
+          "enabled": false,
+          "created": false,
+          "resolution": null,
+          "resolutionScale": 0.5,
+          "threshold": 0.46,
+          "knee": 0.08,
+          "radius": 1.2,
+          "strength": 0.7,
+          "maxOpacity": 0.14
+        },
+        "audio": {
+          "energy": 0,
+          "height": 0.5,
+          "drawnEnergy": 0,
+          "renderCount": 0,
+          "contourParticles": 3234
+        },
+        "animation": false,
+        "pointerResponse": false,
+        "disposed": false,
+        "pixelRatio": 1,
+        "buffer": [
+          300,
+          300
+        ],
+        "canvasConnected": true,
+        "renderCount": 4,
+        "sourceParticleCount": 36000,
+        "memory": {
+          "geometries": 2,
+          "textures": 1
+        },
+        "programs": 2,
+        "contextLost": false
+      },
+      "noHorizontalOverflow": true,
+      "projects": [
+        "大模型应用与智能体构建学习项目",
+        "AIGC 视觉设计学习项目"
+      ]
+    }
+  },
+  "standard": {
+    "active": true,
+    "settings": {
+      "pixelRatio": 1.5,
+      "signatureParticles": 14000,
+      "portraitParticles": 36000,
+      "portraitHighlights": 33,
+      "starCountScale": 1,
+      "postProcessingAllowed": true,
+      "portraitFps": 18,
+      "visualFps": 60,
+      "meterFps": 30,
+      "antialias": true,
+      "mode": "standard",
+      "selected": "auto",
+      "mobile": false,
+      "reason": null,
+      "reducedMotion": false,
+      "postProcessing": false
+    },
+    "failure": null,
+    "mounts": 8,
+    "unmounts": 0,
+    "components": [
+      {
+        "name": "motion",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "pendingFrames": 0,
+          "scrollTriggers": 11
+        },
+        "lastDisposed": null
+      },
+      {
+        "name": "starfield",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "canvasCount": 3,
+          "renderCount": 4,
+          "pixelRatio": 1.5,
+          "counts": {
+            "far": 108,
+            "middle": 35,
+            "near": 10
+          }
+        },
+        "lastDisposed": null
+      },
+      {
+        "name": "meteors",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "canvasCount": 1,
+          "pixelRatio": 1.5
+        },
+        "lastDisposed": null
+      },
+      {
+        "name": "music-visuals",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "pendingFrames": 0,
+          "updateCount": 0
+        },
+        "lastDisposed": null
+      },
+      {
+        "name": "signature",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "disposed": false,
+          "particleCount": 14000,
+          "pixelRatio": 1.5,
+          "buffer": [
+            1333,
+            1032
+          ],
+          "canvasConnected": true,
+          "memory": {
+            "geometries": 5,
+            "textures": 2
+          },
+          "programs": 2,
+          "contextLost": false
+        },
+        "lastDisposed": null
+      },
+      {
+        "name": "portrait",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "mode": "off",
+          "particleCount": 36000,
+          "softHighlights": 33,
+          "warmParticles": 576,
+          "regionCounts": {
+            "face": 12561,
+            "hair": 12373,
+            "shoulders": 11061,
+            "body": 5
+          },
+          "camera": {
+            "position": [
+              0,
+              0,
+              2200
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "fov": 31.815103861051682,
+            "aspect": 1,
+            "near": 1,
+            "far": 8000,
+            "projection": [
+              3.5087719298245617,
+              0,
+              0,
+              0,
+              0,
+              3.5087719298245617,
+              0,
+              0,
+              0,
+              0,
+              -1.0002500312539067,
+              -1,
+              0,
+              0,
+              -2.000250031253907,
+              0
+            ]
+          },
+          "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+          "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+          "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+          "bloom": {
+            "enabled": false,
+            "created": false,
+            "resolution": null,
+            "resolutionScale": 0.5,
+            "threshold": 0.46,
+            "knee": 0.08,
+            "radius": 1.2,
+            "strength": 0.7,
+            "maxOpacity": 0.14
+          },
+          "audio": {
+            "energy": 0,
+            "height": 0.5,
+            "drawnEnergy": 0,
+            "renderCount": 0,
+            "contourParticles": 12020
+          },
+          "animation": false,
+          "pointerResponse": false,
+          "disposed": false,
+          "pixelRatio": 1.5,
+          "buffer": [
+            1032,
+            1032
+          ],
+          "canvasConnected": true,
+          "renderCount": 4,
+          "sourceParticleCount": 36000,
+          "memory": {
+            "geometries": 2,
+            "textures": 1
+          },
+          "programs": 2,
+          "contextLost": false
+        },
+        "lastDisposed": null
+      },
+      {
+        "name": "chapters",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "section": "top",
+          "pendingFrames": 0,
+          "updateCount": 2
+        },
+        "lastDisposed": null
+      },
+      {
+        "name": "projects",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "disposed": false,
+          "renderer": true,
+          "pixelRatio": 1.5,
+          "canvasConnected": true,
+          "buffer": [
+            300,
+            150
+          ],
+          "memory": {
+            "geometries": 0,
+            "textures": 0
+          },
+          "programs": 0,
+          "contextLost": false
+        },
+        "lastDisposed": null
+      }
+    ],
+    "scopes": [
+      {
+        "name": "motion",
+        "timers": 0,
+        "frames": 0,
+        "observers": 0,
+        "disposed": false
+      },
+      {
+        "name": "starfield",
+        "timers": 0,
+        "frames": 0,
+        "observers": 1,
+        "disposed": false
+      },
+      {
+        "name": "meteors",
+        "timers": 0,
+        "frames": 0,
+        "observers": 0,
+        "disposed": false
+      },
+      {
+        "name": "music-visuals",
+        "timers": 0,
+        "frames": 0,
+        "observers": 0,
+        "disposed": false
+      },
+      {
+        "name": "signature",
+        "timers": 0,
+        "frames": 0,
+        "observers": 1,
+        "disposed": false
+      },
+      {
+        "name": "portrait",
+        "timers": 0,
+        "frames": 0,
+        "observers": 1,
+        "disposed": false
+      },
+      {
+        "name": "chapters",
+        "timers": 0,
+        "frames": 0,
+        "observers": 1,
+        "disposed": false
+      },
+      {
+        "name": "projects",
+        "timers": 0,
+        "frames": 0,
+        "observers": 1,
+        "disposed": false
+      }
+    ]
+  },
+  "musicVisualRegression": {
+    "enabledBrightness": 1.0578818107422778,
+    "sameAudioStillPlaying": true
+  },
+  "bloom": {
+    "enabled": {
+      "enabled": true,
+      "created": true,
+      "resolution": [
+        516,
+        516
+      ],
+      "resolutionScale": 0.5,
+      "threshold": 0.46,
+      "knee": 0.08,
+      "radius": 1.2,
+      "strength": 0.7,
+      "maxOpacity": 0.14
+    },
+    "disposedAfterDisable": {
+      "mode": "on",
+      "particleCount": 36000,
+      "softHighlights": 33,
+      "warmParticles": 576,
+      "regionCounts": {
+        "face": 12561,
+        "hair": 12373,
+        "shoulders": 11061,
+        "body": 5
+      },
+      "camera": {
+        "position": [
+          0,
+          0,
+          2200
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "fov": 31.815103861051682,
+        "aspect": 1,
+        "near": 1,
+        "far": 8000,
+        "projection": [
+          3.5087719298245617,
+          0,
+          0,
+          0,
+          0,
+          3.5087719298245617,
+          0,
+          0,
+          0,
+          0,
+          -1.0002500312539067,
+          -1,
+          0,
+          0,
+          -2.000250031253907,
+          0
+        ]
+      },
+      "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+      "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+      "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+      "bloom": {
+        "enabled": true,
+        "created": false,
+        "resolution": null,
+        "resolutionScale": 0.5,
+        "threshold": 0.46,
+        "knee": 0.08,
+        "radius": 1.2,
+        "strength": 0.7,
+        "maxOpacity": 0.14
+      },
+      "audio": {
+        "energy": 0.18182644956956495,
+        "height": 0.4095907847764762,
+        "drawnEnergy": 0.18182644956956495,
+        "renderCount": 7,
+        "contourParticles": 12020
+      },
+      "animation": true,
+      "pointerResponse": false,
+      "disposed": true,
+      "pixelRatio": 1.5,
+      "buffer": [
+        1,
+        1
+      ],
+      "canvasConnected": false,
+      "renderCount": 11,
+      "sourceParticleCount": 36000,
+      "memory": {
+        "geometries": 0,
+        "textures": 0
+      },
+      "programs": 0,
+      "contextLost": true
+    }
+  },
+  "desktopLow": {
+    "active": true,
+    "settings": {
+      "pixelRatio": 1,
+      "signatureParticles": 4500,
+      "portraitParticles": 9000,
+      "portraitHighlights": 10,
+      "starCountScale": 0.45,
+      "postProcessingAllowed": false,
+      "portraitFps": 10,
+      "visualFps": 24,
+      "meterFps": 15,
+      "antialias": false,
+      "mode": "low",
+      "selected": "low",
+      "mobile": false,
+      "reason": null,
+      "reducedMotion": false,
+      "postProcessing": false
+    },
+    "failure": null,
+    "mounts": 16,
+    "unmounts": 8,
+    "components": [
+      {
+        "name": "motion",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "pendingFrames": 0,
+          "scrollTriggers": 2
+        },
+        "lastDisposed": {
+          "pendingFrames": 0,
+          "scrollTriggers": 0
+        }
+      },
+      {
+        "name": "starfield",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "canvasCount": 3,
+          "renderCount": 3,
+          "pixelRatio": 1,
+          "counts": {
+            "far": 53,
+            "middle": 17,
+            "near": 6
+          }
+        },
+        "lastDisposed": {
+          "canvasCount": 0,
+          "renderCount": 6,
+          "pixelRatio": 1.5,
+          "counts": {
+            "far": 120,
+            "middle": 36,
+            "near": 11
+          }
+        }
+      },
+      {
+        "name": "meteors",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "canvasCount": 1,
+          "pixelRatio": 1
+        },
+        "lastDisposed": {
+          "canvasCount": 0,
+          "pixelRatio": 1.5
+        }
+      },
+      {
+        "name": "music-visuals",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "pendingFrames": 1,
+          "updateCount": 126
+        },
+        "lastDisposed": null
+      },
+      {
+        "name": "signature",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "disposed": false,
+          "particleCount": 4500,
+          "pixelRatio": 1,
+          "buffer": [
+            889,
+            688
+          ],
+          "canvasConnected": true,
+          "memory": {
+            "geometries": 5,
+            "textures": 2
+          },
+          "programs": 2,
+          "contextLost": false
+        },
+        "lastDisposed": {
+          "disposed": true,
+          "particleCount": 14000,
+          "pixelRatio": 1.5,
+          "buffer": [
+            1,
+            1
+          ],
+          "canvasConnected": false,
+          "memory": {
+            "geometries": 0,
+            "textures": 0
+          },
+          "programs": 0,
+          "contextLost": true
+        }
+      },
+      {
+        "name": "portrait",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "mode": "off",
+          "particleCount": 9000,
+          "softHighlights": 10,
+          "warmParticles": 144,
+          "regionCounts": {
+            "face": 4605,
+            "hair": 3379,
+            "shoulders": 1015,
+            "body": 1
+          },
+          "camera": {
+            "position": [
+              0,
+              0,
+              2200
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "fov": 31.815103861051682,
+            "aspect": 1,
+            "near": 1,
+            "far": 8000,
+            "projection": [
+              3.5087719298245617,
+              0,
+              0,
+              0,
+              0,
+              3.5087719298245617,
+              0,
+              0,
+              0,
+              0,
+              -1.0002500312539067,
+              -1,
+              0,
+              0,
+              -2.000250031253907,
+              0
+            ]
+          },
+          "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+          "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+          "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+          "bloom": {
+            "enabled": false,
+            "created": false,
+            "resolution": null,
+            "resolutionScale": 0.5,
+            "threshold": 0.46,
+            "knee": 0.08,
+            "radius": 1.2,
+            "strength": 0.7,
+            "maxOpacity": 0.14
+          },
+          "audio": {
+            "energy": 0.14823753106531715,
+            "height": 0.32150501268275106,
+            "drawnEnergy": 0.14823753106531715,
+            "renderCount": 3,
+            "contourParticles": 3234
+          },
+          "animation": true,
+          "pointerResponse": false,
+          "disposed": false,
+          "pixelRatio": 1,
+          "buffer": [
+            688,
+            688
+          ],
+          "canvasConnected": true,
+          "renderCount": 7,
+          "sourceParticleCount": 36000,
+          "memory": {
+            "geometries": 2,
+            "textures": 1
+          },
+          "programs": 2,
+          "contextLost": false
+        },
+        "lastDisposed": {
+          "mode": "off",
+          "particleCount": 36000,
+          "softHighlights": 33,
+          "warmParticles": 576,
+          "regionCounts": {
+            "face": 12561,
+            "hair": 12373,
+            "shoulders": 11061,
+            "body": 5
+          },
+          "camera": {
+            "position": [
+              0,
+              0,
+              2200
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "fov": 31.815103861051682,
+            "aspect": 1,
+            "near": 1,
+            "far": 8000,
+            "projection": [
+              3.5087719298245617,
+              0,
+              0,
+              0,
+              0,
+              3.5087719298245617,
+              0,
+              0,
+              0,
+              0,
+              -1.0002500312539067,
+              -1,
+              0,
+              0,
+              -2.000250031253907,
+              0
+            ]
+          },
+          "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+          "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+          "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+          "bloom": {
+            "enabled": false,
+            "created": false,
+            "resolution": null,
+            "resolutionScale": 0.5,
+            "threshold": 0.46,
+            "knee": 0.08,
+            "radius": 1.2,
+            "strength": 0.7,
+            "maxOpacity": 0.14
+          },
+          "audio": {
+            "energy": 0.13863615157140532,
+            "height": 0.31896357802395026,
+            "drawnEnergy": 0.13863615157140532,
+            "renderCount": 6,
+            "contourParticles": 12020
+          },
+          "animation": true,
+          "pointerResponse": false,
+          "disposed": true,
+          "pixelRatio": 1.5,
+          "buffer": [
+            1,
+            1
+          ],
+          "canvasConnected": false,
+          "renderCount": 10,
+          "sourceParticleCount": 36000,
+          "memory": {
+            "geometries": 0,
+            "textures": 0
+          },
+          "programs": 0,
+          "contextLost": true
+        }
+      },
+      {
+        "name": "chapters",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "section": "about",
+          "pendingFrames": 0,
+          "updateCount": 157
+        },
+        "lastDisposed": null
+      },
+      {
+        "name": "projects",
+        "mounted": true,
+        "pending": false,
+        "resources": {
+          "disposed": false,
+          "renderer": true,
+          "pixelRatio": 1,
+          "canvasConnected": true,
+          "buffer": [
+            300,
+            150
+          ],
+          "memory": {
+            "geometries": 0,
+            "textures": 0
+          },
+          "programs": 0,
+          "contextLost": false
+        },
+        "lastDisposed": {
+          "disposed": true,
+          "renderer": true,
+          "pixelRatio": 1.5,
+          "canvasConnected": false,
+          "buffer": [
+            1,
+            1
+          ],
+          "memory": {
+            "geometries": 0,
+            "textures": 0
+          },
+          "programs": 0,
+          "contextLost": true
+        }
+      }
+    ],
+    "scopes": [
+      {
+        "name": "music-visuals",
+        "timers": 0,
+        "frames": 1,
+        "observers": 0,
+        "disposed": false
+      },
+      {
+        "name": "chapters",
+        "timers": 0,
+        "frames": 0,
+        "observers": 1,
+        "disposed": false
+      },
+      {
+        "name": "motion",
+        "timers": 0,
+        "frames": 0,
+        "observers": 0,
+        "disposed": false
+      },
+      {
+        "name": "starfield",
+        "timers": 0,
+        "frames": 0,
+        "observers": 1,
+        "disposed": false
+      },
+      {
+        "name": "meteors",
+        "timers": 0,
+        "frames": 0,
+        "observers": 0,
+        "disposed": false
+      },
+      {
+        "name": "signature",
+        "timers": 0,
+        "frames": 0,
+        "observers": 1,
+        "disposed": false
+      },
+      {
+        "name": "portrait",
+        "timers": 0,
+        "frames": 0,
+        "observers": 1,
+        "disposed": false
+      },
+      {
+        "name": "projects",
+        "timers": 0,
+        "frames": 0,
+        "observers": 1,
+        "disposed": false
+      }
+    ]
+  },
+  "idempotence": {
+    "initCalls": 25,
+    "duplicateModuleImports": 4,
+    "duplicateCoreScriptLoads": 3,
+    "qualitySwitches": 27,
+    "canvases": 8,
+    "runtime": {
+      "active": true,
+      "settings": {
+        "pixelRatio": 1,
+        "signatureParticles": 4500,
+        "portraitParticles": 9000,
+        "portraitHighlights": 10,
+        "starCountScale": 0.45,
+        "postProcessingAllowed": false,
+        "portraitFps": 10,
+        "visualFps": 24,
+        "meterFps": 15,
+        "antialias": false,
+        "mode": "low",
+        "selected": "low",
+        "mobile": false,
+        "reason": null,
+        "reducedMotion": false,
+        "postProcessing": false
+      },
+      "failure": null,
+      "mounts": 118,
+      "unmounts": 110,
+      "components": [
+        {
+          "name": "motion",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "pendingFrames": 0,
+            "scrollTriggers": 2
+          },
+          "lastDisposed": {
+            "pendingFrames": 0,
+            "scrollTriggers": 0
+          }
+        },
+        {
+          "name": "starfield",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "canvasCount": 3,
+            "renderCount": 3,
+            "pixelRatio": 1,
+            "counts": {
+              "far": 53,
+              "middle": 17,
+              "near": 6
+            }
+          },
+          "lastDisposed": {
+            "canvasCount": 0,
+            "renderCount": 3,
+            "pixelRatio": 1,
+            "counts": {
+              "far": 53,
+              "middle": 17,
+              "near": 6
+            }
+          }
+        },
+        {
+          "name": "meteors",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "canvasCount": 1,
+            "pixelRatio": 1
+          },
+          "lastDisposed": {
+            "canvasCount": 0,
+            "pixelRatio": 1
+          }
+        },
+        {
+          "name": "music-visuals",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "pendingFrames": 1,
+            "updateCount": 223
+          },
+          "lastDisposed": null
+        },
+        {
+          "name": "signature",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "disposed": false,
+            "particleCount": 4500,
+            "pixelRatio": 1,
+            "buffer": [
+              889,
+              688
+            ],
+            "canvasConnected": true,
+            "memory": {
+              "geometries": 5,
+              "textures": 2
+            },
+            "programs": 2,
+            "contextLost": false
+          },
+          "lastDisposed": {
+            "disposed": true,
+            "particleCount": 4500,
+            "pixelRatio": 1,
+            "buffer": [
+              1,
+              1
+            ],
+            "canvasConnected": false,
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        },
+        {
+          "name": "portrait",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "mode": "off",
+            "particleCount": 9000,
+            "softHighlights": 10,
+            "warmParticles": 144,
+            "regionCounts": {
+              "face": 4605,
+              "hair": 3379,
+              "shoulders": 1015,
+              "body": 1
+            },
+            "camera": {
+              "position": [
+                0,
+                0,
+                2200
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "fov": 31.815103861051682,
+              "aspect": 1,
+              "near": 1,
+              "far": 8000,
+              "projection": [
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                -1.0002500312539067,
+                -1,
+                0,
+                0,
+                -2.000250031253907,
+                0
+              ]
+            },
+            "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+            "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+            "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+            "bloom": {
+              "enabled": false,
+              "created": false,
+              "resolution": null,
+              "resolutionScale": 0.5,
+              "threshold": 0.46,
+              "knee": 0.08,
+              "radius": 1.2,
+              "strength": 0.7,
+              "maxOpacity": 0.14
+            },
+            "audio": {
+              "energy": 0.2359507923394394,
+              "height": 0.4922020963723794,
+              "drawnEnergy": 0.2359507923394394,
+              "renderCount": 3,
+              "contourParticles": 3234
+            },
+            "animation": true,
+            "pointerResponse": false,
+            "disposed": false,
+            "pixelRatio": 1,
+            "buffer": [
+              688,
+              688
+            ],
+            "canvasConnected": true,
+            "renderCount": 7,
+            "sourceParticleCount": 36000,
+            "memory": {
+              "geometries": 2,
+              "textures": 1
+            },
+            "programs": 2,
+            "contextLost": false
+          },
+          "lastDisposed": {
+            "mode": "off",
+            "particleCount": 9000,
+            "softHighlights": 10,
+            "warmParticles": 144,
+            "regionCounts": {
+              "face": 4605,
+              "hair": 3379,
+              "shoulders": 1015,
+              "body": 1
+            },
+            "camera": {
+              "position": [
+                0,
+                0,
+                2200
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "fov": 31.815103861051682,
+              "aspect": 1,
+              "near": 1,
+              "far": 8000,
+              "projection": [
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                -1.0002500312539067,
+                -1,
+                0,
+                0,
+                -2.000250031253907,
+                0
+              ]
+            },
+            "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+            "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+            "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+            "bloom": {
+              "enabled": false,
+              "created": false,
+              "resolution": null,
+              "resolutionScale": 0.5,
+              "threshold": 0.46,
+              "knee": 0.08,
+              "radius": 1.2,
+              "strength": 0.7,
+              "maxOpacity": 0.14
+            },
+            "audio": {
+              "energy": 0.16243247131596425,
+              "height": 0.3807707572360918,
+              "drawnEnergy": 0.16243247131596425,
+              "renderCount": 3,
+              "contourParticles": 3234
+            },
+            "animation": true,
+            "pointerResponse": false,
+            "disposed": true,
+            "pixelRatio": 1,
+            "buffer": [
+              1,
+              1
+            ],
+            "canvasConnected": false,
+            "renderCount": 7,
+            "sourceParticleCount": 36000,
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        },
+        {
+          "name": "chapters",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "section": "about",
+            "pendingFrames": 0,
+            "updateCount": 164
+          },
+          "lastDisposed": null
+        },
+        {
+          "name": "projects",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "disposed": false,
+            "renderer": true,
+            "pixelRatio": 1,
+            "canvasConnected": true,
+            "buffer": [
+              300,
+              150
+            ],
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": false
+          },
+          "lastDisposed": {
+            "disposed": true,
+            "renderer": true,
+            "pixelRatio": 1,
+            "canvasConnected": false,
+            "buffer": [
+              1,
+              1
+            ],
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        }
+      ],
+      "scopes": [
+        {
+          "name": "music-visuals",
+          "timers": 0,
+          "frames": 1,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "chapters",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "motion",
+          "timers": 0,
+          "frames": 0,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "starfield",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "meteors",
+          "timers": 0,
+          "frames": 0,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "signature",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "portrait",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "projects",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        }
+      ]
+    }
+  },
+  "visibilitySignalSimulation": {
+    "method": "Synthetic document.hidden/visibilityState plus visibilitychange; NOT a physical phone background test",
+    "hidden": {
+      "active": true,
+      "settings": {
+        "pixelRatio": 1,
+        "signatureParticles": 4500,
+        "portraitParticles": 9000,
+        "portraitHighlights": 10,
+        "starCountScale": 0.45,
+        "postProcessingAllowed": false,
+        "portraitFps": 10,
+        "visualFps": 24,
+        "meterFps": 15,
+        "antialias": false,
+        "mode": "low",
+        "selected": "low",
+        "mobile": false,
+        "reason": null,
+        "reducedMotion": false,
+        "postProcessing": false
+      },
+      "failure": null,
+      "mounts": 118,
+      "unmounts": 110,
+      "components": [
+        {
+          "name": "motion",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "pendingFrames": 0,
+            "scrollTriggers": 2
+          },
+          "lastDisposed": {
+            "pendingFrames": 0,
+            "scrollTriggers": 0
+          }
+        },
+        {
+          "name": "starfield",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "canvasCount": 3,
+            "renderCount": 3,
+            "pixelRatio": 1,
+            "counts": {
+              "far": 53,
+              "middle": 17,
+              "near": 6
+            }
+          },
+          "lastDisposed": {
+            "canvasCount": 0,
+            "renderCount": 3,
+            "pixelRatio": 1,
+            "counts": {
+              "far": 53,
+              "middle": 17,
+              "near": 6
+            }
+          }
+        },
+        {
+          "name": "meteors",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "canvasCount": 1,
+            "pixelRatio": 1
+          },
+          "lastDisposed": {
+            "canvasCount": 0,
+            "pixelRatio": 1
+          }
+        },
+        {
+          "name": "music-visuals",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "pendingFrames": 0,
+            "updateCount": 223
+          },
+          "lastDisposed": null
+        },
+        {
+          "name": "signature",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "disposed": false,
+            "particleCount": 4500,
+            "pixelRatio": 1,
+            "buffer": [
+              889,
+              688
+            ],
+            "canvasConnected": true,
+            "memory": {
+              "geometries": 5,
+              "textures": 2
+            },
+            "programs": 2,
+            "contextLost": false
+          },
+          "lastDisposed": {
+            "disposed": true,
+            "particleCount": 4500,
+            "pixelRatio": 1,
+            "buffer": [
+              1,
+              1
+            ],
+            "canvasConnected": false,
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        },
+        {
+          "name": "portrait",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "mode": "off",
+            "particleCount": 9000,
+            "softHighlights": 10,
+            "warmParticles": 144,
+            "regionCounts": {
+              "face": 4605,
+              "hair": 3379,
+              "shoulders": 1015,
+              "body": 1
+            },
+            "camera": {
+              "position": [
+                0,
+                0,
+                2200
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "fov": 31.815103861051682,
+              "aspect": 1,
+              "near": 1,
+              "far": 8000,
+              "projection": [
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                -1.0002500312539067,
+                -1,
+                0,
+                0,
+                -2.000250031253907,
+                0
+              ]
+            },
+            "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+            "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+            "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+            "bloom": {
+              "enabled": false,
+              "created": false,
+              "resolution": null,
+              "resolutionScale": 0.5,
+              "threshold": 0.46,
+              "knee": 0.08,
+              "radius": 1.2,
+              "strength": 0.7,
+              "maxOpacity": 0.14
+            },
+            "audio": {
+              "energy": 0.2359507923394394,
+              "height": 0.4922020963723794,
+              "drawnEnergy": 0.2359507923394394,
+              "renderCount": 3,
+              "contourParticles": 3234
+            },
+            "animation": true,
+            "pointerResponse": false,
+            "disposed": false,
+            "pixelRatio": 1,
+            "buffer": [
+              688,
+              688
+            ],
+            "canvasConnected": true,
+            "renderCount": 7,
+            "sourceParticleCount": 36000,
+            "memory": {
+              "geometries": 2,
+              "textures": 1
+            },
+            "programs": 2,
+            "contextLost": false
+          },
+          "lastDisposed": {
+            "mode": "off",
+            "particleCount": 9000,
+            "softHighlights": 10,
+            "warmParticles": 144,
+            "regionCounts": {
+              "face": 4605,
+              "hair": 3379,
+              "shoulders": 1015,
+              "body": 1
+            },
+            "camera": {
+              "position": [
+                0,
+                0,
+                2200
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "fov": 31.815103861051682,
+              "aspect": 1,
+              "near": 1,
+              "far": 8000,
+              "projection": [
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                -1.0002500312539067,
+                -1,
+                0,
+                0,
+                -2.000250031253907,
+                0
+              ]
+            },
+            "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+            "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+            "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+            "bloom": {
+              "enabled": false,
+              "created": false,
+              "resolution": null,
+              "resolutionScale": 0.5,
+              "threshold": 0.46,
+              "knee": 0.08,
+              "radius": 1.2,
+              "strength": 0.7,
+              "maxOpacity": 0.14
+            },
+            "audio": {
+              "energy": 0.16243247131596425,
+              "height": 0.3807707572360918,
+              "drawnEnergy": 0.16243247131596425,
+              "renderCount": 3,
+              "contourParticles": 3234
+            },
+            "animation": true,
+            "pointerResponse": false,
+            "disposed": true,
+            "pixelRatio": 1,
+            "buffer": [
+              1,
+              1
+            ],
+            "canvasConnected": false,
+            "renderCount": 7,
+            "sourceParticleCount": 36000,
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        },
+        {
+          "name": "chapters",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "section": "about",
+            "pendingFrames": 0,
+            "updateCount": 164
+          },
+          "lastDisposed": null
+        },
+        {
+          "name": "projects",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "disposed": false,
+            "renderer": true,
+            "pixelRatio": 1,
+            "canvasConnected": true,
+            "buffer": [
+              300,
+              150
+            ],
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": false
+          },
+          "lastDisposed": {
+            "disposed": true,
+            "renderer": true,
+            "pixelRatio": 1,
+            "canvasConnected": false,
+            "buffer": [
+              1,
+              1
+            ],
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        }
+      ],
+      "scopes": [
+        {
+          "name": "music-visuals",
+          "timers": 0,
+          "frames": 0,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "chapters",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "motion",
+          "timers": 0,
+          "frames": 0,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "starfield",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "meteors",
+          "timers": 0,
+          "frames": 0,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "signature",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "portrait",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "projects",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        }
+      ]
+    },
+    "restored": {
+      "active": true,
+      "settings": {
+        "pixelRatio": 1,
+        "signatureParticles": 4500,
+        "portraitParticles": 9000,
+        "portraitHighlights": 10,
+        "starCountScale": 0.45,
+        "postProcessingAllowed": false,
+        "portraitFps": 10,
+        "visualFps": 24,
+        "meterFps": 15,
+        "antialias": false,
+        "mode": "low",
+        "selected": "low",
+        "mobile": false,
+        "reason": null,
+        "reducedMotion": false,
+        "postProcessing": false
+      },
+      "failure": null,
+      "mounts": 118,
+      "unmounts": 110,
+      "components": [
+        {
+          "name": "motion",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "pendingFrames": 0,
+            "scrollTriggers": 2
+          },
+          "lastDisposed": {
+            "pendingFrames": 0,
+            "scrollTriggers": 0
+          }
+        },
+        {
+          "name": "starfield",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "canvasCount": 3,
+            "renderCount": 4,
+            "pixelRatio": 1,
+            "counts": {
+              "far": 53,
+              "middle": 17,
+              "near": 6
+            }
+          },
+          "lastDisposed": {
+            "canvasCount": 0,
+            "renderCount": 3,
+            "pixelRatio": 1,
+            "counts": {
+              "far": 53,
+              "middle": 17,
+              "near": 6
+            }
+          }
+        },
+        {
+          "name": "meteors",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "canvasCount": 1,
+            "pixelRatio": 1
+          },
+          "lastDisposed": {
+            "canvasCount": 0,
+            "pixelRatio": 1
+          }
+        },
+        {
+          "name": "music-visuals",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "pendingFrames": 1,
+            "updateCount": 224
+          },
+          "lastDisposed": null
+        },
+        {
+          "name": "signature",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "disposed": false,
+            "particleCount": 4500,
+            "pixelRatio": 1,
+            "buffer": [
+              889,
+              688
+            ],
+            "canvasConnected": true,
+            "memory": {
+              "geometries": 5,
+              "textures": 2
+            },
+            "programs": 2,
+            "contextLost": false
+          },
+          "lastDisposed": {
+            "disposed": true,
+            "particleCount": 4500,
+            "pixelRatio": 1,
+            "buffer": [
+              1,
+              1
+            ],
+            "canvasConnected": false,
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        },
+        {
+          "name": "portrait",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "mode": "off",
+            "particleCount": 9000,
+            "softHighlights": 10,
+            "warmParticles": 144,
+            "regionCounts": {
+              "face": 4605,
+              "hair": 3379,
+              "shoulders": 1015,
+              "body": 1
+            },
+            "camera": {
+              "position": [
+                0,
+                0,
+                2200
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "fov": 31.815103861051682,
+              "aspect": 1,
+              "near": 1,
+              "far": 8000,
+              "projection": [
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                -1.0002500312539067,
+                -1,
+                0,
+                0,
+                -2.000250031253907,
+                0
+              ]
+            },
+            "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+            "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+            "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+            "bloom": {
+              "enabled": false,
+              "created": false,
+              "resolution": null,
+              "resolutionScale": 0.5,
+              "threshold": 0.46,
+              "knee": 0.08,
+              "radius": 1.2,
+              "strength": 0.7,
+              "maxOpacity": 0.14
+            },
+            "audio": {
+              "energy": 0,
+              "height": 0.4747168823089903,
+              "drawnEnergy": 0,
+              "renderCount": 4,
+              "contourParticles": 3234
+            },
+            "animation": false,
+            "pointerResponse": false,
+            "disposed": false,
+            "pixelRatio": 1,
+            "buffer": [
+              688,
+              688
+            ],
+            "canvasConnected": true,
+            "renderCount": 9,
+            "sourceParticleCount": 36000,
+            "memory": {
+              "geometries": 2,
+              "textures": 1
+            },
+            "programs": 2,
+            "contextLost": false
+          },
+          "lastDisposed": {
+            "mode": "off",
+            "particleCount": 9000,
+            "softHighlights": 10,
+            "warmParticles": 144,
+            "regionCounts": {
+              "face": 4605,
+              "hair": 3379,
+              "shoulders": 1015,
+              "body": 1
+            },
+            "camera": {
+              "position": [
+                0,
+                0,
+                2200
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "fov": 31.815103861051682,
+              "aspect": 1,
+              "near": 1,
+              "far": 8000,
+              "projection": [
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                -1.0002500312539067,
+                -1,
+                0,
+                0,
+                -2.000250031253907,
+                0
+              ]
+            },
+            "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+            "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+            "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+            "bloom": {
+              "enabled": false,
+              "created": false,
+              "resolution": null,
+              "resolutionScale": 0.5,
+              "threshold": 0.46,
+              "knee": 0.08,
+              "radius": 1.2,
+              "strength": 0.7,
+              "maxOpacity": 0.14
+            },
+            "audio": {
+              "energy": 0.16243247131596425,
+              "height": 0.3807707572360918,
+              "drawnEnergy": 0.16243247131596425,
+              "renderCount": 3,
+              "contourParticles": 3234
+            },
+            "animation": true,
+            "pointerResponse": false,
+            "disposed": true,
+            "pixelRatio": 1,
+            "buffer": [
+              1,
+              1
+            ],
+            "canvasConnected": false,
+            "renderCount": 7,
+            "sourceParticleCount": 36000,
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        },
+        {
+          "name": "chapters",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "section": "about",
+            "pendingFrames": 0,
+            "updateCount": 165
+          },
+          "lastDisposed": null
+        },
+        {
+          "name": "projects",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "disposed": false,
+            "renderer": true,
+            "pixelRatio": 1,
+            "canvasConnected": true,
+            "buffer": [
+              300,
+              150
+            ],
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": false
+          },
+          "lastDisposed": {
+            "disposed": true,
+            "renderer": true,
+            "pixelRatio": 1,
+            "canvasConnected": false,
+            "buffer": [
+              1,
+              1
+            ],
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        }
+      ],
+      "scopes": [
+        {
+          "name": "music-visuals",
+          "timers": 0,
+          "frames": 1,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "chapters",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "motion",
+          "timers": 0,
+          "frames": 0,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "starfield",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "meteors",
+          "timers": 0,
+          "frames": 0,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "signature",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "portrait",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "projects",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        }
+      ]
+    }
+  },
+  "browserLifecycleFreeze": {
+    "method": "Chromium DevTools Page.setWebLifecycleState frozen/active, 500 ms",
+    "restored": true,
+    "singleAudio": true,
+    "maxDeltaTime": 0.04239999999999964
+  },
+  "reducedMotion": {
+    "runtime": {
+      "active": true,
+      "settings": {
+        "pixelRatio": 1,
+        "signatureParticles": 0,
+        "portraitParticles": 0,
+        "portraitHighlights": 0,
+        "starCountScale": 0,
+        "postProcessingAllowed": false,
+        "portraitFps": 0,
+        "visualFps": 0,
+        "meterFps": 10,
+        "antialias": false,
+        "mode": "static",
+        "selected": "low",
+        "mobile": false,
+        "reason": "reduced-motion",
+        "reducedMotion": true,
+        "postProcessing": false
+      },
+      "failure": null,
+      "mounts": 119,
+      "unmounts": 116,
+      "components": [
+        {
+          "name": "motion",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "pendingFrames": 0,
+            "scrollTriggers": 0
+          }
+        },
+        {
+          "name": "starfield",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "canvasCount": 0,
+            "renderCount": 4,
+            "pixelRatio": 1,
+            "counts": {
+              "far": 53,
+              "middle": 17,
+              "near": 6
+            }
+          }
+        },
+        {
+          "name": "meteors",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "canvasCount": 0,
+            "pixelRatio": 1
+          }
+        },
+        {
+          "name": "music-visuals",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "pendingFrames": 0,
+            "updateCount": 243
+          },
+          "lastDisposed": null
+        },
+        {
+          "name": "signature",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "disposed": true,
+            "particleCount": 4500,
+            "pixelRatio": 1,
+            "buffer": [
+              1,
+              1
+            ],
+            "canvasConnected": false,
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        },
+        {
+          "name": "portrait",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "mode": "off",
+            "particleCount": 9000,
+            "softHighlights": 10,
+            "warmParticles": 144,
+            "regionCounts": {
+              "face": 4605,
+              "hair": 3379,
+              "shoulders": 1015,
+              "body": 1
+            },
+            "camera": {
+              "position": [
+                0,
+                0,
+                2200
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "fov": 31.815103861051682,
+              "aspect": 1,
+              "near": 1,
+              "far": 8000,
+              "projection": [
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                -1.0002500312539067,
+                -1,
+                0,
+                0,
+                -2.000250031253907,
+                0
+              ]
+            },
+            "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+            "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+            "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+            "bloom": {
+              "enabled": false,
+              "created": false,
+              "resolution": null,
+              "resolutionScale": 0.5,
+              "threshold": 0.46,
+              "knee": 0.08,
+              "radius": 1.2,
+              "strength": 0.7,
+              "maxOpacity": 0.14
+            },
+            "audio": {
+              "energy": 0.2570685637802308,
+              "height": 0.4483087746292883,
+              "drawnEnergy": 0.2570685637802308,
+              "renderCount": 10,
+              "contourParticles": 3234
+            },
+            "animation": true,
+            "pointerResponse": false,
+            "disposed": true,
+            "pixelRatio": 1,
+            "buffer": [
+              1,
+              1
+            ],
+            "canvasConnected": false,
+            "renderCount": 15,
+            "sourceParticleCount": 36000,
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        },
+        {
+          "name": "chapters",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "section": "about",
+            "pendingFrames": 0,
+            "updateCount": 167
+          },
+          "lastDisposed": null
+        },
+        {
+          "name": "projects",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "disposed": false,
+            "renderer": false,
+            "pixelRatio": 1,
+            "canvasConnected": true,
+            "buffer": [
+              300,
+              150
+            ],
+            "memory": null,
+            "programs": 0,
+            "contextLost": true
+          },
+          "lastDisposed": {
+            "disposed": true,
+            "renderer": true,
+            "pixelRatio": 1,
+            "canvasConnected": false,
+            "buffer": [
+              1,
+              1
+            ],
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        }
+      ],
+      "scopes": [
+        {
+          "name": "music-visuals",
+          "timers": 0,
+          "frames": 0,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "chapters",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "projects",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        }
+      ]
+    },
+    "activePlayPause": true,
+    "graph": {
+      "contexts": 1,
+      "sources": 1,
+      "gains": 1,
+      "analysers": 1,
+      "connections": 3
+    }
+  },
+  "projectsAfterRestore": [
+    "大模型应用与智能体构建学习项目",
+    "AIGC 视觉设计学习项目"
+  ],
+  "release": {
+    "disposed": {
+      "active": false,
+      "settings": {
+        "pixelRatio": 1,
+        "signatureParticles": 0,
+        "portraitParticles": 0,
+        "portraitHighlights": 0,
+        "starCountScale": 0,
+        "postProcessingAllowed": false,
+        "portraitFps": 0,
+        "visualFps": 0,
+        "meterFps": 10,
+        "antialias": false,
+        "mode": "static",
+        "selected": "low",
+        "mobile": false,
+        "reason": "disposed",
+        "reducedMotion": false,
+        "postProcessing": false
+      },
+      "failure": null,
+      "mounts": 125,
+      "unmounts": 125,
+      "components": [
+        {
+          "name": "motion",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "pendingFrames": 0,
+            "scrollTriggers": 0
+          }
+        },
+        {
+          "name": "starfield",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "canvasCount": 0,
+            "renderCount": 3,
+            "pixelRatio": 1,
+            "counts": {
+              "far": 48,
+              "middle": 17,
+              "near": 5
+            }
+          }
+        },
+        {
+          "name": "meteors",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "canvasCount": 0,
+            "pixelRatio": 1
+          }
+        },
+        {
+          "name": "music-visuals",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "pendingFrames": 0,
+            "updateCount": 289
+          }
+        },
+        {
+          "name": "signature",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "disposed": true,
+            "particleCount": 4500,
+            "pixelRatio": 1,
+            "buffer": [
+              1,
+              1
+            ],
+            "canvasConnected": false,
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        },
+        {
+          "name": "portrait",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "mode": "off",
+            "particleCount": 9000,
+            "softHighlights": 10,
+            "warmParticles": 144,
+            "regionCounts": {
+              "face": 4605,
+              "hair": 3379,
+              "shoulders": 1015,
+              "body": 1
+            },
+            "camera": {
+              "position": [
+                0,
+                0,
+                2200
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "fov": 31.815103861051682,
+              "aspect": 1,
+              "near": 1,
+              "far": 8000,
+              "projection": [
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                -1.0002500312539067,
+                -1,
+                0,
+                0,
+                -2.000250031253907,
+                0
+              ]
+            },
+            "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+            "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+            "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+            "bloom": {
+              "enabled": false,
+              "created": false,
+              "resolution": null,
+              "resolutionScale": 0.5,
+              "threshold": 0.46,
+              "knee": 0.08,
+              "radius": 1.2,
+              "strength": 0.7,
+              "maxOpacity": 0.14
+            },
+            "audio": {
+              "energy": 0,
+              "height": 0.5,
+              "drawnEnergy": 0,
+              "renderCount": 0,
+              "contourParticles": 3234
+            },
+            "animation": false,
+            "pointerResponse": false,
+            "disposed": true,
+            "pixelRatio": 1,
+            "buffer": [
+              1,
+              1
+            ],
+            "canvasConnected": false,
+            "renderCount": 4,
+            "sourceParticleCount": 36000,
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        },
+        {
+          "name": "chapters",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "section": "projects",
+            "pendingFrames": 0,
+            "updateCount": 332
+          }
+        },
+        {
+          "name": "projects",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "disposed": true,
+            "renderer": true,
+            "pixelRatio": 1,
+            "canvasConnected": false,
+            "buffer": [
+              1,
+              1
+            ],
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        }
+      ],
+      "scopes": []
+    },
+    "reinitialized": {
+      "active": true,
+      "settings": {
+        "pixelRatio": 1,
+        "signatureParticles": 4500,
+        "portraitParticles": 9000,
+        "portraitHighlights": 10,
+        "starCountScale": 0.45,
+        "postProcessingAllowed": false,
+        "portraitFps": 10,
+        "visualFps": 24,
+        "meterFps": 15,
+        "antialias": false,
+        "mode": "low",
+        "selected": "low",
+        "mobile": false,
+        "reason": null,
+        "reducedMotion": false,
+        "postProcessing": false
+      },
+      "failure": null,
+      "mounts": 133,
+      "unmounts": 125,
+      "components": [
+        {
+          "name": "motion",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "pendingFrames": 0,
+            "scrollTriggers": 2
+          },
+          "lastDisposed": {
+            "pendingFrames": 0,
+            "scrollTriggers": 0
+          }
+        },
+        {
+          "name": "starfield",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "canvasCount": 3,
+            "renderCount": 3,
+            "pixelRatio": 1,
+            "counts": {
+              "far": 53,
+              "middle": 17,
+              "near": 6
+            }
+          },
+          "lastDisposed": {
+            "canvasCount": 0,
+            "renderCount": 3,
+            "pixelRatio": 1,
+            "counts": {
+              "far": 48,
+              "middle": 17,
+              "near": 5
+            }
+          }
+        },
+        {
+          "name": "meteors",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "canvasCount": 1,
+            "pixelRatio": 1
+          },
+          "lastDisposed": {
+            "canvasCount": 0,
+            "pixelRatio": 1
+          }
+        },
+        {
+          "name": "music-visuals",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "pendingFrames": 1,
+            "updateCount": 10
+          },
+          "lastDisposed": {
+            "pendingFrames": 0,
+            "updateCount": 289
+          }
+        },
+        {
+          "name": "signature",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "disposed": false,
+            "particleCount": 4500,
+            "pixelRatio": 1,
+            "buffer": [
+              889,
+              688
+            ],
+            "canvasConnected": true,
+            "memory": {
+              "geometries": 5,
+              "textures": 2
+            },
+            "programs": 2,
+            "contextLost": false
+          },
+          "lastDisposed": {
+            "disposed": true,
+            "particleCount": 4500,
+            "pixelRatio": 1,
+            "buffer": [
+              1,
+              1
+            ],
+            "canvasConnected": false,
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        },
+        {
+          "name": "portrait",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "mode": "off",
+            "particleCount": 9000,
+            "softHighlights": 10,
+            "warmParticles": 144,
+            "regionCounts": {
+              "face": 4605,
+              "hair": 3379,
+              "shoulders": 1015,
+              "body": 1
+            },
+            "camera": {
+              "position": [
+                0,
+                0,
+                2200
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "fov": 31.815103861051682,
+              "aspect": 1,
+              "near": 1,
+              "far": 8000,
+              "projection": [
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                -1.0002500312539067,
+                -1,
+                0,
+                0,
+                -2.000250031253907,
+                0
+              ]
+            },
+            "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+            "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+            "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+            "bloom": {
+              "enabled": false,
+              "created": false,
+              "resolution": null,
+              "resolutionScale": 0.5,
+              "threshold": 0.46,
+              "knee": 0.08,
+              "radius": 1.2,
+              "strength": 0.7,
+              "maxOpacity": 0.14
+            },
+            "audio": {
+              "energy": 0.07289179449489877,
+              "height": 0.34604611217375836,
+              "drawnEnergy": 0,
+              "renderCount": 0,
+              "contourParticles": 3234
+            },
+            "animation": true,
+            "pointerResponse": false,
+            "disposed": false,
+            "pixelRatio": 1,
+            "buffer": [
+              688,
+              688
+            ],
+            "canvasConnected": true,
+            "renderCount": 4,
+            "sourceParticleCount": 36000,
+            "memory": {
+              "geometries": 2,
+              "textures": 1
+            },
+            "programs": 2,
+            "contextLost": false
+          },
+          "lastDisposed": {
+            "mode": "off",
+            "particleCount": 9000,
+            "softHighlights": 10,
+            "warmParticles": 144,
+            "regionCounts": {
+              "face": 4605,
+              "hair": 3379,
+              "shoulders": 1015,
+              "body": 1
+            },
+            "camera": {
+              "position": [
+                0,
+                0,
+                2200
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "fov": 31.815103861051682,
+              "aspect": 1,
+              "near": 1,
+              "far": 8000,
+              "projection": [
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                -1.0002500312539067,
+                -1,
+                0,
+                0,
+                -2.000250031253907,
+                0
+              ]
+            },
+            "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+            "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+            "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+            "bloom": {
+              "enabled": false,
+              "created": false,
+              "resolution": null,
+              "resolutionScale": 0.5,
+              "threshold": 0.46,
+              "knee": 0.08,
+              "radius": 1.2,
+              "strength": 0.7,
+              "maxOpacity": 0.14
+            },
+            "audio": {
+              "energy": 0,
+              "height": 0.5,
+              "drawnEnergy": 0,
+              "renderCount": 0,
+              "contourParticles": 3234
+            },
+            "animation": false,
+            "pointerResponse": false,
+            "disposed": true,
+            "pixelRatio": 1,
+            "buffer": [
+              1,
+              1
+            ],
+            "canvasConnected": false,
+            "renderCount": 4,
+            "sourceParticleCount": 36000,
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        },
+        {
+          "name": "chapters",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "section": "projects",
+            "pendingFrames": 0,
+            "updateCount": 2
+          },
+          "lastDisposed": {
+            "section": "projects",
+            "pendingFrames": 0,
+            "updateCount": 332
+          }
+        },
+        {
+          "name": "projects",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "disposed": false,
+            "renderer": true,
+            "pixelRatio": 1,
+            "canvasConnected": true,
+            "buffer": [
+              300,
+              150
+            ],
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": false
+          },
+          "lastDisposed": {
+            "disposed": true,
+            "renderer": true,
+            "pixelRatio": 1,
+            "canvasConnected": false,
+            "buffer": [
+              1,
+              1
+            ],
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        }
+      ],
+      "scopes": [
+        {
+          "name": "motion",
+          "timers": 0,
+          "frames": 0,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "starfield",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "meteors",
+          "timers": 0,
+          "frames": 0,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "music-visuals",
+          "timers": 0,
+          "frames": 1,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "signature",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "portrait",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "chapters",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "projects",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        }
+      ]
+    },
+    "sameAudioGraph": {
+      "contexts": 1,
+      "sources": 1,
+      "gains": 1,
+      "analysers": 1,
+      "connections": 3
+    }
+  },
+  "contextLoss": {
+    "fallback": {
+      "active": true,
+      "settings": {
+        "pixelRatio": 1,
+        "signatureParticles": 0,
+        "portraitParticles": 0,
+        "portraitHighlights": 0,
+        "starCountScale": 0,
+        "postProcessingAllowed": false,
+        "portraitFps": 0,
+        "visualFps": 0,
+        "meterFps": 10,
+        "antialias": false,
+        "mode": "static",
+        "selected": "low",
+        "mobile": false,
+        "reason": "graphics-unavailable",
+        "reducedMotion": false,
+        "postProcessing": false
+      },
+      "failure": {
+        "name": "signature",
+        "message": "WebGL context lost"
+      },
+      "mounts": 134,
+      "unmounts": 131,
+      "components": [
+        {
+          "name": "motion",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "pendingFrames": 0,
+            "scrollTriggers": 0
+          }
+        },
+        {
+          "name": "starfield",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "canvasCount": 0,
+            "renderCount": 3,
+            "pixelRatio": 1,
+            "counts": {
+              "far": 53,
+              "middle": 17,
+              "near": 6
+            }
+          }
+        },
+        {
+          "name": "meteors",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "canvasCount": 0,
+            "pixelRatio": 1
+          }
+        },
+        {
+          "name": "music-visuals",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "pendingFrames": 0,
+            "updateCount": 10
+          },
+          "lastDisposed": {
+            "pendingFrames": 0,
+            "updateCount": 289
+          }
+        },
+        {
+          "name": "signature",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "disposed": true,
+            "particleCount": 4500,
+            "pixelRatio": 1,
+            "buffer": [
+              1,
+              1
+            ],
+            "canvasConnected": false,
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        },
+        {
+          "name": "portrait",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "mode": "off",
+            "particleCount": 9000,
+            "softHighlights": 10,
+            "warmParticles": 144,
+            "regionCounts": {
+              "face": 4605,
+              "hair": 3379,
+              "shoulders": 1015,
+              "body": 1
+            },
+            "camera": {
+              "position": [
+                0,
+                0,
+                2200
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "fov": 31.815103861051682,
+              "aspect": 1,
+              "near": 1,
+              "far": 8000,
+              "projection": [
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                3.5087719298245617,
+                0,
+                0,
+                0,
+                0,
+                -1.0002500312539067,
+                -1,
+                0,
+                0,
+                -2.000250031253907,
+                0
+              ]
+            },
+            "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+            "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+            "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+            "bloom": {
+              "enabled": false,
+              "created": false,
+              "resolution": null,
+              "resolutionScale": 0.5,
+              "threshold": 0.46,
+              "knee": 0.08,
+              "radius": 1.2,
+              "strength": 0.7,
+              "maxOpacity": 0.14
+            },
+            "audio": {
+              "energy": 0.07289179449489877,
+              "height": 0.34604611217375836,
+              "drawnEnergy": 0,
+              "renderCount": 0,
+              "contourParticles": 3234
+            },
+            "animation": true,
+            "pointerResponse": false,
+            "disposed": true,
+            "pixelRatio": 1,
+            "buffer": [
+              1,
+              1
+            ],
+            "canvasConnected": false,
+            "renderCount": 4,
+            "sourceParticleCount": 36000,
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        },
+        {
+          "name": "chapters",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "section": "projects",
+            "pendingFrames": 0,
+            "updateCount": 3
+          },
+          "lastDisposed": {
+            "section": "projects",
+            "pendingFrames": 0,
+            "updateCount": 332
+          }
+        },
+        {
+          "name": "projects",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "disposed": false,
+            "renderer": false,
+            "pixelRatio": 1,
+            "canvasConnected": true,
+            "buffer": [
+              300,
+              150
+            ],
+            "memory": null,
+            "programs": 0,
+            "contextLost": true
+          },
+          "lastDisposed": {
+            "disposed": true,
+            "renderer": true,
+            "pixelRatio": 1,
+            "canvasConnected": false,
+            "buffer": [
+              1,
+              1
+            ],
+            "memory": {
+              "geometries": 0,
+              "textures": 0
+            },
+            "programs": 0,
+            "contextLost": true
+          }
+        }
+      ],
+      "scopes": [
+        {
+          "name": "music-visuals",
+          "timers": 0,
+          "frames": 0,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "chapters",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "projects",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        }
+      ]
+    },
+    "projects": [
+      "大模型应用与智能体构建学习项目",
+      "AIGC 视觉设计学习项目"
+    ],
+    "retryRecovered": true
+  },
+  "noWebGL": {
+    "state": {
+      "active": true,
+      "settings": {
+        "pixelRatio": 1,
+        "signatureParticles": 0,
+        "portraitParticles": 0,
+        "portraitHighlights": 0,
+        "starCountScale": 0,
+        "postProcessingAllowed": false,
+        "portraitFps": 0,
+        "visualFps": 0,
+        "meterFps": 10,
+        "antialias": false,
+        "mode": "static",
+        "selected": "auto",
+        "mobile": true,
+        "reason": "graphics-unavailable",
+        "reducedMotion": false,
+        "postProcessing": false
+      },
+      "failure": {
+        "name": "signature",
+        "message": "THREE.WebGLRenderer: Error creating WebGL context."
+      },
+      "mounts": 7,
+      "unmounts": 4,
+      "components": [
+        {
+          "name": "motion",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "pendingFrames": 0,
+            "scrollTriggers": 0
+          }
+        },
+        {
+          "name": "starfield",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "canvasCount": 0,
+            "renderCount": 2,
+            "pixelRatio": 1,
+            "counts": {
+              "far": 25,
+              "middle": 10,
+              "near": 1
+            }
+          }
+        },
+        {
+          "name": "meteors",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": {
+            "canvasCount": 0,
+            "pixelRatio": 1
+          }
+        },
+        {
+          "name": "music-visuals",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "pendingFrames": 0,
+            "updateCount": 0
+          },
+          "lastDisposed": null
+        },
+        {
+          "name": "signature",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": null
+        },
+        {
+          "name": "portrait",
+          "mounted": false,
+          "pending": false,
+          "resources": null,
+          "lastDisposed": null
+        },
+        {
+          "name": "chapters",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "section": "top",
+            "pendingFrames": 0,
+            "updateCount": 2
+          },
+          "lastDisposed": null
+        },
+        {
+          "name": "projects",
+          "mounted": true,
+          "pending": false,
+          "resources": {
+            "disposed": false,
+            "renderer": false,
+            "pixelRatio": 1,
+            "canvasConnected": true,
+            "buffer": [
+              300,
+              150
+            ],
+            "memory": null,
+            "programs": 0,
+            "contextLost": true
+          },
+          "lastDisposed": null
+        }
+      ],
+      "scopes": [
+        {
+          "name": "music-visuals",
+          "timers": 0,
+          "frames": 0,
+          "observers": 0,
+          "disposed": false
+        },
+        {
+          "name": "chapters",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        },
+        {
+          "name": "projects",
+          "timers": 0,
+          "frames": 0,
+          "observers": 1,
+          "disposed": false
+        }
+      ]
+    },
+    "projects": [
+      "大模型应用与智能体构建学习项目",
+      "AIGC 视觉设计学习项目"
+    ]
+  },
+  "middleRefreshAndUpNavigation": true,
+  "pageErrors": [],
+  "passed": true
+}

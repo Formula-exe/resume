@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Moonlight · 三层音乐响应</title>
+<style>
+  :root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#080c12;color:#eeeae2;font:15px/1.8 "Microsoft YaHei",sans-serif}main{max-width:1320px;margin:auto;padding:30px 24px 50px}h1{font-size:30px;font-weight:500;margin:0}h2{font-size:21px;font-weight:500;margin:30px 0 10px}p{color:#aebfd6;margin:10px 0 18px}a{color:#e7c19b;text-underline-offset:4px}button{font:inherit;color:#dbe8fb;border:1px solid #53647c;background:transparent;border-radius:5px;padding:7px 13px;cursor:pointer}button:hover{border-color:#d9b28e}button:focus-visible{outline:2px solid #e5b582;outline-offset:3px}button:disabled{opacity:.45;cursor:default}.controls{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0}.readout{padding:13px 0;border-top:1px solid #293345;border-bottom:1px solid #293345;display:flex;gap:16px 30px;flex-wrap:wrap;color:#b7c8e0;font-variant-numeric:tabular-nums}.readout strong{color:#efd0af;font-weight:500}.live{margin-top:18px;border:1px solid #293345}iframe{display:block;width:100%;height:min(850px,65vw);min-height:580px;border:0;background:#060a12}.layers{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;margin:26px 0}.layers h2{font-size:18px;margin:0 0 5px}.layers p{font-size:13px;margin:0}.note{font-size:13px}.comparison{width:100%;height:auto;display:block;border:1px solid #293345}.modes{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}button[aria-pressed="true"]{background:#25201d;border-color:#bd9776;color:#f5d7b8}footer{border-top:1px solid #293345;margin-top:28px;padding-top:20px;font-size:13px;color:#8fa3bf}@media(max-width:760px){main{padding:22px 16px}h1{font-size:24px}.layers{grid-template-columns:1fr;gap:15px}iframe{height:844px;min-height:0}.readout{gap:7px 18px}.controls button{font-size:13px}}
+</style>
+<main>
+  <h1>Moonlight · 三层音乐响应</h1>
+  <p>这里嵌入的是当前网站。点击播放后，三条频段柱、星光与人物轮廓、曲目段落编排共用同一条音乐。</p>
+  <div class="controls" aria-label="真实音乐演示控制">
+    <button type="button" id="previewPlay" disabled>播放音乐</button>
+    <button type="button" id="visualToggle" aria-pressed="true" disabled>音乐视觉：开</button>
+    <button type="button" data-chapter="top" data-time="44.8" disabled>播放：流星段</button>
+    <button type="button" data-chapter="about" data-time="69" disabled>播放：人物轮廓</button>
+    <button type="button" data-chapter="top" data-time="103.8" disabled>播放：星潮段</button>
+    <button type="button" data-chapter="top" data-time="240" disabled>播放：尾声</button>
+    <a href="../../#top">打开完整网站</a><a href="../mobile-load-review/">手机与低负载对照</a>
+  </div>
+  <div class="readout" aria-live="off"><span>播放时间 <strong id="time">0.00 秒</strong></span><span>当前段落 <strong id="phase">等待播放</strong></span><span>实际强弱 <strong id="energy">0.0000</strong></span><span id="notice">网页正在准备。</span></div>
+  <div class="live"><iframe id="demoFrame" src="../../?audioStars=on#top" title="当前网站的真实音乐视觉" allow="autoplay"></iframe></div>
+  <div class="layers">
+    <section><h2>实时频段</h2><p>音乐按钮的三条柱分别显示低、中、高频。暂停按钮按实际播放状态更新。</p></section>
+    <section><h2>音频预分析</h2><p>能量控制强弱，起音点亮单颗星；关于章节的人物轮廓按估计音区改变提亮高度。</p></section>
+    <section><h2>手工时间编排</h2><p>蓄势、展开、流星与尾声都按音乐播放时间定位，向后跳转也能对齐。</p></section>
+  </div>
+  <p class="note">阅读作品与正文时降低视觉强度，流星让位于正文。暂停后平滑回落；开启减少动效时保留主动播放，视觉保持静态。音区是频谱重心估计，不代表精确音高。</p>
+  <h2>同一片段、同一视角的开关对照</h2>
+  <div class="modes" aria-label="截图对照">
+    <button type="button" data-image="comparison.png" aria-pressed="true">并排对照</button>
+    <button type="button" data-image="hero-on.png" aria-pressed="false">首屏原尺寸</button>
+    <button type="button" data-image="portrait-on.png" aria-pressed="false">人物原尺寸</button>
+    <button type="button" data-image="register-low.png" aria-pressed="false">偏低音区估计</button>
+    <button type="button" data-image="register-high.png" aria-pressed="false">偏高音区估计</button>
+  </div>
+  <img id="comparison" class="comparison" src="comparison.png" alt="首屏和人物章节的同曲、同视角音乐视觉关闭与开启对照">
+  <footer>配乐：Moonlight — Scott Buckley，CC BY 4.0。<a href="../../assets/audio/README.md">来源与许可</a> · <a href="REVIEW.md">参数与检查记录</a>。换曲后重新分析，未校准的新曲不会沿用这首音乐的编排时间点。</footer>
+</main>
+<script>
+  const frame=document.getElementById('demoFrame'),playButton=document.getElementById('previewPlay'),visualButton=document.getElementById('visualToggle');
+  const notice=document.getElementById('notice');let revision=0;
+  const app=()=>{const w=frame.contentWindow;return w?.resumeAudioStars && w?.resumeMusicAnalysis?w:null;};
+  playButton.addEventListener('click',()=>app()?.resumeAudioControl.toggle());
+  visualButton.addEventListener('click',()=>{const w=app();if(w)w.resumeAudioStars.setEnabled(!w.resumeAudioStars.snapshot().requested);});
+  document.querySelectorAll('[data-time]').forEach(button=>button.addEventListener('click',async()=>{
+    const w=app();if(!w)return;const request=++revision;
+    if(!w.resumeAudioControl.snapshot().desiredPlaying)w.resumeAudioControl.toggle();
+    const start=performance.now();
+    while(!w.resumeAudioControl.snapshot().actualPlaying){
+      if(request!==revision)return;
+      if(w.resumeAudioControl.snapshot().state==='error' || performance.now()-start>15000){notice.textContent='播放暂未成功，请点击音乐按钮重试。';return;}
+      await new Promise(resolve=>setTimeout(resolve,50));
+    }
+    if(request!==revision)return;
+    w.document.getElementById(button.dataset.chapter).scrollIntoView({behavior:'instant'});
+    w.resumeAudioControl.audio.currentTime=Number(button.dataset.time);
+  }));
+  document.querySelectorAll('[data-image]').forEach(button=>button.addEventListener('click',()=>{
+    document.querySelectorAll('[data-image]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));
+    const image=document.getElementById('comparison');image.src=button.dataset.image;image.alt=button.textContent+' · 真实网站截图';
+  }));
+  setInterval(()=>{
+    if(document.hidden)return;const w=app();if(!w)return;
+    const audio=w.resumeAudioControl.snapshot(),visual=w.resumeAudioStars.snapshot(),analysis=w.resumeMusicAnalysis.snapshot();
+    document.querySelectorAll('[data-time]').forEach(button=>button.disabled=false);playButton.disabled=false;
+    playButton.textContent=audio.actualPlaying?'暂停音乐':audio.desiredPlaying?'取消播放':'播放音乐';
+    visualButton.disabled=visual.reducedMotion || w.document.documentElement.dataset.motion==='off';
+    visualButton.textContent=visualButton.disabled?'减少动效 · 视觉关闭':'音乐视觉：'+(visual.requested?'开':'关');visualButton.setAttribute('aria-pressed',String(visual.enabled));
+    document.getElementById('time').textContent=audio.currentTime.toFixed(2)+' 秒';
+    document.getElementById('energy').textContent=w.resumeAudioMeter.snapshot().rms.toFixed(4);
+    document.getElementById('phase').textContent=w.resumeMusicAnalysis.sample(audio.currentTime).phase?.label || (audio.actualPlaying?'正在播放':'等待播放');
+    notice.textContent=analysis.status==='ready'?'当前曲目已分析并校准。':analysis.status==='error'?'预分析暂不可用，保留实时频段。':audio.state==='error'?'播放失败，可点击重试。':audio.desiredPlaying?'正在准备音乐视觉。':'点击播放开始演示。';
+  },200);
+</script>
+</html>

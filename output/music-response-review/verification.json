@@ -1,0 +1,3814 @@
+{
+  "analysis": {
+    "status": "ready",
+    "sourceURL": "http://127.0.0.1:8765/assets/audio/moonlight-scott-buckley.mp3",
+    "sourceHash": "7feb8c703983dbdfc97018f004cfebad8f03b86f2382c58c0ad24e375d4c17f5",
+    "calibrated": true,
+    "error": null,
+    "duration": 254.33369614512472,
+    "featureFrames": 5473,
+    "onsetCount": 349,
+    "registerMethod": "log spectral centroid, not precise pitch",
+    "manualCueCount": 6
+  },
+  "heroComparison": {
+    "off": {
+      "mediaTime": 105.800091,
+      "visual": {
+        "requested": false,
+        "enabled": false,
+        "reducedMotion": false,
+        "section": "top",
+        "sectionGain": 1,
+        "rms": 0,
+        "currentBrightness": 1,
+        "targetBrightness": 1,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1,
+          "energy": 0,
+          "accent": 0,
+          "arrangement": 0,
+          "height": 0.5,
+          "meteor": 0
+        },
+        "target": {
+          "brightness": 1,
+          "energy": 0,
+          "accent": 0,
+          "arrangement": 0,
+          "height": 0.5,
+          "meteor": 0
+        },
+        "features": {
+          "available": true,
+          "time": 0.09288,
+          "energy": 0,
+          "register": 0.5,
+          "onset": 0,
+          "onsetIndex": -1,
+          "phase": {
+            "label": "序章",
+            "kind": "intro",
+            "start": 0,
+            "end": 18
+          },
+          "arrangement": 0.03000716418214272,
+          "meteors": [],
+          "calibrated": true
+        },
+        "pendingFrames": 0,
+        "lastDeltaTime": 0.006099999999999909,
+        "updateCount": 7
+      },
+      "meter": {
+        "rms": 0.020832239277106254,
+        "waveformRms": 0.020832239277106254,
+        "level": 0.46574123501040077,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 375,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0.7141762426094903,
+          "middle": 0.7328188710297817,
+          "high": 0.3097461155830786
+        },
+        "rawBands": {
+          "low": 0.6974595070207819,
+          "middle": 0.7211865047053585,
+          "high": 0.2955974296134419
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000000364,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0,
+        "height": 0.5,
+        "drawnEnergy": 0,
+        "renderCount": 1,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 0,
+        "active": [],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    },
+    "on": {
+      "mediaTime": 105.800091,
+      "visual": {
+        "requested": true,
+        "enabled": true,
+        "reducedMotion": false,
+        "section": "top",
+        "sectionGain": 1,
+        "rms": 0.020832239277106254,
+        "currentBrightness": 1.4309070308379692,
+        "targetBrightness": 1.3929570323753881,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1.4309070308379692,
+          "energy": 0.9328221028155771,
+          "accent": 0.3189971492980289,
+          "arrangement": 0.8493288719885551,
+          "height": 0.4428186513748766,
+          "meteor": 1
+        },
+        "target": {
+          "brightness": 1.3929570323753881,
+          "energy": 0.8925668256591799,
+          "accent": 0.15542116293985075,
+          "arrangement": 0.8493288719885551,
+          "height": 0.44612584337089733,
+          "meteor": 1
+        },
+        "features": {
+          "available": true,
+          "time": 105.800091,
+          "energy": 0.8925668256591799,
+          "register": 0.5664759948925797,
+          "onset": 0.15542116293985075,
+          "onsetIndex": 157,
+          "phase": {
+            "label": "星潮",
+            "kind": "burst",
+            "start": 104,
+            "end": 150
+          },
+          "arrangement": 0.8493288719885551,
+          "meteors": [
+            {
+              "time": 105.1,
+              "duration": 1.6,
+              "from": [
+                0.91,
+                0.15
+              ],
+              "to": [
+                0.68,
+                0.4
+              ]
+            }
+          ],
+          "calibrated": true
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.0033000000000001817,
+        "updateCount": 368
+      },
+      "meter": {
+        "rms": 0.020832239277106254,
+        "waveformRms": 0.020832239277106254,
+        "level": 0.46632843665940854,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 749,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0.7138150253331237,
+          "middle": 0.732350000257356,
+          "high": 0.31015336290550544
+        },
+        "rawBands": {
+          "low": 0.6970012616038888,
+          "middle": 0.7209481755085827,
+          "high": 0.2954185407561063
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.0033000000000001817,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0.55,
+        "height": 0.44251943659509585,
+        "drawnEnergy": 0,
+        "renderCount": 1,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 1,
+        "active": [
+          {
+            "time": 105.1,
+            "progress": 0.4375568750000003,
+            "x": 1294.9790699999999,
+            "y": 259.3892187500001,
+            "alpha": 0.631389576497691
+          }
+        ],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    }
+  },
+  "heroCopyPixelsIdentical": true,
+  "liveBands": {
+    "low": {
+      "min": 0.5988317299502519,
+      "max": 0.7486455402820263
+    },
+    "middle": {
+      "min": 0.6238605853267719,
+      "max": 0.7302827926523096
+    },
+    "high": {
+      "min": 0.2649699624125163,
+      "max": 0.3113781297143564
+    }
+  },
+  "liveSamples": [
+    {
+      "time": 105.930703,
+      "rms": 0.02241462455032022,
+      "waveformRms": 0.02241462455032022,
+      "level": 0.4706218733270954,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 770,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7080753992934047,
+        "middle": 0.7302827926523096,
+        "high": 0.3094619566158028
+      },
+      "rawBands": {
+        "low": 0.7096056978922625,
+        "middle": 0.7277483199554303,
+        "high": 0.3124821033503113
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.4198751409889152,
+        "energy": 0.9033916140051159,
+        "accent": 0.20491906936583795,
+        "arrangement": 0.8492300307440738,
+        "height": 0.43942084810266174,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 105.95102,
+      "rms": 0.020617005714587605,
+      "waveformRms": 0.020617005714587605,
+      "level": 0.46661362434998854,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 773,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7084120321383551,
+        "middle": 0.7298091428501748,
+        "high": 0.31067000901154856
+      },
+      "rawBands": {
+        "low": 0.7092150424724643,
+        "middle": 0.7249788251827277,
+        "high": 0.3154088013904324
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.41725948868524,
+        "energy": 0.8970282863707939,
+        "accent": 0.19112469154998568,
+        "arrangement": 0.84921524922223,
+        "height": 0.4392783918239283,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 105.968435,
+      "rms": 0.020278921537268086,
+      "waveformRms": 0.020278921537268086,
+      "level": 0.45890599781521113,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 777,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7085487018725696,
+        "middle": 0.7280022231075847,
+        "high": 0.3113781297143564
+      },
+      "rawBands": {
+        "low": 0.7077975842911035,
+        "middle": 0.7121054238221526,
+        "high": 0.30863145718401025
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.4127880275330595,
+        "energy": 0.8861513856327715,
+        "accent": 0.17387695256626387,
+        "arrangement": 0.8491994853657918,
+        "height": 0.439551162671366,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 105.988753,
+      "rms": 0.019918302551758776,
+      "waveformRms": 0.019918302551758776,
+      "level": 0.4520815121156377,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 780,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7084502460698977,
+        "middle": 0.7253765382520064,
+        "high": 0.3106548846702939
+      },
+      "rawBands": {
+        "low": 0.707358002864139,
+        "middle": 0.7049179945539028,
+        "high": 0.30405696973907737
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.4089111480035281,
+        "energy": 0.876429845345923,
+        "accent": 0.1617918132793504,
+        "arrangement": 0.8491831220845064,
+        "height": 0.4397791423464786,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.00907,
+      "rms": 0.020013779917714292,
+      "waveformRms": 0.020013779917714292,
+      "level": 0.4445830392848942,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 784,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7081499193513202,
+        "middle": 0.7222036446514473,
+        "high": 0.30947064008528974
+      },
+      "rawBands": {
+        "low": 0.7062980289314749,
+        "middle": 0.7054157567423758,
+        "high": 0.30282525563703167
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.4040053664155148,
+        "energy": 0.8628432918267671,
+        "accent": 0.14673183684913282,
+        "arrangement": 0.8491665992173217,
+        "height": 0.43957949985629047,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.029388,
+      "rms": 0.020924802426149393,
+      "waveformRms": 0.020924802426149393,
+      "level": 0.4412269459390446,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 787,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7079804449861687,
+        "middle": 0.7198548837407609,
+        "high": 0.30865079580040544
+      },
+      "rawBands": {
+        "low": 0.7074352248423713,
+        "middle": 0.7009177954947027,
+        "high": 0.2999788239355866
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.400843920873815,
+        "energy": 0.8522221592472268,
+        "accent": 0.13625153019978925,
+        "arrangement": 0.8491499152928356,
+        "height": 0.4389654487116567,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.0558,
+      "rms": 0.020410255310293234,
+      "waveformRms": 0.020410255310293234,
+      "level": 0.4365568502352109,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 791,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7083840729515078,
+        "middle": 0.717041421135911,
+        "high": 0.3057030429414831
+      },
+      "rawBands": {
+        "low": 0.7096851873661276,
+        "middle": 0.7021458316589734,
+        "high": 0.287204837277758
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3965912646823715,
+        "energy": 0.8386042643059449,
+        "accent": 0.12317389738722197,
+        "arrangement": 0.8491330721084221,
+        "height": 0.4371007511401991,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.077322,
+      "rms": 0.019570844105434772,
+      "waveformRms": 0.019570844105434772,
+      "level": 0.43218625515425163,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 794,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7088546355959758,
+        "middle": 0.7149145721360571,
+        "high": 0.3033086476272498
+      },
+      "rawBands": {
+        "low": 0.7109059941745448,
+        "middle": 0.6977606413739584,
+        "high": 0.285896934472427
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3932172586898375,
+        "energy": 0.8289394426114557,
+        "accent": 0.11415135631046582,
+        "arrangement": 0.8491160681611476,
+        "height": 0.4349947427632209,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.098757,
+      "rms": 0.016974931705929987,
+      "waveformRms": 0.016974931705929987,
+      "level": 0.42215536534596687,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 798,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7097912801122485,
+        "middle": 0.7093674760707439,
+        "high": 0.3001137665846709
+      },
+      "rawBands": {
+        "low": 0.7119643506576843,
+        "middle": 0.6689745764637283,
+        "high": 0.2792104172539729
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.387541984442356,
+        "energy": 0.8161161411036555,
+        "accent": 0.10290526497683092,
+        "arrangement": 0.8490923325497665,
+        "height": 0.4321241079748837,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.119304,
+      "rms": 0.016982678093001472,
+      "waveformRms": 0.016982678093001472,
+      "level": 0.41354375775386004,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 801,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7101298905691044,
+        "middle": 0.7038605754767912,
+        "high": 0.2978504732953318
+      },
+      "rawBands": {
+        "low": 0.7106342565608366,
+        "middle": 0.6589820753278178,
+        "high": 0.2842852345050269
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3829153340134361,
+        "energy": 0.8068599504374304,
+        "accent": 0.0942052533912123,
+        "arrangement": 0.84907643146332,
+        "height": 0.43012530673706956,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.139683,
+      "rms": 0.01686673736908311,
+      "waveformRms": 0.01686673736908311,
+      "level": 0.4057375172674045,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 804,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7103012651638998,
+        "middle": 0.6980826149216159,
+        "high": 0.29618694479844204
+      },
+      "rawBands": {
+        "low": 0.7110059997499153,
+        "middle": 0.6539377615072977,
+        "high": 0.2837819315944831
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.3787607356956484,
+        "energy": 0.8013666465208606,
+        "accent": 0.08445982255020985,
+        "arrangement": 0.8490640999725121,
+        "height": 0.4293529836599679,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.16,
+      "rms": 0.016834182464338546,
+      "waveformRms": 0.016834182464338546,
+      "level": 0.3966201760838035,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 808,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7103981150254893,
+        "middle": 0.6897851294996284,
+        "high": 0.29584102506134635
+      },
+      "rawBands": {
+        "low": 0.7107087698157355,
+        "middle": 0.6404577329881264,
+        "high": 0.29652532568132095
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3745399792661148,
+        "energy": 0.802716597283665,
+        "accent": 0.07304501891332806,
+        "arrangement": 0.8490391561236356,
+        "height": 0.43123587270425706,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.180317,
+      "rms": 0.01770049181355905,
+      "waveformRms": 0.01770049181355905,
+      "level": 0.3913410068581252,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 811,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7107321852697607,
+        "middle": 0.6836432765076047,
+        "high": 0.2961470263288085
+      },
+      "rawBands": {
+        "low": 0.712898833457592,
+        "middle": 0.6359171471151058,
+        "high": 0.29656023030940504
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3723978127562386,
+        "energy": 0.8088539607063496,
+        "accent": 0.06548859127820046,
+        "arrangement": 0.8490229122105764,
+        "height": 0.43497886469016456,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.200635,
+      "rms": 0.01818369344472103,
+      "waveformRms": 0.01818369344472103,
+      "level": 0.38815588360693665,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 814,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7115328069614637,
+        "middle": 0.6773850751604312,
+        "high": 0.2959056876709335
+      },
+      "rawBands": {
+        "low": 0.7149092493253871,
+        "middle": 0.629153736332746,
+        "high": 0.29279266661795766
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.3712562885734791,
+        "energy": 0.8182996125270757,
+        "accent": 0.058713867850346345,
+        "arrangement": 0.8490132729993807,
+        "height": 0.4410174638616871,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.220952,
+      "rms": 0.0189343503537328,
+      "waveformRms": 0.0189343503537328,
+      "level": 0.3856214260393412,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 818,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7134737195198275,
+        "middle": 0.6703761583361835,
+        "high": 0.295665966337158
+      },
+      "rawBands": {
+        "low": 0.7187031109083359,
+        "middle": 0.6356287374361193,
+        "high": 0.29381123566881784
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.3708676807827416,
+        "energy": 0.835599375149963,
+        "accent": 0.05077864786009499,
+        "arrangement": 0.8489847655922544,
+        "height": 0.45271645048339354,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.238367,
+      "rms": 0.019303597548157903,
+      "waveformRms": 0.019303597548157903,
+      "level": 0.38495727455980916,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 821,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7145416145791385,
+        "middle": 0.666571944711654,
+        "high": 0.29604627264448036
+      },
+      "rawBands": {
+        "low": 0.7178094698084975,
+        "middle": 0.6406906988127598,
+        "high": 0.2990819101478479
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3709974478071345,
+        "energy": 0.8484117182678093,
+        "accent": 0.04552565205459425,
+        "arrangement": 0.8489705781229729,
+        "height": 0.4623443873049321,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.258685,
+      "rms": 0.020125911728155064,
+      "waveformRms": 0.020125911728155064,
+      "level": 0.39242015692466437,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 825,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7166438319242386,
+        "middle": 0.6619926539393692,
+        "high": 0.29598411295763466
+      },
+      "rawBands": {
+        "low": 0.7245344274906952,
+        "middle": 0.6337586648731703,
+        "high": 0.29127463073852905
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.3738294494718273,
+        "energy": 0.8647814925031998,
+        "accent": 0.07446160180051381,
+        "arrangement": 0.8489505690837614,
+        "height": 0.4758426264302827,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.279002,
+      "rms": 0.027073008840651076,
+      "waveformRms": 0.027073008840651076,
+      "level": 0.42316920833174465,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 828,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7190247732140637,
+        "middle": 0.6582490590017265,
+        "high": 0.2955692785027439
+      },
+      "rawBands": {
+        "low": 0.7266237422621429,
+        "middle": 0.6289140696571545,
+        "high": 0.2960697671205291
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3791492953332656,
+        "energy": 0.8754606822203969,
+        "accent": 0.15972115305341006,
+        "arrangement": 0.8489319300262939,
+        "height": 0.4838805331370098,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.29932,
+      "rms": 0.030749381667721606,
+      "waveformRms": 0.030749381667721606,
+      "level": 0.48822194216903037,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 832,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7271041140047045,
+        "middle": 0.6545999405444222,
+        "high": 0.2956797200376386
+      },
+      "rawBands": {
+        "low": 0.7584876206494628,
+        "middle": 0.63963996762143,
+        "high": 0.2943900017175333
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.3857118763515084,
+        "energy": 0.8875441934960979,
+        "accent": 0.24819125543443016,
+        "arrangement": 0.8489131318680179,
+        "height": 0.491384066507928,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.319637,
+      "rms": 0.03099036365292999,
+      "waveformRms": 0.03099036365292999,
+      "level": 0.5309165717435257,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 835,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7350308775931982,
+        "middle": 0.6540577771727903,
+        "high": 0.29569849090635786
+      },
+      "rawBands": {
+        "low": 0.7633517149561686,
+        "middle": 0.6514502998076207,
+        "high": 0.29596532552001836
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.390225753241615,
+        "energy": 0.8923033295858829,
+        "accent": 0.29605640109092257,
+        "arrangement": 0.8488941766144223,
+        "height": 0.49363224139041395,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.346914,
+      "rms": 0.024290254529795552,
+      "waveformRms": 0.024290254529795552,
+      "level": 0.5288678835004501,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 839,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7434378591189795,
+        "middle": 0.6557495789020551,
+        "high": 0.29441034572375413
+      },
+      "rawBands": {
+        "low": 0.7625895854637587,
+        "middle": 0.6658037843503645,
+        "high": 0.28102801637560326
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3957189644896613,
+        "energy": 0.8926579734624416,
+        "accent": 0.34196413117104607,
+        "arrangement": 0.8488690735133633,
+        "height": 0.4927740717185179,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.368044,
+      "rms": 0.023794192662989655,
+      "waveformRms": 0.023794192662989655,
+      "level": 0.5236896353893363,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 842,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7473574966208895,
+        "middle": 0.6580367951017693,
+        "high": 0.2928948610614649
+      },
+      "rawBands": {
+        "low": 0.7599852988462638,
+        "middle": 0.665898279258912,
+        "high": 0.2821706994641229
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.0061999999999998185,
+      "available": true,
+      "visual": {
+        "brightness": 1.399529656841768,
+        "energy": 0.888755164237247,
+        "accent": 0.36545462114479393,
+        "arrangement": 0.8488557917253201,
+        "height": 0.490562107399085,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.388729,
+      "rms": 0.01978941895303582,
+      "waveformRms": 0.01978941895303582,
+      "level": 0.511719260591868,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 845,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7486455402820263,
+        "middle": 0.6586915099613275,
+        "high": 0.2919473213614569
+      },
+      "rawBands": {
+        "low": 0.7517744975867878,
+        "middle": 0.6599239997740447,
+        "high": 0.28456438013705665
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.4004395631084847,
+        "energy": 0.8813850513411603,
+        "accent": 0.3802010958571474,
+        "arrangement": 0.8488363623844869,
+        "height": 0.48861090686336217,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.409298,
+      "rms": 0.01696984777434593,
+      "waveformRms": 0.01696984777434593,
+      "level": 0.4911070958330643,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 849,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7467372892093719,
+        "middle": 0.6587823776275681,
+        "high": 0.2905823190051164
+      },
+      "rawBands": {
+        "low": 0.726240679005064,
+        "middle": 0.6612162676039489,
+        "high": 0.2808994692420293
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3987712765348366,
+        "energy": 0.8681367900332996,
+        "accent": 0.3900648630552872,
+        "arrangement": 0.8488100153964827,
+        "height": 0.48639770453950987,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.429886,
+      "rms": 0.017050900345167545,
+      "waveformRms": 0.017050900345167545,
+      "level": 0.47544477980375993,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 852,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7440087482094809,
+        "middle": 0.6591993084129397,
+        "high": 0.2896453557694677
+      },
+      "rawBands": {
+        "low": 0.722988218264321,
+        "middle": 0.6603617427498332,
+        "high": 0.2836977011837247
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.3965329916371771,
+        "energy": 0.8574652959736221,
+        "accent": 0.391582000395238,
+        "arrangement": 0.8487970335739046,
+        "height": 0.48512654247809217,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.450249,
+      "rms": 0.018708184243219263,
+      "waveformRms": 0.018708184243219263,
+      "level": 0.46044570840654675,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 856,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7402633407766656,
+        "middle": 0.6589782446436444,
+        "high": 0.28830551614568684
+      },
+      "rawBands": {
+        "low": 0.719863195896594,
+        "middle": 0.657291133588593,
+        "high": 0.27707671036474163
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.3940398537284584,
+        "energy": 0.8429276024699708,
+        "accent": 0.38711769383627737,
+        "arrangement": 0.8487685560886368,
+        "height": 0.4838295096950971,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.470567,
+      "rms": 0.019715692112415292,
+      "waveformRms": 0.019715692112415292,
+      "level": 0.4528267854599368,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 859,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7380144810144998,
+        "middle": 0.6589779464976566,
+        "high": 0.2868552256153369
+      },
+      "rawBands": {
+        "low": 0.7230078401419257,
+        "middle": 0.6604868654479435,
+        "high": 0.27553938927384514
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.3925632076570722,
+        "energy": 0.8322672319878118,
+        "accent": 0.380197968253708,
+        "arrangement": 0.8487499835822415,
+        "height": 0.48240995974872025,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.490884,
+      "rms": 0.01976582778601091,
+      "waveformRms": 0.01976582778601091,
+      "level": 0.44684446182781856,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 862,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7361929611516234,
+        "middle": 0.6594578543006485,
+        "high": 0.28559283797745333
+      },
+      "rawBands": {
+        "low": 0.7226847417387977,
+        "middle": 0.6613817706156716,
+        "high": 0.27665350874969163
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.3911369075237954,
+        "energy": 0.8219504005269492,
+        "accent": 0.3710099855905667,
+        "arrangement": 0.8487397584559309,
+        "height": 0.48049415890417374,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.511202,
+      "rms": 0.019266301072513873,
+      "waveformRms": 0.019266301072513873,
+      "level": 0.43905152821358384,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 866,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7341900806807397,
+        "middle": 0.6612364976812396,
+        "high": 0.2839938361622046
+      },
+      "rawBands": {
+        "low": 0.7237710537790546,
+        "middle": 0.6667271743105023,
+        "high": 0.27347784563290073
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3886781958370322,
+        "energy": 0.808284610039538,
+        "accent": 0.35537785190117765,
+        "arrangement": 0.8487077113244541,
+        "height": 0.47722614420241166,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.528617,
+      "rms": 0.018840534192000855,
+      "waveformRms": 0.018840534192000855,
+      "level": 0.43264580155966803,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 869,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7326226816693333,
+        "middle": 0.662875258509649,
+        "high": 0.2823426326105162
+      },
+      "rawBands": {
+        "low": 0.7190955531847774,
+        "middle": 0.668923153563232,
+        "high": 0.27143000422970925
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3863127629202827,
+        "energy": 0.7981161755079158,
+        "accent": 0.3421316280426585,
+        "arrangement": 0.8486910217102899,
+        "height": 0.4744284651651334,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.548934,
+      "rms": 0.017821183388815613,
+      "waveformRms": 0.017821183388815613,
+      "level": 0.4226253636108583,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 873,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7299247874299236,
+        "middle": 0.6651505405597793,
+        "high": 0.28070530228684004
+      },
+      "rawBands": {
+        "low": 0.7136772641273263,
+        "middle": 0.671693810743739,
+        "high": 0.271821014174334
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.3822947652152573,
+        "energy": 0.7840651933486975,
+        "accent": 0.32331094301556557,
+        "arrangement": 0.8486693406417616,
+        "height": 0.4704502821883467,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.569252,
+      "rms": 0.017599093699091625,
+      "waveformRms": 0.017599093699091625,
+      "level": 0.41530159897320956,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 876,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.727551505118779,
+        "middle": 0.6664731865011003,
+        "high": 0.28046320517246515
+      },
+      "rawBands": {
+        "low": 0.7098625618501199,
+        "middle": 0.6692601344241483,
+        "high": 0.28196118620702887
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.3789200765740524,
+        "energy": 0.7725340088618241,
+        "accent": 0.30846699815382905,
+        "arrangement": 0.8486484556268759,
+        "height": 0.4674046712362423,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.589569,
+      "rms": 0.017466637534304656,
+      "waveformRms": 0.017466637534304656,
+      "level": 0.40567989067542054,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 880,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7242164788509431,
+        "middle": 0.6675208084227375,
+        "high": 0.28330859414389226
+      },
+      "rawBands": {
+        "low": 0.7063007719986324,
+        "middle": 0.6697903683571184,
+        "high": 0.2919451449107705
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.374021325939185,
+        "energy": 0.756260203275179,
+        "accent": 0.2883524882292573,
+        "arrangement": 0.8486274156799307,
+        "height": 0.4632894244729599,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.61657,
+      "rms": 0.016806512634145582,
+      "waveformRms": 0.016806512634145582,
+      "level": 0.39814625210903787,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 883,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7217631557610545,
+        "middle": 0.6671362209365858,
+        "high": 0.28329638744588526
+      },
+      "rawBands": {
+        "low": 0.7042686667056763,
+        "middle": 0.6624714606762747,
+        "high": 0.28098267374361463
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3700089713324135,
+        "energy": 0.7437755800345569,
+        "accent": 0.273173369341954,
+        "arrangement": 0.8486062188848638,
+        "height": 0.46011224183487914,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.63804,
+      "rms": 0.015583857630775482,
+      "waveformRms": 0.015583857630775482,
+      "level": 0.38770675194564713,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 887,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7185955806114875,
+        "middle": 0.6656763211551856,
+        "high": 0.28207746570343234
+      },
+      "rawBands": {
+        "low": 0.7002809436253192,
+        "middle": 0.654701581117868,
+        "high": 0.27659485170497333
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.3642952388372764,
+        "energy": 0.7270279551445185,
+        "accent": 0.253304527254906,
+        "arrangement": 0.8485773756732644,
+        "height": 0.455634936577451,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.659229,
+      "rms": 0.01674586318030211,
+      "waveformRms": 0.01674586318030211,
+      "level": 0.3814969533335192,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 890,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7163740787022589,
+        "middle": 0.6643187544468171,
+        "high": 0.28253264687903157
+      },
+      "rawBands": {
+        "low": 0.6997593736302958,
+        "middle": 0.654061755431709,
+        "high": 0.28627362022107483
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.360295378058094,
+        "energy": 0.7145362748398245,
+        "accent": 0.23888504855204765,
+        "arrangement": 0.8485633595284375,
+        "height": 0.45174178638439844,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.679546,
+      "rms": 0.01591170890970547,
+      "waveformRms": 0.01591170890970547,
+      "level": 0.37342550505057287,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 894,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7132278363125047,
+        "middle": 0.663049808388082,
+        "high": 0.2852348264605143
+      },
+      "rawBands": {
+        "low": 0.6942179766469757,
+        "middle": 0.6571180182444618,
+        "high": 0.28977843701844386
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3548044585681887,
+        "energy": 0.6975621115424323,
+        "accent": 0.22004476817799865,
+        "arrangement": 0.8485323662705462,
+        "height": 0.4455761552232948,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.699864,
+      "rms": 0.014369407516376954,
+      "waveformRms": 0.014369407516376954,
+      "level": 0.3664959697784389,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 897,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7106099478147798,
+        "middle": 0.6625229056402006,
+        "high": 0.28696027743295516
+      },
+      "rawBands": {
+        "low": 0.6878660010547881,
+        "middle": 0.6586724163001186,
+        "high": 0.29644146565138285
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.350336205549638,
+        "energy": 0.6847764566190141,
+        "accent": 0.20642222180482195,
+        "arrangement": 0.8485115469375952,
+        "height": 0.44062475483985614,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.720181,
+      "rms": 0.013366310756854414,
+      "waveformRms": 0.013366310756854414,
+      "level": 0.3564129339904868,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 901,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.7064584814927207,
+        "middle": 0.6617636110948312,
+        "high": 0.28936615584020503
+      },
+      "rawBands": {
+        "low": 0.6804160751708215,
+        "middle": 0.6561073948866474,
+        "high": 0.29281039140801585
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.3440340602844318,
+        "energy": 0.6677853754167543,
+        "accent": 0.18918610924103493,
+        "arrangement": 0.8484884424771246,
+        "height": 0.4337890555159493,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.740499,
+      "rms": 0.013355052502229509,
+      "waveformRms": 0.013355052502229509,
+      "level": 0.34725339625115964,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 904,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.703108982581521,
+        "middle": 0.6608036378067877,
+        "high": 0.28895257377196376
+      },
+      "rawBands": {
+        "low": 0.6757425965505249,
+        "middle": 0.6511214568668509,
+        "high": 0.28692525566579263
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.338806074478343,
+        "energy": 0.6552893187653145,
+        "accent": 0.17687958525796693,
+        "arrangement": 0.848466247737311,
+        "height": 0.42887780260089153,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.760816,
+      "rms": 0.013011931084592395,
+      "waveformRms": 0.013011931084592395,
+      "level": 0.33594181330809353,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 908,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6980971219131011,
+        "middle": 0.6592140922380806,
+        "high": 0.288979779518463
+      },
+      "rawBands": {
+        "low": 0.6694570040624275,
+        "middle": 0.6504899638149704,
+        "high": 0.28589074266650805
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3320258861612146,
+        "energy": 0.6391758761284615,
+        "accent": 0.16138445309831154,
+        "arrangement": 0.8484438994371288,
+        "height": 0.42296124089785603,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.787827,
+      "rms": 0.012929884416552557,
+      "waveformRms": 0.012929884416552557,
+      "level": 0.3280233646390314,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 911,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6942879803624444,
+        "middle": 0.6581677672371699,
+        "high": 0.2878297597718989
+      },
+      "rawBands": {
+        "low": 0.6655116180950881,
+        "middle": 0.6510907339296378,
+        "high": 0.278606903532143
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.3270660994072416,
+        "energy": 0.6275252856356945,
+        "accent": 0.15037621080597188,
+        "arrangement": 0.8484213955317216,
+        "height": 0.41918131363216077,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.809117,
+      "rms": 0.012904548087580963,
+      "waveformRms": 0.012904548087580963,
+      "level": 0.31883599970171556,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 915,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6891165181077218,
+        "middle": 0.6567966994596193,
+        "high": 0.2852683418019577
+      },
+      "rawBands": {
+        "low": 0.658109804921827,
+        "middle": 0.6489985393915384,
+        "high": 0.2664889736706583
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.3208558517267577,
+        "energy": 0.6128488397092626,
+        "accent": 0.13664151999279728,
+        "arrangement": 0.8483907775104739,
+        "height": 0.4151866473755073,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.830451,
+      "rms": 0.013756076499989937,
+      "waveformRms": 0.013756076499989937,
+      "level": 0.31377728207119704,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 918,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6852099636206307,
+        "middle": 0.656178617380666,
+        "high": 0.28277950394974655
+      },
+      "rawBands": {
+        "low": 0.6554415885895162,
+        "middle": 0.6528146581054144,
+        "high": 0.26336069413110647
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.3167805758487854,
+        "energy": 0.6027610607082913,
+        "accent": 0.12712545123476598,
+        "arrangement": 0.8483791947794915,
+        "height": 0.41269713594618324,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.850794,
+      "rms": 0.013954208491307064,
+      "waveformRms": 0.013954208491307064,
+      "level": 0.30893439138263457,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 922,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6805956091493577,
+        "middle": 0.6563247566349381,
+        "high": 0.27973283646567454
+      },
+      "rawBands": {
+        "low": 0.6566127979165631,
+        "middle": 0.6568887010732122,
+        "high": 0.26598481898297266
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.3120653992938776,
+        "energy": 0.5912023588576988,
+        "accent": 0.11518018748709773,
+        "arrangement": 0.8483430703577884,
+        "height": 0.4089877801009381,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.871111,
+      "rms": 0.012589157897689605,
+      "waveformRms": 0.012589157897689605,
+      "level": 0.30471517020405164,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 925,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6776806856497608,
+        "middle": 0.6561864562522014,
+        "high": 0.27825714582173644
+      },
+      "rawBands": {
+        "low": 0.655292433350011,
+        "middle": 0.6529116776172209,
+        "high": 0.26955264201823365
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.3085129947092593,
+        "energy": 0.583603008804072,
+        "accent": 0.10684245779637751,
+        "arrangement": 0.8483214019550358,
+        "height": 0.40584516564587486,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.888526,
+      "rms": 0.011901446995343215,
+      "waveformRms": 0.011901446995343215,
+      "level": 0.29704739973550076,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 929,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6738821004668671,
+        "middle": 0.6548839022645567,
+        "high": 0.27710755256612374
+      },
+      "rawBands": {
+        "low": 0.651266704711857,
+        "middle": 0.642910252678069,
+        "high": 0.27239216449316633
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.3033103307206424,
+        "energy": 0.574018259563863,
+        "accent": 0.09654890332878842,
+        "arrangement": 0.8482998894518361,
+        "height": 0.4007657139067285,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.908844,
+      "rms": 0.011953040976381422,
+      "waveformRms": 0.011953040976381422,
+      "level": 0.29102786559259736,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 932,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6710565837180582,
+        "middle": 0.6536927165174802,
+        "high": 0.27640839274190016
+      },
+      "rawBands": {
+        "low": 0.649706649390449,
+        "middle": 0.6445082468116445,
+        "high": 0.269850593063325
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.2993196763162957,
+        "energy": 0.5670882937556807,
+        "accent": 0.08847252403488119,
+        "arrangement": 0.848276417922146,
+        "height": 0.3961840151895739,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.929161,
+      "rms": 0.012089656434888033,
+      "waveformRms": 0.012089656434888033,
+      "level": 0.28455164914723197,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 936,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6675066649924505,
+        "middle": 0.6518891949160226,
+        "high": 0.27563736298711394
+      },
+      "rawBands": {
+        "low": 0.6476037335715277,
+        "middle": 0.6415964892389813,
+        "high": 0.2734078412216875
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.2943770564829231,
+        "energy": 0.55864685219733,
+        "accent": 0.07646950553675014,
+        "arrangement": 0.8482527941800044,
+        "height": 0.3897424504545234,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.949478,
+      "rms": 0.012757011987954283,
+      "waveformRms": 0.012757011987954283,
+      "level": 0.28131335749187014,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 939,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6646669585668981,
+        "middle": 0.6510716059103071,
+        "high": 0.27813722906088634
+      },
+      "rawBands": {
+        "low": 0.6428457015376908,
+        "middle": 0.645754259398726,
+        "high": 0.2889502199702794
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.2912417441915747,
+        "energy": 0.5529510144804476,
+        "accent": 0.06855881849088769,
+        "arrangement": 0.8482290172290672,
+        "height": 0.38468603376990584,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.969796,
+      "rms": 0.01320140287039985,
+      "waveformRms": 0.01320140287039985,
+      "level": 0.2794913919710975,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 942,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6617703655569576,
+        "middle": 0.6516631372621833,
+        "high": 0.27861137443616585
+      },
+      "rawBands": {
+        "low": 0.6383013658623848,
+        "middle": 0.6573418914895502,
+        "high": 0.27351966494545643
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.2886494255153076,
+        "energy": 0.5480328882520947,
+        "accent": 0.0615033743586488,
+        "arrangement": 0.8482050860428263,
+        "height": 0.37958196934383504,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 106.995971,
+      "rms": 0.012968764615550635,
+      "waveformRms": 0.012968764615550635,
+      "level": 0.2772772305909196,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 946,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6572686621335112,
+        "middle": 0.6548608933601776,
+        "high": 0.27769291879727714
+      },
+      "rawBands": {
+        "low": 0.6305993333147379,
+        "middle": 0.6641818995779212,
+        "high": 0.2741148480392519
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.2854696564056427,
+        "energy": 0.5425876139451662,
+        "accent": 0.05312735952930808,
+        "arrangement": 0.8481810031320397,
+        "height": 0.37266326107126635,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.010431,
+      "rms": 0.01300304305387303,
+      "waveformRms": 0.01300304305387303,
+      "level": 0.27541049678375845,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 949,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6533212923873343,
+        "middle": 0.6576599712335771,
+        "high": 0.2808665928168248
+      },
+      "rawBands": {
+        "low": 0.6227417689213924,
+        "middle": 0.6684003849944761,
+        "high": 0.2952532357381382
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.2831515589287186,
+        "energy": 0.5387005687206927,
+        "accent": 0.04765997947079347,
+        "arrangement": 0.8481567662810963,
+        "height": 0.3678943231524054,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.037438,
+      "rms": 0.01230978973826489,
+      "waveformRms": 0.01230978973826489,
+      "level": 0.2725891479455063,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 952,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6492707484770895,
+        "middle": 0.6605907046991236,
+        "high": 0.2850389053037293
+      },
+      "rawBands": {
+        "low": 0.6170894657217767,
+        "middle": 0.6695356584801075,
+        "high": 0.2994318047696915
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.0061999999999998185,
+      "available": true,
+      "visual": {
+        "brightness": 1.2805578865829275,
+        "energy": 0.5341123126363102,
+        "accent": 0.042729606512850335,
+        "arrangement": 0.848132378030842,
+        "height": 0.3639316808404361,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.058314,
+      "rms": 0.0115141370274439,
+      "waveformRms": 0.0115141370274439,
+      "level": 0.2672110339373455,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 956,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6430923882328945,
+        "middle": 0.6618779391416963,
+        "high": 0.2876017275302441
+      },
+      "rawBands": {
+        "low": 0.6073647067901973,
+        "middle": 0.6647059058905184,
+        "high": 0.29123509932577246
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.2766265576982585,
+        "energy": 0.526934039756397,
+        "accent": 0.036954670536215574,
+        "arrangement": 0.8481078361356085,
+        "height": 0.35969979681402303,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.079534,
+      "rms": 0.012210110405454756,
+      "waveformRms": 0.012210110405454756,
+      "level": 0.26465751664765064,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 959,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6383185023144459,
+        "middle": 0.6624864615949817,
+        "high": 0.28661502530275484
+      },
+      "rawBands": {
+        "low": 0.6026286992607002,
+        "middle": 0.6647877479304588,
+        "high": 0.2777768788574593
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.2740416268368957,
+        "energy": 0.5208877080867576,
+        "accent": 0.03313175012574604,
+        "arrangement": 0.8480866795285713,
+        "height": 0.35645029534888834,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.100353,
+      "rms": 0.012978685101554775,
+      "waveformRms": 0.012978685101554775,
+      "level": 0.2628754430909018,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 963,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.632465494379134,
+        "middle": 0.6645272803062838,
+        "high": 0.28458896089786834
+      },
+      "rawBands": {
+        "low": 0.5983387837866173,
+        "middle": 0.6718261484540874,
+        "high": 0.27082789595600076
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.2710009868004122,
+        "energy": 0.5118693249457587,
+        "accent": 0.028653971101207088,
+        "arrangement": 0.8480487438817815,
+        "height": 0.3517320275989645,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.120726,
+      "rms": 0.012682710199011148,
+      "waveformRms": 0.012682710199011148,
+      "level": 0.26209427502206656,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 966,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6285420197332093,
+        "middle": 0.6664216397022785,
+        "high": 0.28250894466541326
+      },
+      "rawBands": {
+        "low": 0.6001999079149631,
+        "middle": 0.6744030767958007,
+        "high": 0.265451785038573
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.268808854954305,
+        "energy": 0.5040386872995914,
+        "accent": 0.02568974900493747,
+        "arrangement": 0.848025955380982,
+        "height": 0.34749898305263294,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.141043,
+      "rms": 0.012045721234751079,
+      "waveformRms": 0.012045721234751079,
+      "level": 0.2603465117919604,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 969,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6252298803214553,
+        "middle": 0.6683878155596585,
+        "high": 0.28048000809934825
+      },
+      "rawBands": {
+        "low": 0.6011286477661005,
+        "middle": 0.674747338474126,
+        "high": 0.26515837761397204
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.2663174183473958,
+        "energy": 0.49545992557707,
+        "accent": 0.023032172455457228,
+        "arrangement": 0.8480117523525385,
+        "height": 0.3426688474888522,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.158458,
+      "rms": 0.0109040555120543,
+      "waveformRms": 0.0109040555120543,
+      "level": 0.25514359946242304,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 973,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6205689036381049,
+        "middle": 0.6684607121187415,
+        "high": 0.2778128547106377
+      },
+      "rawBands": {
+        "low": 0.5932137768344565,
+        "middle": 0.6652858842639636,
+        "high": 0.26469678883357795
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.2620850807100532,
+        "energy": 0.4824085164054756,
+        "accent": 0.019919358362655425,
+        "arrangement": 0.8479764030379313,
+        "height": 0.33584848493897435,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.178776,
+      "rms": 0.010282229160034772,
+      "waveformRms": 0.010282229160034772,
+      "level": 0.2506093727519085,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 976,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.617276775189084,
+        "middle": 0.6676650341764475,
+        "high": 0.27650481030397284
+      },
+      "rawBands": {
+        "low": 0.5914747079279086,
+        "middle": 0.6588045254698425,
+        "high": 0.2701247937159492
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.2586371966794554,
+        "energy": 0.4716752358026001,
+        "accent": 0.017858722439154893,
+        "arrangement": 0.8479529845845706,
+        "height": 0.33088140927243037,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.199093,
+      "rms": 0.00933083412708397,
+      "waveformRms": 0.00933083412708397,
+      "level": 0.24308936328481648,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 980,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6129430879755506,
+        "middle": 0.6656210480489481,
+        "high": 0.27544965082144324
+      },
+      "rawBands": {
+        "low": 0.5851710800579991,
+        "middle": 0.6503419167190858,
+        "high": 0.26797155869737804
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.2535486261616215,
+        "energy": 0.4566515199941866,
+        "accent": 0.015435839424020712,
+        "arrangement": 0.8479244491841473,
+        "height": 0.3244656192556276,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.21941,
+      "rms": 0.008324538809069089,
+      "waveformRms": 0.008324538809069089,
+      "level": 0.23629765375874717,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 983,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6095056936404778,
+        "middle": 0.6630902740163398,
+        "high": 0.27390947025065854
+      },
+      "rawBands": {
+        "low": 0.5829991050486646,
+        "middle": 0.6413222177083723,
+        "high": 0.2611677206911012
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.2494419986248726,
+        "energy": 0.44570815344961234,
+        "accent": 0.01384732455332084,
+        "arrangement": 0.8478986514167693,
+        "height": 0.31987002466962594,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.239728,
+      "rms": 0.008053799498000528,
+      "waveformRms": 0.008053799498000528,
+      "level": 0.2268728062616646,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 987,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6056032346075421,
+        "middle": 0.6581606084869689,
+        "high": 0.2722423044588064
+      },
+      "rawBands": {
+        "low": 0.5844346472536358,
+        "middle": 0.6261949248749384,
+        "high": 0.2647522399540389
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.243958643449366,
+        "energy": 0.43243774631546317,
+        "accent": 0.011968665675027749,
+        "arrangement": 0.8478727013752752,
+        "height": 0.314110123243239,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.260045,
+      "rms": 0.007452815331642014,
+      "waveformRms": 0.007452815331642014,
+      "level": 0.21991793423913808,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 990,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6033548968555705,
+        "middle": 0.6536296062701052,
+        "high": 0.271154089697247
+      },
+      "rawBands": {
+        "low": 0.5852724827505429,
+        "middle": 0.6150233686954057,
+        "high": 0.26127460778987693
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.2401300522935284,
+        "energy": 0.4249673168444052,
+        "accent": 0.010736960493019294,
+        "arrangement": 0.8478466017691483,
+        "height": 0.31038930282291866,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.280368,
+      "rms": 0.007381052344244298,
+      "waveformRms": 0.007381052344244298,
+      "level": 0.21123928460302327,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 994,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6008183074120829,
+        "middle": 0.6461503750564281,
+        "high": 0.26968617956340696
+      },
+      "rawBands": {
+        "low": 0.5866501958856747,
+        "middle": 0.602718734946102,
+        "high": 0.26248853663588334
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.2355317652956508,
+        "energy": 0.41839881170524834,
+        "accent": 0.009280282989836472,
+        "arrangement": 0.8478203501842552,
+        "height": 0.3064320856286663,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.307342,
+      "rms": 0.008299198668724726,
+      "waveformRms": 0.008299198668724726,
+      "level": 0.2062950997479055,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 997,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.5994971688212298,
+        "middle": 0.6406051675241764,
+        "high": 0.2683184857777599
+      },
+      "rawBands": {
+        "low": 0.5898638259569423,
+        "middle": 0.5988392933577978,
+        "high": 0.25644673639193705
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.2328117197341035,
+        "energy": 0.4161864970762809,
+        "accent": 0.00832524147063559,
+        "arrangement": 0.8477939493597615,
+        "height": 0.30539939107272107,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.328706,
+      "rms": 0.008346971209525898,
+      "waveformRms": 0.008346971209525898,
+      "level": 0.2021212446378697,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 1000,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.5988317299502519,
+        "middle": 0.6351817024811259,
+        "high": 0.26687116359530483
+      },
+      "rawBands": {
+        "low": 0.595945979697891,
+        "middle": 0.5935102707665497,
+        "high": 0.25907823504051053
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006,
+      "available": true,
+      "visual": {
+        "brightness": 1.2305244403166442,
+        "energy": 0.41583340731766255,
+        "accent": 0.0074640043095846875,
+        "arrangement": 0.8477673968518816,
+        "height": 0.3059384272819186,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.349483,
+      "rms": 0.008363937695208499,
+      "waveformRms": 0.008363937695208499,
+      "level": 0.19780404012615427,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 1004,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.5993015352636047,
+        "middle": 0.6281374575841252,
+        "high": 0.2659901853326168
+      },
+      "rawBands": {
+        "low": 0.60195930112322,
+        "middle": 0.5898460650022948,
+        "high": 0.2607916008277101
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999999454,
+      "available": true,
+      "visual": {
+        "brightness": 1.2367410981894686,
+        "energy": 0.4178885423613778,
+        "accent": 0.13220291245152516,
+        "arrangement": 0.8477329317688449,
+        "height": 0.30818152735024995,
+        "meteor": 1
+      }
+    },
+    {
+      "time": 107.37034,
+      "rms": 0.009523214041099853,
+      "waveformRms": 0.009523214041099853,
+      "level": 0.19654135076122223,
+      "referenceRms": 0.05,
+      "fftSize": 2048,
+      "sampleCount": 1007,
+      "bufferAllocations": 1,
+      "frequencyAllocations": 1,
+      "bands": {
+        "low": 0.6002238053582168,
+        "middle": 0.6238605853267719,
+        "high": 0.2649699624125163
+      },
+      "rawBands": {
+        "low": 0.6031887787150677,
+        "middle": 0.5930207970142277,
+        "high": 0.2573080009553471
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006100000000000364,
+      "available": true,
+      "visual": {
+        "brightness": 1.2409206964762993,
+        "energy": 0.4206115399872536,
+        "accent": 0.20454406115472729,
+        "arrangement": 0.8477176884848049,
+        "height": 0.3102326397359879,
+        "meteor": 1
+      }
+    }
+  ],
+  "mediaTimeAndBackwardSeek": [
+    {
+      "mediaTime": 30.13932,
+      "visual": {
+        "requested": true,
+        "enabled": true,
+        "reducedMotion": false,
+        "section": "top",
+        "sectionGain": 1,
+        "rms": 0.012149546379930267,
+        "currentBrightness": 1.0933194548662977,
+        "targetBrightness": 1.2199608870777015,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1.0933194548662977,
+          "energy": 0.2531262524490067,
+          "accent": 0.16267272971873978,
+          "arrangement": 0.20189384011815073,
+          "height": 0.49259580627138927,
+          "meteor": 0.5505811611027746
+        },
+        "target": {
+          "brightness": 1.2199608870777015,
+          "energy": 0.45005343535156184,
+          "accent": 0.21293298700427882,
+          "arrangement": 0.368283346019769,
+          "height": 0.46890023763671757,
+          "meteor": 1
+        },
+        "features": {
+          "available": true,
+          "time": 30.13932,
+          "energy": 0.45005343535156184,
+          "register": 0.5319693369140642,
+          "onset": 0.21293298700427882,
+          "onsetIndex": 44,
+          "phase": {
+            "label": "蓄势",
+            "kind": "build",
+            "start": 18,
+            "end": 40
+          },
+          "arrangement": 0.368283346019769,
+          "meteors": [],
+          "calibrated": true
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000000364,
+        "updateCount": 657
+      },
+      "meter": {
+        "rms": 0.012149546379930267,
+        "waveformRms": 0.012149546379930267,
+        "level": 0.23882838345167662,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 1038,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0.6369706136119131,
+          "middle": 0.622700925252374,
+          "high": 0.23901099000944342
+        },
+        "rawBands": {
+          "low": 0.6560249092895672,
+          "middle": 0.6191429261093617,
+          "high": 0.20065975761358976
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000000364,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0.255685617386831,
+        "height": 0.493800396931928,
+        "drawnEnergy": 0,
+        "renderCount": 2,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 0.5505811611027746,
+        "active": [],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    },
+    {
+      "mediaTime": 120.130612,
+      "visual": {
+        "requested": true,
+        "enabled": true,
+        "reducedMotion": false,
+        "section": "top",
+        "sectionGain": 1,
+        "rms": 0.016302310955264108,
+        "currentBrightness": 1.1156152020289676,
+        "targetBrightness": 1.3458602702986346,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1.1156152020289676,
+          "energy": 0.3699906571411613,
+          "accent": 0.2165973861933056,
+          "arrangement": 0.4312588532601091,
+          "height": 0.3921411559834088,
+          "meteor": 0.5338277136564585
+        },
+        "target": {
+          "brightness": 1.3458602702986346,
+          "energy": 0.754259757470698,
+          "accent": 0.3014902399243394,
+          "arrangement": 0.807639968359702,
+          "height": 0.15999999999999992,
+          "meteor": 1
+        },
+        "features": {
+          "available": true,
+          "time": 120.121905,
+          "energy": 0.754259757470698,
+          "register": 1,
+          "onset": 0.3014902399243394,
+          "onsetIndex": 177,
+          "phase": {
+            "label": "星潮",
+            "kind": "burst",
+            "start": 104,
+            "end": 150
+          },
+          "arrangement": 0.807639968359702,
+          "meteors": [
+            {
+              "time": 119.5,
+              "duration": 1.35,
+              "from": [
+                0.97,
+                0.32
+              ],
+              "to": [
+                0.79,
+                0.5
+              ]
+            }
+          ],
+          "calibrated": true
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006,
+        "updateCount": 679
+      },
+      "meter": {
+        "rms": 0.016302310955264108,
+        "waveformRms": 0.016302310955264108,
+        "level": 0.2631902561585493,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 1060,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0.6192007666441857,
+          "middle": 0.5823678390588106,
+          "high": 0.2526536709285774
+        },
+        "rawBands": {
+          "low": 0.6628411159578338,
+          "middle": 0.5863267570618674,
+          "high": 0.30657925023329746
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0.40201099186759065,
+        "height": 0.40072269253768583,
+        "drawnEnergy": 0,
+        "renderCount": 3,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 0.5338277136564585,
+        "active": [
+          {
+            "time": 119.5,
+            "progress": 0.46067037037036895,
+            "x": 1419.3269333333337,
+            "y": 402.9206666666664,
+            "alpha": 0.34302766861175327
+          }
+        ],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    },
+    {
+      "mediaTime": 165.12771,
+      "visual": {
+        "requested": true,
+        "enabled": true,
+        "reducedMotion": false,
+        "section": "top",
+        "sectionGain": 1,
+        "rms": 0.002801139798183167,
+        "currentBrightness": 1.0312474909306268,
+        "targetBrightness": 1.0599717417519967,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1.0312474909306268,
+          "energy": 0.0956150445017496,
+          "accent": 0.020696709243844414,
+          "arrangement": 0.047609432827767834,
+          "height": 0.396357530318635,
+          "meteor": 0.5167397738899268
+        },
+        "target": {
+          "brightness": 1.0599717417519967,
+          "energy": 0.16984036919922382,
+          "accent": 0.0302743980497927,
+          "arrangement": 0.09200905612095472,
+          "height": 0.15999999999999992,
+          "meteor": 1
+        },
+        "features": {
+          "available": true,
+          "time": 165.119002,
+          "energy": 0.16984036919922382,
+          "register": 1,
+          "onset": 0.0302743980497927,
+          "onsetIndex": 241,
+          "phase": {
+            "label": "静息",
+            "kind": "rest",
+            "start": 150,
+            "end": 178
+          },
+          "arrangement": 0.09200905612095472,
+          "meteors": [],
+          "calibrated": true
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006,
+        "updateCount": 702
+      },
+      "meter": {
+        "rms": 0.002801139798183167,
+        "waveformRms": 0.002801139798183167,
+        "level": 0.179123487311375,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 1083,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0.5758355056556812,
+          "middle": 0.550273214817371,
+          "high": 0.2695862007393559
+        },
+        "rawBands": {
+          "low": 0.45483534700270756,
+          "middle": 0.5351577130044978,
+          "high": 0.2363733435263483
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0.09120834458821596,
+        "height": 0.4006504865613624,
+        "drawnEnergy": 0,
+        "renderCount": 4,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 0.5167397738899268,
+        "active": [],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    },
+    {
+      "mediaTime": 245.130612,
+      "visual": {
+        "requested": true,
+        "enabled": true,
+        "reducedMotion": false,
+        "section": "top",
+        "sectionGain": 1,
+        "rms": 0.0007818787706968852,
+        "currentBrightness": 1.0047575142124554,
+        "targetBrightness": 1.0139915882962105,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1.0047575142124554,
+          "energy": 0.01906730787175704,
+          "accent": 0,
+          "arrangement": 0.009252645365086458,
+          "height": 0.4048918889623545,
+          "meteor": 0.5167397738899268
+        },
+        "target": {
+          "brightness": 1.0139915882962105,
+          "energy": 0.039481644082031385,
+          "accent": 0,
+          "arrangement": 0.017743688468880206,
+          "height": 0.2010530890515646,
+          "meteor": 1
+        },
+        "features": {
+          "available": true,
+          "time": 245.119002,
+          "energy": 0.039481644082031385,
+          "register": 0.9377983499218717,
+          "onset": 0,
+          "onsetIndex": 348,
+          "phase": {
+            "label": "尾声",
+            "kind": "outro",
+            "start": 220,
+            "end": 254.334
+          },
+          "arrangement": 0.017743688468880206,
+          "meteors": [],
+          "calibrated": true
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006,
+        "updateCount": 725
+      },
+      "meter": {
+        "rms": 0.0007818787706968852,
+        "waveformRms": 0.0007818787706968852,
+        "level": 0.08547748288202155,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 1106,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0.4019161612889713,
+          "middle": 0.43287012616312404,
+          "high": 0.15923790866060378
+        },
+        "rawBands": {
+          "low": 0.27305277666876,
+          "middle": 0.3267186062300398,
+          "high": 0.014172977120304766
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0.017359432431311446,
+        "height": 0.40859420827245807,
+        "drawnEnergy": 0,
+        "renderCount": 5,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 0.5167397738899268,
+        "active": [],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    },
+    {
+      "mediaTime": 45.93932,
+      "visual": {
+        "requested": true,
+        "enabled": true,
+        "reducedMotion": false,
+        "section": "top",
+        "sectionGain": 1,
+        "rms": 0.02456422128356557,
+        "currentBrightness": 1.1626756759453603,
+        "targetBrightness": 1.4263312734086737,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1.1626756759453603,
+          "energy": 0.5461697599722998,
+          "accent": 0.13696895571176837,
+          "arrangement": 0.38269722742345313,
+          "height": 0.48816593774501893,
+          "meteor": 0.5508507315268996
+        },
+        "target": {
+          "brightness": 1.4263312734086737,
+          "energy": 0.9789591425781233,
+          "accent": 0.17678325360146224,
+          "arrangement": 0.6938214370937882,
+          "height": 0.46497341591406194,
+          "meteor": 1
+        },
+        "features": {
+          "available": true,
+          "time": 45.93932,
+          "energy": 0.9789591425781233,
+          "register": 0.5379190667968757,
+          "onset": 0.17678325360146224,
+          "onsetIndex": 67,
+          "phase": {
+            "label": "展开",
+            "kind": "burst",
+            "start": 40,
+            "end": 57
+          },
+          "arrangement": 0.6938214370937882,
+          "meteors": [
+            {
+              "time": 45.2,
+              "duration": 1.45,
+              "from": [
+                0.94,
+                0.19
+              ],
+              "to": [
+                0.72,
+                0.39
+              ]
+            }
+          ],
+          "calibrated": true
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000000364,
+        "updateCount": 749
+      },
+      "meter": {
+        "rms": 0.02456422128356557,
+        "waveformRms": 0.02456422128356557,
+        "level": 0.4174569373056804,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 1130,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0.6024978724559493,
+          "middle": 0.5905330716708836,
+          "high": 0.21220753965509104
+        },
+        "rawBands": {
+          "low": 0.7121823412393464,
+          "middle": 0.7009891647594253,
+          "high": 0.29564353430704393
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000000364,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0.5108971153408735,
+        "height": 0.4895643799239239,
+        "drawnEnergy": 0,
+        "renderCount": 6,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 0.5508507315268996,
+        "active": [
+          {
+            "time": 45.2,
+            "progress": 0.5098758620689651,
+            "x": 1324.5236965517242,
+            "y": 291.975172413793,
+            "alpha": 0.35779452865094363
+          }
+        ],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    },
+    {
+      "mediaTime": 5.13932,
+      "visual": {
+        "requested": true,
+        "enabled": true,
+        "reducedMotion": false,
+        "section": "top",
+        "sectionGain": 1,
+        "rms": 0.007331047677527721,
+        "currentBrightness": 1.0624458811489237,
+        "targetBrightness": 1.1344227289676911,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1.0624458811489237,
+          "energy": 0.1627606361998653,
+          "accent": 0.17867859879868128,
+          "arrangement": 0.02615299512767965,
+          "height": 0.6055404814617793,
+          "meteor": 0.5508507315268997
+        },
+        "target": {
+          "brightness": 1.1344227289676911,
+          "energy": 0.3047893544921874,
+          "accent": 0.23182377701462764,
+          "arrangement": 0.04782091409070698,
+          "height": 0.82,
+          "meteor": 1
+        },
+        "features": {
+          "available": true,
+          "time": 5.13932,
+          "energy": 0.3047893544921874,
+          "register": 0,
+          "onset": 0.23182377701462764,
+          "onsetIndex": 5,
+          "phase": {
+            "label": "序章",
+            "kind": "intro",
+            "start": 0,
+            "end": 18
+          },
+          "arrangement": 0.04782091409070698,
+          "meteors": [],
+          "calibrated": true
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000000364,
+        "updateCount": 772
+      },
+      "meter": {
+        "rms": 0.007331047677527721,
+        "waveformRms": 0.007331047677527721,
+        "level": 0.2803116230784711,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 1153,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0.6358731518862281,
+          "middle": 0.5963878694640491,
+          "high": 0.1892794646168687
+        },
+        "rawBands": {
+          "low": 0.6130981707762618,
+          "middle": 0.5093667496287517,
+          "high": 0.05328819713633908
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000000364,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0.1603100691198127,
+        "height": 0.5975458538177554,
+        "drawnEnergy": 0,
+        "renderCount": 7,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 0.5508507315268997,
+        "active": [],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    }
+  ],
+  "portraitComparison": {
+    "off": {
+      "mediaTime": 70.400317,
+      "visual": {
+        "requested": false,
+        "enabled": false,
+        "reducedMotion": false,
+        "section": "about",
+        "sectionGain": 0.25,
+        "rms": 0,
+        "currentBrightness": 1,
+        "targetBrightness": 1,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1,
+          "energy": 0,
+          "accent": 0,
+          "arrangement": 0,
+          "height": 0.5,
+          "meteor": 0
+        },
+        "target": {
+          "brightness": 1,
+          "energy": 0,
+          "accent": 0,
+          "arrangement": 0,
+          "height": 0.5,
+          "meteor": 0
+        },
+        "features": {
+          "available": true,
+          "time": 6.097843,
+          "energy": 0.26929940208984376,
+          "register": 0.05828619628417954,
+          "onset": 0.9239218602201138,
+          "onsetIndex": 7,
+          "phase": {
+            "label": "序章",
+            "kind": "intro",
+            "start": 0,
+            "end": 18
+          },
+          "arrangement": 0.053988250327101306,
+          "meteors": [],
+          "calibrated": true
+        },
+        "pendingFrames": 0,
+        "lastDeltaTime": 0.006,
+        "updateCount": 927
+      },
+      "meter": {
+        "rms": 0.01257933876642815,
+        "waveformRms": 0.01257933876642815,
+        "level": 0.32275868199713065,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 1523,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0.6566667329903402,
+          "middle": 0.6954790489069081,
+          "high": 0.3552696957460401
+        },
+        "rawBands": {
+          "low": 0.6076831187374698,
+          "middle": 0.6701060660891112,
+          "high": 0.3523176755922418
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006199999999998909,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0,
+        "height": 0.5,
+        "drawnEnergy": 0,
+        "renderCount": 24,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 0,
+        "active": [],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    },
+    "on": {
+      "mediaTime": 70.400317,
+      "visual": {
+        "requested": true,
+        "enabled": true,
+        "reducedMotion": false,
+        "section": "about",
+        "sectionGain": 0.25,
+        "rms": 0.01257933876642815,
+        "currentBrightness": 1.0714918439469094,
+        "targetBrightness": 1.0697993266765429,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1.0714918439469094,
+          "energy": 0.15165397711852413,
+          "accent": 0.0842206103827757,
+          "arrangement": 0.07848093083510793,
+          "height": 0.1782226417908662,
+          "meteor": 0
+        },
+        "target": {
+          "brightness": 1.0697993266765429,
+          "energy": 0.12061755480957022,
+          "accent": 0.19063365907346683,
+          "arrangement": 0.07848093083510793,
+          "height": 0.15999999999999992,
+          "meteor": 0
+        },
+        "features": {
+          "available": true,
+          "time": 70.400317,
+          "energy": 0.4824702192382809,
+          "register": 1,
+          "onset": 0.7625346362938673,
+          "onsetIndex": 106,
+          "phase": {
+            "label": "回旋",
+            "kind": "flow",
+            "start": 57,
+            "end": 90
+          },
+          "arrangement": 0.3139237233404317,
+          "meteors": [],
+          "calibrated": true
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006,
+        "updateCount": 1142
+      },
+      "meter": {
+        "rms": 0.01257933876642815,
+        "waveformRms": 0.01257933876642815,
+        "level": 0.3234004411045729,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 1751,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0.6550863289043051,
+          "middle": 0.6950508065094609,
+          "high": 0.35448856965418707
+        },
+        "rawBands": {
+          "low": 0.6058335855421029,
+          "middle": 0.6695332027921032,
+          "high": 0.35194213975327515
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0.1587255840469896,
+        "height": 0.18031917203013034,
+        "drawnEnergy": 0.1587255840469896,
+        "renderCount": 45,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 0,
+        "active": [],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    }
+  },
+  "aboutCopyPixelsIdentical": true,
+  "registerHeight": [
+    {
+      "mediaTime": 14.808259,
+      "visual": {
+        "requested": true,
+        "enabled": true,
+        "reducedMotion": false,
+        "section": "about",
+        "sectionGain": 0.25,
+        "rms": 0.009164658223712041,
+        "currentBrightness": 1.038542615944999,
+        "targetBrightness": 1.0355574169001658,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1.038542615944999,
+          "energy": 0.10156867425048723,
+          "accent": 0.0038002568958523508,
+          "arrangement": 0.02812069878427135,
+          "height": 0.6754748863025974,
+          "meteor": 0
+        },
+        "target": {
+          "brightness": 1.0355574169001658,
+          "energy": 0.09361527843749995,
+          "accent": 0,
+          "arrangement": 0.02812069878427135,
+          "height": 0.66944126261875,
+          "meteor": 0
+        },
+        "features": {
+          "available": true,
+          "time": 14.801088,
+          "energy": 0.3744611137499998,
+          "register": 0.22811929906249984,
+          "onset": 0,
+          "onsetIndex": 19,
+          "phase": {
+            "label": "序章",
+            "kind": "intro",
+            "start": 0,
+            "end": 18
+          },
+          "arrangement": 0.1124827951370854,
+          "meteors": [],
+          "calibrated": true
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000000364,
+        "updateCount": 1296
+      },
+      "meter": {
+        "rms": 0.009164658223712041,
+        "waveformRms": 0.009164658223712041,
+        "level": 0.21079672480533482,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 1905,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0.6562976093303573,
+          "middle": 0.5728575559423099,
+          "high": 0.09112147459305248
+        },
+        "rawBands": {
+          "low": 0.6422939183233529,
+          "middle": 0.5758730982057044,
+          "high": 0.08683934640997887
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000000364,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0.0935835747657505,
+        "height": 0.67605463611646,
+        "drawnEnergy": 0.0935835747657505,
+        "renderCount": 61,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 0,
+        "active": [],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    },
+    {
+      "mediaTime": 72.798186,
+      "visual": {
+        "requested": true,
+        "enabled": true,
+        "reducedMotion": false,
+        "section": "about",
+        "sectionGain": 0.25,
+        "rms": 0.01097067585657511,
+        "currentBrightness": 1.0536277357975952,
+        "targetBrightness": 1.047511989622098,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1.0536277357975952,
+          "energy": 0.13258355150040632,
+          "accent": 0.0005922490696203458,
+          "arrangement": 0.07579703496536129,
+          "height": 0.285380697374232,
+          "meteor": 0
+        },
+        "target": {
+          "brightness": 1.047511989622098,
+          "energy": 0.12191796944824225,
+          "accent": 0,
+          "arrangement": 0.07579703496536129,
+          "height": 0.19645571967167963,
+          "meteor": 0
+        },
+        "features": {
+          "available": true,
+          "time": 72.798186,
+          "energy": 0.487671877792969,
+          "register": 0.9447640611035155,
+          "onset": 0,
+          "onsetIndex": 109,
+          "phase": {
+            "label": "回旋",
+            "kind": "flow",
+            "start": 57,
+            "end": 90
+          },
+          "arrangement": 0.30318813986144516,
+          "meteors": [],
+          "calibrated": true
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000000364,
+        "updateCount": 1442
+      },
+      "meter": {
+        "rms": 0.01097067585657511,
+        "waveformRms": 0.01097067585657511,
+        "level": 0.27754525635350047,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 2051,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0.6663513267073002,
+          "middle": 0.6429611927741673,
+          "high": 0.31107674921953254
+        },
+        "rawBands": {
+          "low": 0.6375396109340294,
+          "middle": 0.6332261318627592,
+          "high": 0.3103642592826734
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000000364,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0.12890822088314727,
+        "height": 0.2903765172899641,
+        "drawnEnergy": 0.12890822088314727,
+        "renderCount": 76,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 0,
+        "active": [],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    }
+  ],
+  "frozenPortrait": {
+    "fingerprints": {
+      "positions": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+      "sizes": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+      "highlights": "f310329345e798be256ca7326a396cffc5a3a3fc6deefe15f0bab3722548feb1"
+    },
+    "cameraUnchanged": true,
+    "particleCount": 36000,
+    "contourParticles": 12020
+  },
+  "projectsReading": {
+    "gain": 0.12,
+    "brightness": 1.0507355281136443,
+    "noMeteors": true,
+    "keyboardSwitchAndClose": true
+  },
+  "pauseRelease": {
+    "start": {
+      "mediaTime": 105.628526,
+      "visual": {
+        "requested": true,
+        "enabled": true,
+        "reducedMotion": false,
+        "section": "top",
+        "sectionGain": 1,
+        "rms": 0,
+        "currentBrightness": 1.4123724665671793,
+        "targetBrightness": 1,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1.4123724665671793,
+          "energy": 0.9550262282927676,
+          "accent": 0.4582580150081541,
+          "arrangement": 0.8231191120140217,
+          "height": 0.4523658355587479,
+          "meteor": 0.9688936227779614
+        },
+        "target": {
+          "brightness": 1,
+          "energy": 0,
+          "accent": 0,
+          "arrangement": 0,
+          "height": 0.4523658355587479,
+          "meteor": 0
+        },
+        "features": {
+          "available": true,
+          "time": 105.628526,
+          "energy": 0.9533999549707002,
+          "register": 0.5850510903222648,
+          "onset": 0.4031374219458022,
+          "onsetIndex": 157,
+          "phase": {
+            "label": "星潮",
+            "kind": "burst",
+            "start": 104,
+            "end": 150
+          },
+          "arrangement": 0.8494493023766789,
+          "meteors": [
+            {
+              "time": 105.1,
+              "duration": 1.6,
+              "from": [
+                0.91,
+                0.15
+              ],
+              "to": [
+                0.68,
+                0.4
+              ]
+            }
+          ],
+          "calibrated": true
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000002183,
+        "updateCount": 2063
+      },
+      "meter": {
+        "rms": 0,
+        "waveformRms": 0.024793453073310965,
+        "level": 0.48503557699729416,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 2672,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0.701749257974801,
+          "middle": 0.6960519653270253,
+          "high": 0.30384557102342663
+        },
+        "rawBands": {
+          "low": 0,
+          "middle": 0,
+          "high": 0
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000002183,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0.55,
+        "height": 0.4523658355587479,
+        "drawnEnergy": 0,
+        "renderCount": 88,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 0.9688936227779614,
+        "active": [
+          {
+            "time": 105.1,
+            "progress": 0.3303287499999996,
+            "x": 1334.4390200000003,
+            "y": 232.5821874999999,
+            "alpha": 0.5033805091707668
+          }
+        ],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    },
+    "middle": {
+      "mediaTime": 105.628526,
+      "visual": {
+        "requested": true,
+        "enabled": true,
+        "reducedMotion": false,
+        "section": "top",
+        "sectionGain": 1,
+        "rms": 0,
+        "currentBrightness": 1.2263148080568627,
+        "targetBrightness": 1,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1.2263148080568627,
+          "energy": 0.5241295068620612,
+          "accent": 0.25149733096982596,
+          "arrangement": 0.4517373465646774,
+          "height": 0.4523658355587479,
+          "meteor": 0.5317400943178415
+        },
+        "target": {
+          "brightness": 1,
+          "energy": 0,
+          "accent": 0,
+          "arrangement": 0,
+          "height": 0.4523658355587479,
+          "meteor": 0
+        },
+        "features": {
+          "available": true,
+          "time": 105.628526,
+          "energy": 0.9533999549707002,
+          "register": 0.5850510903222648,
+          "onset": 0.4031374219458022,
+          "onsetIndex": 157,
+          "phase": {
+            "label": "星潮",
+            "kind": "burst",
+            "start": 104,
+            "end": 150
+          },
+          "arrangement": 0.8494493023766789,
+          "meteors": [
+            {
+              "time": 105.1,
+              "duration": 1.6,
+              "from": [
+                0.91,
+                0.15
+              ],
+              "to": [
+                0.68,
+                0.4
+              ]
+            }
+          ],
+          "calibrated": true
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000002183,
+        "updateCount": 2096
+      },
+      "meter": {
+        "rms": 0,
+        "waveformRms": 0,
+        "level": 0.1460899083630802,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 2705,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0.17304923646486106,
+          "middle": 0.17164430139523273,
+          "high": 0.07492739532148074
+        },
+        "rawBands": {
+          "low": 0,
+          "middle": 0,
+          "high": 0
+        },
+        "pendingFrames": 1,
+        "lastDeltaTime": 0.006100000000002183,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0.55,
+        "height": 0.4523658355587479,
+        "drawnEnergy": 0,
+        "renderCount": 88,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 0.5317400943178415,
+        "active": [
+          {
+            "time": 105.1,
+            "progress": 0.3303287499999996,
+            "x": 1334.4390200000003,
+            "y": 232.5821874999999,
+            "alpha": 0.27626108081585266
+          }
+        ],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    },
+    "settled": {
+      "mediaTime": 105.628526,
+      "visual": {
+        "requested": true,
+        "enabled": true,
+        "reducedMotion": false,
+        "section": "top",
+        "sectionGain": 1,
+        "rms": 0,
+        "currentBrightness": 1,
+        "targetBrightness": 1,
+        "baseBrightness": 1,
+        "current": {
+          "brightness": 1,
+          "energy": 0,
+          "accent": 0,
+          "arrangement": 0,
+          "height": 0.4523658355587479,
+          "meteor": 0
+        },
+        "target": {
+          "brightness": 1,
+          "energy": 0,
+          "accent": 0,
+          "arrangement": 0,
+          "height": 0.4523658355587479,
+          "meteor": 0
+        },
+        "features": {
+          "available": true,
+          "time": 105.628526,
+          "energy": 0.9533999549707002,
+          "register": 0.5850510903222648,
+          "onset": 0.4031374219458022,
+          "onsetIndex": 157,
+          "phase": {
+            "label": "星潮",
+            "kind": "burst",
+            "start": 104,
+            "end": 150
+          },
+          "arrangement": 0.8494493023766789,
+          "meteors": [
+            {
+              "time": 105.1,
+              "duration": 1.6,
+              "from": [
+                0.91,
+                0.15
+              ],
+              "to": [
+                0.68,
+                0.4
+              ]
+            }
+          ],
+          "calibrated": true
+        },
+        "pendingFrames": 0,
+        "lastDeltaTime": 0.006,
+        "updateCount": 2480
+      },
+      "meter": {
+        "rms": 0,
+        "waveformRms": 0,
+        "level": 0,
+        "referenceRms": 0.05,
+        "fftSize": 2048,
+        "sampleCount": 2862,
+        "bufferAllocations": 1,
+        "frequencyAllocations": 1,
+        "bands": {
+          "low": 0,
+          "middle": 0,
+          "high": 0
+        },
+        "rawBands": {
+          "low": 0,
+          "middle": 0,
+          "high": 0
+        },
+        "pendingFrames": 0,
+        "lastDeltaTime": 0.006,
+        "available": true
+      },
+      "portrait": {
+        "energy": 0,
+        "height": 0.4523658355587479,
+        "drawnEnergy": 0,
+        "renderCount": 89,
+        "contourParticles": 12020
+      },
+      "meteors": {
+        "opacity": 0,
+        "active": [],
+        "width": 1600,
+        "height": 1000,
+        "leftBoundary": 0.54
+      }
+    }
+  },
+  "reducedMotion": {
+    "visualsStatic": true,
+    "frequencyBarsStatic": true,
+    "manualPlaybackWorks": true,
+    "sameMusicKeepsAdvancing": true
+  },
+  "newTrackReanalysis": {
+    "analysis": {
+      "status": "ready-uncalibrated",
+      "sourceURL": "http://127.0.0.1:8765/assets/audio/ambient-test.wav",
+      "sourceHash": "a1acb286d53842cacad72bf738811c2c3dd9e2a94067f83259158d095a1a9fa2",
+      "calibrated": false,
+      "error": null,
+      "duration": 8,
+      "featureFrames": 169,
+      "onsetCount": 0,
+      "registerMethod": "log spectral centroid, not precise pitch",
+      "manualCueCount": 0
+    },
+    "sample": {
+      "available": true,
+      "time": 105.8,
+      "energy": 0.1427,
+      "register": 0.0883,
+      "onset": 0,
+      "onsetIndex": -1,
+      "phase": null,
+      "arrangement": 0,
+      "meteors": [],
+      "calibrated": false
+    },
+    "visual": {
+      "requested": true,
+      "enabled": true,
+      "reducedMotion": false,
+      "section": "top",
+      "sectionGain": 1,
+      "rms": 0.001267583832616353,
+      "currentBrightness": 1.0032446167364406,
+      "targetBrightness": 1.0311966706609308,
+      "baseBrightness": 1,
+      "current": {
+        "brightness": 1.0032446167364406,
+        "energy": 0.004729482529363452,
+        "accent": 0,
+        "arrangement": 0,
+        "height": 0.49480162473309663,
+        "meteor": 0
+      },
+      "target": {
+        "brightness": 1.0311966706609308,
+        "energy": 0.1316,
+        "accent": 0,
+        "arrangement": 0,
+        "height": 0.7547919999999999,
+        "meteor": 0
+      },
+      "features": {
+        "available": true,
+        "time": 0.074283,
+        "energy": 0.1316,
+        "register": 0.0988,
+        "onset": 0,
+        "onsetIndex": -1,
+        "phase": null,
+        "arrangement": 0,
+        "meteors": [],
+        "calibrated": false
+      },
+      "pendingFrames": 1,
+      "lastDeltaTime": 0.006099999999998545,
+      "updateCount": 2495
+    }
+  },
+  "reuse": {
+    "sameObjects": true,
+    "stats": {
+      "contexts": 1,
+      "sources": 1,
+      "gains": 1,
+      "analysers": 1,
+      "connections": 3
+    },
+    "waveformAndFrequencyAllocations": 1,
+    "singleAudioElement": true
+  },
+  "existingContentAndStaticLayersUnchanged": true,
+  "mobile": {
+    "noHorizontalOverflow": true,
+    "audioAndVisualButtonsVisible": true
+  },
+  "browserErrors": [],
+  "failedResources": []
+}

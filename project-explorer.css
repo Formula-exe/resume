@@ -1,0 +1,35 @@
+.project-explorer{display:grid;grid-template-columns:minmax(0,.86fr) minmax(0,1.14fr);gap:38px;align-items:start}
+.project-list{list-style:none;padding:0;margin:0;display:grid;gap:0}
+.project-list li{margin:0;padding:0}
+.project-select{width:100%;display:block;text-align:left;padding:22px 20px;border:0;border-bottom:1px solid var(--line);border-left:2px solid transparent;background:transparent;color:var(--text);cursor:pointer;white-space:normal}
+.project-select-title{display:block;font-size:1rem;line-height:1.65;font-weight:600}
+.project-select-summary{display:block;margin-top:9px;color:var(--muted);font-size:.87rem;line-height:1.85;font-weight:400}
+.project-select-result{display:block;margin-top:10px;color:var(--primary);font-size:.78rem;line-height:1.75;font-weight:400}
+.project-select:hover{background:color-mix(in srgb,var(--primary) 4%,transparent)}
+.project-select[aria-pressed="true"]{border-left-color:var(--primary);background:color-mix(in srgb,var(--primary) 7%,transparent)}
+.project-select[aria-pressed="true"] .project-select-title{color:var(--primary)}
+.project-explorer button,.project-explorer a,.project-explorer canvas{transition:none!important;animation:none!important;transform:none!important}
+.project-stage{min-width:0;border:1px solid var(--line);border-radius:12px;background:var(--surface);min-height:450px}
+.project-empty{display:flex;min-height:450px;flex-direction:column;align-items:center;justify-content:center;padding:30px;text-align:center}
+.project-empty h3{font-size:1.1rem;font-weight:400}
+.project-empty p{font-size:.9rem;color:var(--muted);margin:12px 0 0}
+.project-detail{padding:24px}
+.project-detail[hidden],.project-empty[hidden]{display:none!important}
+.project-detail-header{display:flex;align-items:flex-start;gap:16px;justify-content:space-between}
+.project-detail-header h3{font-size:1.12rem;line-height:1.7;margin:0;min-width:0}
+.project-close{border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--muted);font-size:.83rem;min-height:44px;min-width:60px;padding:8px 12px;flex-shrink:0;cursor:pointer}
+.project-close:hover{color:var(--text);border-color:var(--primary)}
+.project-map{margin:18px 0 22px;border-bottom:1px solid var(--line)}
+.project-constellation{position:relative;width:100%;height:230px;pointer-events:none;overflow:hidden}
+.project-constellation canvas:not([hidden]),.project-constellation svg{position:absolute;inset:0;display:block;width:100%;height:100%}
+.project-detail-summary{margin:0;font-size:.92rem;line-height:1.9;color:var(--muted)}
+.project-detail-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.project-detail-result{margin:18px 0;color:var(--primary);font-size:.87rem;line-height:1.8}
+.project-detail-links{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.project-detail-links li{margin:0;padding:0}
+.project-reference{color:var(--text);font-size:.85rem;line-height:1.8;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:4px;overflow-wrap:anywhere}
+.project-reference:hover{color:var(--primary);text-decoration-color:var(--primary)}
+.project-keyboard-hint{margin:18px 0 0;font-size:.75rem;color:var(--muted)}
+@media(max-width:900px){.project-explorer{gap:24px;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}.project-select{padding:20px 14px}.project-detail{padding:20px}.project-detail-header h3{font-size:1rem}.project-constellation{height:210px}}
+@media(max-width:760px),(pointer:coarse) and (max-width:1024px){.project-explorer{grid-template-columns:minmax(0,1fr);gap:24px}.project-stage,.project-empty{min-height:180px}.project-detail{padding:20px 18px}.project-constellation{height:210px}.project-select{padding:19px 14px}.project-select-title{font-size:.95rem}.project-select-summary{font-size:.85rem}.project-detail-summary{font-size:.88rem}.project-keyboard-hint{line-height:1.8}}
+@media print{.project-explorer{display:block}.project-stage,.project-keyboard-hint{display:none}.project-select{border-left:0;background:transparent!important;break-inside:avoid;padding:16px 0;color:var(--text)}.project-select-title{color:var(--text)!important}.project-select-summary{color:var(--muted)}.project-select-result{color:var(--text)}}

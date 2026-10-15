@@ -1,6 +1,7 @@
 (() => {
+  if(window.resumeSiteEnhancementsReady)return;window.resumeSiteEnhancementsReady=true;
   const root = document.documentElement;
-  const mobile = matchMedia('(max-width: 760px)');
+  const mobile = matchMedia('(max-width:760px), (pointer:coarse) and (max-width:1024px)');
   const icon = name => {
     const span = document.createElement('span');
     span.className = 'ui-icon';
@@ -35,7 +36,7 @@
     if (restoreFocus) menuButton.focus({ preventScroll: true });
   }
   menuButton.addEventListener('click', () => toggleMenu(menu.hidden));
-  menu.addEventListener('click', event => { if (event.target.closest('a')) toggleMenu(false); });
+  menu.addEventListener('click', event => { if (event.target.closest('a,#visualSettingsMobile')) toggleMenu(false); });
   mobilePrint.addEventListener('click', () => { toggleMenu(false); document.getElementById('printBtn').click(); });
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape' && !menu.hidden) toggleMenu(false, true);
@@ -80,7 +81,7 @@
   window.addEventListener('resume:motionchange', decorate);
   new MutationObserver(decorate).observe(root, { attributes: true, attributeFilter: ['data-theme'] });
 
-  if ('IntersectionObserver' in window) {
+  if ('IntersectionObserver' in window && !window.RESUME_CHAPTER_CONFIG) {
     const sections = document.querySelectorAll('main>section[id]');
     // A single observer watches all section anchors.
     const observer = new IntersectionObserver(entries => {

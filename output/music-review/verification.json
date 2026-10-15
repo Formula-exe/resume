@@ -1,0 +1,33 @@
+{
+  "source": "http://127.0.0.1:8765/assets/audio/moonlight-scott-buckley.mp3",
+  "duration": 254.333741,
+  "title": "Moonlight",
+  "artist": "Scott Buckley",
+  "gain": 0.14000000059604645,
+  "rms": 0.00349975529442261,
+  "graph": {
+    "state": "playing",
+    "desiredPlaying": true,
+    "actualPlaying": true,
+    "paused": false,
+    "currentTime": 2.522268,
+    "readyState": 4,
+    "networkState": 1,
+    "pending": false,
+    "failure": null,
+    "contextState": "running",
+    "sourceConnections": 1,
+    "outputConnections": 1,
+    "analyserConnections": 1,
+    "analyserFftSize": 2048
+  },
+  "pauseResumePassed": true,
+  "sameAudioAndGraph": true,
+  "sceneUnchanged": true,
+  "rmsResponds": true,
+  "creditVisible": true,
+  "languageSwitchPassed": true,
+  "singleAudioElement": 1,
+  "browserErrors": [],
+  "failedResources": []
+}

@@ -1,0 +1,54 @@
+{
+  "width": 1254,
+  "height": 1254,
+  "candidates": 64848,
+  "particles": 36000,
+  "regions": {
+    "face": 12561,
+    "hair": 12373,
+    "shoulders": 11061,
+    "body": 5
+  },
+  "headFraction": 0.6926111111111111,
+  "zRange": [
+    -9.092429822094031,
+    16.227828684505077
+  ],
+  "depthToHeight": 0.020191593705421937,
+  "warmColorSamples": 23094,
+  "coolWhiteSamples": 11607,
+  "softHighlights": 33,
+  "checkpoints": {
+    "forehead": {
+      "label": "额头",
+      "samples": 2393
+    },
+    "nose": {
+      "label": "鼻子",
+      "samples": 1483
+    },
+    "chin": {
+      "label": "下巴",
+      "samples": 2464
+    },
+    "shoulder": {
+      "label": "肩膀",
+      "samples": 3461
+    }
+  },
+  "fixedCamera": true,
+  "animation": false,
+  "pointerResponse": false,
+  "source_alpha_range": [
+    0,
+    255
+  ],
+  "particle_alpha_range": [
+    0,
+    255
+  ],
+  "source_transparent_fraction": 0.5545202719717955,
+  "particle_transparent_fraction": 0.8992913267655146,
+  "browser_errors": [],
+  "failed_resources": []
+}

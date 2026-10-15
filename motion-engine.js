@@ -1,16 +1,19 @@
-(() => {
+if(window.resumeVisualRuntime.settings().mode==='static')window.ScrollTrigger?.disable(false);
+window.resumeVisualRuntime.register('motion',(scope,quality)=>{
   const { gsap, ScrollTrigger } = window;
   if (!gsap || !ScrollTrigger) return;
   gsap.registerPlugin(ScrollTrigger);
+  ScrollTrigger.enable();
   const root = document.documentElement;
   root.dataset.gsap = 'ready';
-  let media, refreshFrame;
+  let media, refreshFrame=0;
 
   function setup() {
+    if(scope.signal.aborted || document.hidden)return;
     media?.revert();
     media = gsap.matchMedia();
     media.add({ all: '(min-width: 0px)', reduced: '(prefers-reduced-motion: reduce)' }, context => {
-      const animate = root.dataset.motion !== 'off' && !context.conditions.reduced;
+      const animate = quality.mode==='standard' && root.dataset.motion !== 'off' && !context.conditions.reduced;
       // Progress and state feedback never hijack native scrolling.
       gsap.fromTo('.reading-progress', { scaleX: 0 }, {
         scaleX: 1, ease: 'none',
@@ -40,29 +43,27 @@
         };
         gsap.to(card, vars);
       });
-      context.add('tabMotion', () => {
-        if (animate) gsap.fromTo('#projectPanels [role="tabpanel"]:not([hidden]) .project', { y: 6, autoAlpha: .7 }, { y: 0, autoAlpha: 1, duration: .28, stagger: .035, overwrite: 'auto', ease: 'power2.out', clearProps: 'transform,opacity,visibility' });
-        ScrollTrigger.refresh();
-      });
       window.resumeGalleryMotion = context.galleryMotion;
-      window.addEventListener('resume:tab', context.tabMotion);
       window.setActiveCertificate(window.activeCertificate ?? 2, false);
       ScrollTrigger.refresh();
       return () => {
-        window.removeEventListener('resume:tab', context.tabMotion);
         window.resumeGalleryMotion = undefined;
       };
     });
   }
   function schedule() {
-    cancelAnimationFrame(refreshFrame);
-    refreshFrame = requestAnimationFrame(setup);
+    scope.cancelRaf(refreshFrame);
+    if(document.hidden)return;
+    refreshFrame = scope.raf(()=>{refreshFrame=0;setup();});
   }
-  window.addEventListener('resume:render', schedule);
-  window.addEventListener('resume:motionchange', schedule);
-  window.addEventListener('pageshow', schedule);
-  window.addEventListener('pagehide', () => { media?.revert(); });
+  scope.on(window,'resume:render', schedule);
+  scope.on(window,'resume:motionchange', schedule);
+  scope.on(window,'resume:projectchange', () => ScrollTrigger.refresh());
+  scope.on(window,'pageshow', schedule);
+  scope.on(window,'pagehide', () => { media?.revert(); });
   const printMedia = matchMedia('print');
-  printMedia.addEventListener('change', event => { if (event.matches) media?.revert(); else schedule(); });
+  scope.on(printMedia,'change', event => { if (event.matches) media?.revert(); else schedule(); });
+  scope.cleanup(()=>{scope.cancelRaf(refreshFrame);refreshFrame=0;media?.revert();media=null;delete window.resumeGalleryMotion;ScrollTrigger.disable(false);gsap.ticker.sleep();});
   setup();
-})();
+  return {pause:()=>{scope.cancelRaf(refreshFrame);refreshFrame=0;ScrollTrigger.disable(false);gsap.ticker.sleep();},resume:()=>{ScrollTrigger.enable();gsap.ticker.wake();schedule();},snapshot:()=>({pendingFrames:refreshFrame?1:0,scrollTriggers:ScrollTrigger.getAll().length})};
+},{keys:['mode']});

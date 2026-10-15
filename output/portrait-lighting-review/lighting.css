@@ -1,0 +1,27 @@
+/* Color-only overrides. Grid, spacing, type scale and camera framing are unchanged. */
+html[data-lighting-mode="off"],html[data-lighting-mode="on"]{
+  --bg:#060a12;--surface:rgba(14,21,34,.94);--surface-solid:#0e1522;
+  --text:#edf3fc;--muted:#b4c2d7;--line:#253043;--primary:#e5b582;--primary-2:#f0cfaa;--accent:#e5b582
+}
+html[data-lighting-mode="off"] body,html[data-lighting-mode="on"] body{background:var(--lighting-background,#060a12)}
+html[data-lighting-mode="off"] .hero-panel,html[data-lighting-mode="on"] .hero-panel{background:transparent;color:var(--lighting-text,#edf3fc)}
+html[data-lighting-mode="off"] .hero-panel::before,html[data-lighting-mode="on"] .hero-panel::before{background:linear-gradient(90deg,rgba(6,10,18,.82),rgba(6,10,18,.7) 37%,transparent 54%)}
+html[data-lighting-mode="off"] .nav,html[data-lighting-mode="on"] .nav{background:rgba(6,10,18,.87);border-bottom-color:rgba(183,203,232,.1)}
+html[data-lighting-mode="off"] .nav-links,html[data-lighting-mode="on"] .nav-links{color:#b4c2d7}
+html[data-lighting-mode="off"] .hero-subtitle,html[data-lighting-mode="on"] .hero-subtitle{color:var(--lighting-text,#edf3fc)}
+html[data-lighting-mode="off"] .summary,html[data-lighting-mode="on"] .summary{color:var(--lighting-paragraph,#c8d2e3)}
+html[data-lighting-mode="off"] .hero .badge,html[data-lighting-mode="on"] .hero .badge{color:#c4d0e1}
+html[data-lighting-mode="off"] .eyebrow,html[data-lighting-mode="on"] .eyebrow{color:#a7b7ce}
+html[data-lighting-mode="off"] #heroName,html[data-lighting-mode="on"] #heroName{color:#c4d0e1}
+html[data-lighting-mode="off"] .hero .button,html[data-lighting-mode="on"] .hero .button{color:#e6d3b9;border-color:#695640}
+.hero-visual-space canvas.portrait-layer:not([hidden]){object-fit:contain;object-position:center;pointer-events:none}
+.hero-visual-space canvas.bloom-layer:not([hidden]){mix-blend-mode:screen}
+.portrait-fallback{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.hero-visual-space[data-ready="true"] .portrait-fallback{visibility:hidden}
+.lighting-controls{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);z-index:100;display:flex;gap:6px;align-items:center;padding:7px;border:1px solid #334257;border-radius:12px;background:#0c1422;box-shadow:0 4px 24px #0008;font:12px/1.5 "Microsoft YaHei",sans-serif;color:#c8d2e3}
+.lighting-controls button{color:inherit;background:transparent;border:1px solid transparent;border-radius:7px;padding:9px 12px;cursor:pointer;white-space:nowrap;font:inherit}
+.lighting-controls button[aria-pressed="true"]{color:#fff1de;background:#243247;border-color:#9d7e56}
+.lighting-controls button:focus-visible{outline:2px solid #ffcf94;outline-offset:2px}
+.lighting-controls[hidden]{display:none}
+@media(max-width:760px){html[data-lighting-mode="off"] .hero-panel::before,html[data-lighting-mode="on"] .hero-panel::before{background:linear-gradient(180deg,rgba(6,10,18,.7),rgba(6,10,18,.5) 56%,transparent 74%)}.lighting-controls{bottom:12px;gap:2px}.lighting-controls button{padding:9px 7px;font-size:11px}}
+@media print{.lighting-controls{display:none!important}html[data-lighting-mode] body{background:#fff}html[data-lighting-mode] .hero-panel{background:#fff;color:#15232a}html[data-lighting-mode] .hero-subtitle,html[data-lighting-mode] .summary,html[data-lighting-mode] #heroName,html[data-lighting-mode] .eyebrow{color:#15232a}}

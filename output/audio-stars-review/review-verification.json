@@ -1,0 +1,9 @@
+{
+  "reviewModeButtons": true,
+  "dynamicDetail": true,
+  "reducedMotionStopsPreview": true,
+  "mobileNoOverflow": true,
+  "gifFrames": 10,
+  "browserErrors": [],
+  "failedResources": []
+}

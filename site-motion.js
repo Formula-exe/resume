@@ -1,4 +1,5 @@
 (() => {
+  if(window.resumeSiteMotionReady)return;window.resumeSiteMotionReady=true;
   const root = document.documentElement;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   let enabled = true;
@@ -11,7 +12,7 @@
 
   function labels() {
     const en = root.lang === 'en';
-    const active = enabled && !reduced.matches;
+    const active = enabled && !reduced.matches && document.documentElement.dataset.visualMotion!=='off';
     motionButton.textContent = active ? '≈' : 'Ⅱ';
     motionButton.setAttribute('aria-pressed', String(active));
     const label = reduced.matches ? (en ? 'Motion disabled by system preference' : '系统已设置减少动态效果') : active ? (en ? 'Pause animations' : '暂停动效') : (en ? 'Enable animations' : '开启动效');
@@ -25,11 +26,11 @@
       controls.querySelector('[data-gallery="next"]').setAttribute('aria-label', en ? 'Next certificate' : '下一张证书');
       controls.querySelector('.gallery-preview').textContent = en ? 'View certificate' : '查看大图';
     }
-    document.querySelector('meta[name="theme-color"]').content = root.dataset.theme === 'dark' ? '#071b30' : '#edf5fa';
+    document.querySelector('meta[name="theme-color"]').content = root.dataset.theme === 'dark' ? '#07090c' : '#f4f2ee';
   }
 
   function updateMotion() {
-    root.dataset.motion = enabled && !reduced.matches ? 'on' : 'off';
+    root.dataset.motion = enabled && !reduced.matches && root.dataset.visualMotion!=='off' ? 'on' : 'off';
     labels();
     window.dispatchEvent(new Event('resume:motionchange'));
   }
@@ -39,6 +40,7 @@
     updateMotion();
   });
   reduced.addEventListener('change', updateMotion);
+  window.addEventListener('resume:qualitychange', updateMotion);
 
 
   const controls = document.createElement('div');

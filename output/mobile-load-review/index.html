@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>手机构图与低负载 · 张名宇</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#080d15;color:#edf3fc;font:15px/1.8 "Microsoft YaHei",sans-serif}main{max-width:1330px;margin:auto;padding:36px 26px 70px}h1{font:400 32px/1.4 "Microsoft YaHei",sans-serif;margin:0 0 12px}h2{font-size:19px;font-weight:500;margin:30px 0 10px}p{color:#afc0d8;margin:10px 0}a{color:#edc299;text-underline-offset:5px}.links{display:flex;gap:12px 24px;flex-wrap:wrap;margin:20px 0 26px}.notice{padding:12px 0;border-top:1px solid #2d394d;border-bottom:1px solid #2d394d;color:#c6d2e3}.shots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:28px 0}.shots figure{margin:0}.shots figcaption{font-size:14px;color:#e3c2a0;margin-bottom:10px}.shots img{display:block;width:100%;height:auto;border:1px solid #29364a}.controls{display:flex;gap:9px;flex-wrap:wrap}button{font:inherit;padding:7px 14px;color:#e6d8c9;background:transparent;border:1px solid #536079;border-radius:5px;cursor:pointer}button[aria-pressed="true"]{border-color:#d4ac83;background:#25201d}button:focus-visible,a:focus-visible{outline:2px solid #edc299;outline-offset:4px}table{border-collapse:collapse;width:100%;text-align:left;font-size:14px}th,td{padding:11px 12px;border-bottom:1px solid #29364a}th{font-weight:500;color:#d2deef}td{color:#adbed6}.checks{display:grid;grid-template-columns:1fr 1fr;gap:18px 40px;border-top:1px solid #29364a;padding-top:15px}.checks h2{margin:0}.checks p{font-size:14px}.wide{width:100%;height:auto;display:block;border:1px solid #29364a;margin-top:20px}footer{margin-top:30px;border-top:1px solid #29364a;padding-top:18px;color:#8d9eb6;font-size:13px}@media(max-width:760px){main{padding:24px 16px}h1{font-size:26px}.shots{grid-template-columns:1fr;gap:25px;max-width:430px;margin:24px auto}.checks{grid-template-columns:1fr}th,td{padding:10px 5px;font-size:12px}}
+</style>
+<main>
+  <h1>手机构图与低负载</h1>
+  <p>正文在上，签名与人物在下。画面设置提供自动、标准、低负载和静态背景；手机默认低负载。</p>
+  <nav class="links" aria-label="预览与检查记录"><a href="../../#top">打开网站</a><a href="../../?quality=low#top">打开低负载</a><a href="../../?quality=static#about">打开静态背景</a><a href="REVIEW.md">检查记录</a><a href="verification.json">原始测量数据</a></nav>
+  <p class="notice">以下均为 Windows Edge 浏览器模拟截图；手机真机未测试。隐藏事件注入与浏览器冻结/恢复分别记录，不能代替真机后台、发热或续航测试。</p>
+  <div class="controls" aria-label="截图尺寸"><button type="button" data-size="390" aria-pressed="true">390 × 844</button><button type="button" data-size="320" aria-pressed="false">320 × 568</button><button type="button" data-size="430" aria-pressed="false">430 × 932</button><button type="button" data-size="landscape" aria-pressed="false">横屏 844 × 390</button></div>
+  <div class="shots">
+    <figure><figcaption>低负载 · 首屏</figcaption><img id="heroShot" src="mobile-390-hero.png" alt="浏览器模拟手机首屏：正文清晰，粒子签名位于正文下方"></figure>
+    <figure><figcaption>低负载 · 关于</figcaption><img id="aboutShot" src="mobile-390-about.png" alt="浏览器模拟手机关于章节：人物侧影位于介绍下方"></figure>
+    <figure><figcaption>静态背景 · 关于（390px）</figcaption><img src="mobile-static-about.png" alt="关闭动态图形后的静态人物背景，正文和链接保留"></figure>
+  </div>
+  <h2>统一渲染预算</h2>
+  <table><thead><tr><th>模式</th><th>像素比上限</th><th>签名 / 人物粒子</th><th>背景星点</th><th>Bloom</th></tr></thead><tbody><tr><td>标准</td><td>1.5</td><td>14,000 / 36,000</td><td>100%</td><td>可手动开启，默认关闭</td></tr><tr><td>低负载</td><td>1</td><td>4,500 / 9,000</td><td>45% 数量预算</td><td>关闭</td></tr><tr><td>静态 / 减少动效</td><td>静态图片</td><td>0 / 0</td><td>静态星空</td><td>关闭</td></tr></tbody></table>
+  <p>像素比、数量、后期和更新频率集中在 visual-runtime-config.js。手机的画面设置位于导航菜单，音乐播放按钮仍在顶部。</p>
+  <h2>检查结果</h2><p id="checkStatus">正在读取检查记录。</p>
+  <div class="checks"><section><h2>页面隐藏 / 恢复</h2><p>隐藏时停止视觉和分析采样循环；恢复时重置帧时间，并继续复用原有音频链路。单帧 deltaTime 上限保持 0.05 秒。</p></section><section><h2>重复初始化 / 释放</h2><p>重复初始化与导入保持单一画布和监听。切换或释放时清理计时器、帧请求、观察器、几何体、材质、纹理和后期目标。</p></section><section><h2>静态回退 / 正文操作</h2><p>减少动效、图形不可用或手动选择静态时使用静态素材。项目按钮、关闭与键盘操作、正文选择和真实链接继续可用。</p></section><section><h2>验证范围</h2><p>已做浏览器视口、DPR、触控和减少动效模拟，以及 WebGL 故障注入。没有使用 Android 或 iPhone 真机，不据此承诺真机帧率或功耗。</p></section></div>
+  <footer>所有图片取自实际本地网站。音乐与原有正文保留；静态模式也可以主动播放音乐。<a href="../music-response-review/">返回音乐响应对照</a></footer>
+</main>
+<script>
+const heroShot=document.getElementById('heroShot'),aboutShot=document.getElementById('aboutShot'),checkStatus=document.getElementById('checkStatus');
+document.querySelectorAll('[data-size]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-size]').forEach(node=>node.setAttribute('aria-pressed',String(node===button)));heroShot.src=`mobile-${button.dataset.size}-hero.png`;aboutShot.src=`mobile-${button.dataset.size}-about.png`;}));
+fetch('verification.json').then(r=>r.json()).then(data=>checkStatus.textContent=data.passed?'浏览器模拟检查已通过。真机状态：未测试。':'检查尚未完成。').catch(()=>checkStatus.textContent='检查记录正在生成。');
+</script>
+</html>

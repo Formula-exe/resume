@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>人物静态形状对照</title>
+  <link rel="icon" href="../../vendor/icons/sun.svg" type="image/svg+xml">
+  <style>
+    :root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#07090c;color:#ede7dc;font-family:"Segoe UI","Microsoft YaHei",sans-serif}main{max-width:1440px;margin:auto;padding:32px}h1{font-size:24px;font-weight:500;margin:0 0 10px}p{color:#a7acb5;font-size:14px;line-height:1.8;margin:0 0 22px}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:24px}figure{margin:0;min-width:0}figcaption{font-size:14px;color:#d9c3a5;margin-bottom:12px}.frame{background:#07090c;border:1px solid #272b32;overflow:hidden}canvas{display:block;width:100%;height:auto}#status{margin-top:20px}a{color:#edc492;text-underline-offset:4px}.links{display:flex;gap:24px;flex-wrap:wrap;margin-top:22px;font-size:14px}@media(max-width:760px){main{padding:24px 16px}.comparison{grid-template-columns:1fr;gap:28px}}
+  </style>
+</head>
+<body><main>
+  <h1>源图 / 彩色星点：静态形状对照</h1>
+  <p id="dimensions">正在读取透明素材。固定相机，不含动画与指针响应。</p>
+  <div class="comparison">
+    <figure><figcaption>源图 · 透明人物素材</figcaption><div class="frame"><canvas id="sourceCanvas"></canvas></div></figure>
+    <figure><figcaption>粒子成形 · 原图颜色、浅层深度</figcaption><div class="frame"><canvas id="portraitCanvas"></canvas></div></figure>
+  </div>
+  <p id="status" role="status">正在采样面部、头发和肩部。</p>
+  <div class="links"><a href="../../assets/portrait-profile/portrait-source-v1.png" download>下载透明源图</a><a href="portrait-particles.png" download>下载透明粒子成形</a><a href="portrait-source-vs-particles.png" download>下载同尺寸对照</a></div>
+  <canvas id="comparisonCanvas" hidden style="display:none"></canvas>
+  <script src="config.js"></script><script type="module" src="portrait-review.js"></script>
+</main></body></html>

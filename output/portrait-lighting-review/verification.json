@@ -1,0 +1,640 @@
+{
+  "viewport": [
+    1600,
+    1000
+  ],
+  "snapshots": {
+    "before": {
+      "snapshot": {
+        "mode": "before",
+        "particleCount": 36000,
+        "softHighlights": 33,
+        "warmParticles": null,
+        "regionCounts": {
+          "face": 12561,
+          "hair": 12373,
+          "shoulders": 11061,
+          "body": 5
+        },
+        "camera": {
+          "position": [
+            0,
+            0,
+            2200
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "fov": 31.815103861051682,
+          "aspect": 1,
+          "near": 1,
+          "far": 8000,
+          "projection": [
+            3.5087719298245617,
+            0,
+            0,
+            0,
+            0,
+            3.5087719298245617,
+            0,
+            0,
+            0,
+            0,
+            -1.0002500312539067,
+            -1,
+            0,
+            0,
+            -2.000250031253907,
+            0
+          ]
+        },
+        "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+        "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+        "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+        "bloom": {
+          "enabled": false,
+          "resolution": [
+            627,
+            627
+          ],
+          "resolutionScale": 0.5,
+          "threshold": 0.46,
+          "knee": 0.08,
+          "radius": 1.2,
+          "strength": 0.7,
+          "maxOpacity": 0.14
+        },
+        "animation": false,
+        "pointerResponse": false
+      },
+      "fingerprints": {
+        "positions": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+        "sizes": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+        "highlights": "f310329345e798be256ca7326a396cffc5a3a3fc6deefe15f0bab3722548feb1"
+      },
+      "layout": {
+        ".hero-panel": {
+          "x": 0,
+          "y": 81,
+          "width": 1600,
+          "height": 920
+        },
+        ".hero-grid": {
+          "x": 108.796875,
+          "y": 161,
+          "width": 1382.40625,
+          "height": 760
+        },
+        ".hero-copy": {
+          "x": 108.796875,
+          "y": 243.65625,
+          "width": 535,
+          "height": 594.671875
+        },
+        ".hero-visual-space": {
+          "x": 666.75,
+          "y": 197,
+          "width": 889.453125,
+          "height": 688
+        },
+        "#heroTitle": {
+          "x": 108.796875,
+          "y": 351.09375,
+          "width": 535,
+          "height": 122.375
+        },
+        "#heroSummary": {
+          "x": 108.796875,
+          "y": 501.46875,
+          "width": 490,
+          "height": 93.5625
+        }
+      },
+      "text": [
+        "张名宇",
+        "环境工程本科生｜AI 应用与视觉表达实践者",
+        "江苏科技大学环境工程专业准大一新生，具备 AI 应用与 PPT 视觉表达基础；擅长以结构化思维将复杂信息转化为清晰、有说服力的内容。",
+        "AI 应用PPT 制作科普写作"
+      ],
+      "layers": {
+        "far": 107,
+        "middle": 35,
+        "near": 10
+      },
+      "starConfig": {
+        "seed": 20261013,
+        "camera": {
+          "focalLength": 900,
+          "nearDepth": 650
+        },
+        "layerDistance": 700,
+        "depthSpread": 0.16,
+        "referenceArea": 1472000,
+        "minDensityScale": 0.48,
+        "maxPixelRatio": 2,
+        "layers": [
+          {
+            "name": "far",
+            "depth": 2,
+            "count": 240,
+            "size": [
+              0.75,
+              1.4
+            ],
+            "brightness": [
+              0.18,
+              0.4
+            ],
+            "glow": 0,
+            "color": "#aebbc9"
+          },
+          {
+            "name": "middle",
+            "depth": 1,
+            "count": 85,
+            "size": [
+              0.8,
+              1.45
+            ],
+            "brightness": [
+              0.32,
+              0.62
+            ],
+            "glow": 0.6,
+            "color": "#e5ddd0"
+          },
+          {
+            "name": "near",
+            "depth": 0,
+            "count": 22,
+            "size": [
+              0.75,
+              1.2
+            ],
+            "brightness": [
+              0.58,
+              0.86
+            ],
+            "glow": 5,
+            "color": "#f4dfc1"
+          }
+        ],
+        "composition": {
+          "textZoneEnd": 0.42,
+          "textDensity": 0.12,
+          "textBrightness": 0.2,
+          "textPadding": 24,
+          "visualZone": {
+            "x": 0.73,
+            "y": 0.5,
+            "radiusX": 0.23,
+            "radiusY": 0.29
+          },
+          "visualDensity": 0.3,
+          "visualBrightness": 0.55,
+          "mobileBreakpoint": 760
+        }
+      },
+      "base_hash": "6aa7efeb54c8df24fb95593d0d1774e14c0b9dad21319a5511a413d86fcbf6f7",
+      "starPositionCount": 152,
+      "starGeometryHash": "c54df0d0c1ac7958f17beba1e77d423b08f38bdc1e3f4fc4b6f670acc367e509"
+    },
+    "off": {
+      "snapshot": {
+        "mode": "off",
+        "particleCount": 36000,
+        "softHighlights": 33,
+        "warmParticles": 576,
+        "regionCounts": {
+          "face": 12561,
+          "hair": 12373,
+          "shoulders": 11061,
+          "body": 5
+        },
+        "camera": {
+          "position": [
+            0,
+            0,
+            2200
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "fov": 31.815103861051682,
+          "aspect": 1,
+          "near": 1,
+          "far": 8000,
+          "projection": [
+            3.5087719298245617,
+            0,
+            0,
+            0,
+            0,
+            3.5087719298245617,
+            0,
+            0,
+            0,
+            0,
+            -1.0002500312539067,
+            -1,
+            0,
+            0,
+            -2.000250031253907,
+            0
+          ]
+        },
+        "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+        "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+        "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+        "bloom": {
+          "enabled": false,
+          "resolution": [
+            627,
+            627
+          ],
+          "resolutionScale": 0.5,
+          "threshold": 0.46,
+          "knee": 0.08,
+          "radius": 1.2,
+          "strength": 0.7,
+          "maxOpacity": 0.14
+        },
+        "animation": false,
+        "pointerResponse": false
+      },
+      "fingerprints": {
+        "positions": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+        "sizes": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+        "highlights": "f310329345e798be256ca7326a396cffc5a3a3fc6deefe15f0bab3722548feb1"
+      },
+      "layout": {
+        ".hero-panel": {
+          "x": 0,
+          "y": 81,
+          "width": 1600,
+          "height": 920
+        },
+        ".hero-grid": {
+          "x": 108.796875,
+          "y": 161,
+          "width": 1382.40625,
+          "height": 760
+        },
+        ".hero-copy": {
+          "x": 108.796875,
+          "y": 243.65625,
+          "width": 535,
+          "height": 594.671875
+        },
+        ".hero-visual-space": {
+          "x": 666.75,
+          "y": 197,
+          "width": 889.453125,
+          "height": 688
+        },
+        "#heroTitle": {
+          "x": 108.796875,
+          "y": 351.09375,
+          "width": 535,
+          "height": 122.375
+        },
+        "#heroSummary": {
+          "x": 108.796875,
+          "y": 501.46875,
+          "width": 490,
+          "height": 93.5625
+        }
+      },
+      "text": [
+        "张名宇",
+        "环境工程本科生｜AI 应用与视觉表达实践者",
+        "江苏科技大学环境工程专业准大一新生，具备 AI 应用与 PPT 视觉表达基础；擅长以结构化思维将复杂信息转化为清晰、有说服力的内容。",
+        "AI 应用PPT 制作科普写作"
+      ],
+      "layers": {
+        "far": 107,
+        "middle": 35,
+        "near": 10
+      },
+      "starConfig": {
+        "seed": 20261013,
+        "camera": {
+          "focalLength": 900,
+          "nearDepth": 650
+        },
+        "layerDistance": 700,
+        "depthSpread": 0.16,
+        "referenceArea": 1472000,
+        "minDensityScale": 0.48,
+        "maxPixelRatio": 2,
+        "layers": [
+          {
+            "name": "far",
+            "depth": 2,
+            "count": 240,
+            "size": [
+              0.75,
+              1.4
+            ],
+            "brightness": [
+              0.14,
+              0.3
+            ],
+            "glow": 0,
+            "color": "#8294b8"
+          },
+          {
+            "name": "middle",
+            "depth": 1,
+            "count": 85,
+            "size": [
+              0.8,
+              1.45
+            ],
+            "brightness": [
+              0.22,
+              0.42
+            ],
+            "glow": 0.6,
+            "color": "#afc8ee"
+          },
+          {
+            "name": "near",
+            "depth": 0,
+            "count": 22,
+            "size": [
+              0.75,
+              1.2
+            ],
+            "brightness": [
+              0.45,
+              0.64
+            ],
+            "glow": 5,
+            "color": "#d5e7ff"
+          }
+        ],
+        "composition": {
+          "textZoneEnd": 0.42,
+          "textDensity": 0.12,
+          "textBrightness": 0.2,
+          "textPadding": 24,
+          "visualZone": {
+            "x": 0.73,
+            "y": 0.5,
+            "radiusX": 0.23,
+            "radiusY": 0.29
+          },
+          "visualDensity": 0.3,
+          "visualBrightness": 0.55,
+          "mobileBreakpoint": 760
+        }
+      },
+      "base_hash": "d0b25ae60adeea1019aafcf1cb395fa4481e02ce97ccc761f7262e9e0dea6ad1",
+      "starPositionCount": 152,
+      "starGeometryHash": "c54df0d0c1ac7958f17beba1e77d423b08f38bdc1e3f4fc4b6f670acc367e509"
+    },
+    "on": {
+      "snapshot": {
+        "mode": "on",
+        "particleCount": 36000,
+        "softHighlights": 33,
+        "warmParticles": 576,
+        "regionCounts": {
+          "face": 12561,
+          "hair": 12373,
+          "shoulders": 11061,
+          "body": 5
+        },
+        "camera": {
+          "position": [
+            0,
+            0,
+            2200
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "fov": 31.815103861051682,
+          "aspect": 1,
+          "near": 1,
+          "far": 8000,
+          "projection": [
+            3.5087719298245617,
+            0,
+            0,
+            0,
+            0,
+            3.5087719298245617,
+            0,
+            0,
+            0,
+            0,
+            -1.0002500312539067,
+            -1,
+            0,
+            0,
+            -2.000250031253907,
+            0
+          ]
+        },
+        "geometryHash": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+        "sizeHash": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+        "geometryFileHash": "aa679c32eeec176ace56bd5ebfe2ebafff34b94afcf42c2f50d49d926059a617",
+        "bloom": {
+          "enabled": true,
+          "resolution": [
+            627,
+            627
+          ],
+          "resolutionScale": 0.5,
+          "threshold": 0.46,
+          "knee": 0.08,
+          "radius": 1.2,
+          "strength": 0.7,
+          "maxOpacity": 0.14
+        },
+        "animation": false,
+        "pointerResponse": false
+      },
+      "fingerprints": {
+        "positions": "6f702850cd523452f51251f79d010c3f1a5c8ad8879a4ad0b19cd74f908da7e0",
+        "sizes": "4b6f8a6ee5bdd4a31453806a9b9d18843e48a318deab0ec702663ee06d324fb6",
+        "highlights": "f310329345e798be256ca7326a396cffc5a3a3fc6deefe15f0bab3722548feb1"
+      },
+      "layout": {
+        ".hero-panel": {
+          "x": 0,
+          "y": 81,
+          "width": 1600,
+          "height": 920
+        },
+        ".hero-grid": {
+          "x": 108.796875,
+          "y": 161,
+          "width": 1382.40625,
+          "height": 760
+        },
+        ".hero-copy": {
+          "x": 108.796875,
+          "y": 243.65625,
+          "width": 535,
+          "height": 594.671875
+        },
+        ".hero-visual-space": {
+          "x": 666.75,
+          "y": 197,
+          "width": 889.453125,
+          "height": 688
+        },
+        "#heroTitle": {
+          "x": 108.796875,
+          "y": 351.09375,
+          "width": 535,
+          "height": 122.375
+        },
+        "#heroSummary": {
+          "x": 108.796875,
+          "y": 501.46875,
+          "width": 490,
+          "height": 93.5625
+        }
+      },
+      "text": [
+        "张名宇",
+        "环境工程本科生｜AI 应用与视觉表达实践者",
+        "江苏科技大学环境工程专业准大一新生，具备 AI 应用与 PPT 视觉表达基础；擅长以结构化思维将复杂信息转化为清晰、有说服力的内容。",
+        "AI 应用PPT 制作科普写作"
+      ],
+      "layers": {
+        "far": 107,
+        "middle": 35,
+        "near": 10
+      },
+      "starConfig": {
+        "seed": 20261013,
+        "camera": {
+          "focalLength": 900,
+          "nearDepth": 650
+        },
+        "layerDistance": 700,
+        "depthSpread": 0.16,
+        "referenceArea": 1472000,
+        "minDensityScale": 0.48,
+        "maxPixelRatio": 2,
+        "layers": [
+          {
+            "name": "far",
+            "depth": 2,
+            "count": 240,
+            "size": [
+              0.75,
+              1.4
+            ],
+            "brightness": [
+              0.14,
+              0.3
+            ],
+            "glow": 0,
+            "color": "#8294b8"
+          },
+          {
+            "name": "middle",
+            "depth": 1,
+            "count": 85,
+            "size": [
+              0.8,
+              1.45
+            ],
+            "brightness": [
+              0.22,
+              0.42
+            ],
+            "glow": 0.6,
+            "color": "#afc8ee"
+          },
+          {
+            "name": "near",
+            "depth": 0,
+            "count": 22,
+            "size": [
+              0.75,
+              1.2
+            ],
+            "brightness": [
+              0.45,
+              0.64
+            ],
+            "glow": 5,
+            "color": "#d5e7ff"
+          }
+        ],
+        "composition": {
+          "textZoneEnd": 0.42,
+          "textDensity": 0.12,
+          "textBrightness": 0.2,
+          "textPadding": 24,
+          "visualZone": {
+            "x": 0.73,
+            "y": 0.5,
+            "radiusX": 0.23,
+            "radiusY": 0.29
+          },
+          "visualDensity": 0.3,
+          "visualBrightness": 0.55,
+          "mobileBreakpoint": 760
+        }
+      },
+      "base_hash": "d0b25ae60adeea1019aafcf1cb395fa4481e02ce97ccc761f7262e9e0dea6ad1",
+      "starPositionCount": 152,
+      "starGeometryHash": "c54df0d0c1ac7958f17beba1e77d423b08f38bdc1e3f4fc4b6f670acc367e509"
+    }
+  },
+  "paragraphContrast": 13.0,
+  "bloomDifferenceBox": [
+    858,
+    215,
+    1413,
+    862
+  ],
+  "bloomMaxChannelDifference": [
+    [
+      0,
+      35
+    ],
+    [
+      0,
+      35
+    ],
+    [
+      0,
+      34
+    ]
+  ],
+  "bloomChangedPixels": 105890,
+  "copyCrop": [
+    88,
+    223,
+    664,
+    859
+  ],
+  "copyPixelsIdentical": true,
+  "approvedPortraitPixelsIdentical": true,
+  "existingWebsiteLayoutIdentical": true,
+  "bloomMaxAlpha": 36,
+  "keyboardTogglePassed": true,
+  "staticPointerCheckPassed": true,
+  "mobileLayoutPassed": true,
+  "browserErrors": [],
+  "failedResources": [],
+  "warnings": []
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "newReviewImagesAndControls": true,
+  "noOverflowDesktopOrMobile": true,
+  "existingMusicReviewPlayPause": true,
+  "pageErrors": [],
+  "failedResponses": [],
+  "physicalPhone": "Not tested"
+}

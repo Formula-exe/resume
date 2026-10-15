@@ -31,3 +31,16 @@ Source: https://github.com/phosphor-icons/core
 License: MIT, included in `icons/LICENSE`.
 Downloaded from `https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/`.
 Icons are CSS masks that follow the text color in both themes.
+
+## Three.js
+
+Unmodified ES module bundles, pinned to **0.186.1**.
+Source: https://github.com/mrdoob/three.js
+License: MIT, included in `LICENSE-three`.
+
+- https://cdn.jsdelivr.net/npm/three@0.186.1/build/three.module.min.js
+- https://cdn.jsdelivr.net/npm/three@0.186.1/build/three.core.min.js
+
+The static signature imports the local modules directly; no runtime CDN is used.
+`three.core.js` is a local re-export bridge to the minified core, since the
+official module bundle imports that filename. Both upstream bundles are unchanged.

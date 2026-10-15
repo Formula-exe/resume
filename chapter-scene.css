@@ -1,0 +1,47 @@
+/* The fixed visual layer stays beneath normal selectable HTML. */
+html[data-chapter-scene] body{isolation:isolate}
+#chapterVisuals{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden;contain:layout paint}
+#chapterVisuals *{pointer-events:none!important}
+#chapterVisuals #pageParticles{opacity:var(--chapter-background,1)}
+#chapterActors{position:absolute;inset:0;z-index:1}
+.chapter-actor.hero-visual-space{position:absolute;left:var(--chapter-x,71vw);top:var(--chapter-y,53vh);margin:0;
+  width:calc(51.84vw + 60px);max-width:924px;height:clamp(420px,43vw,690px);
+  transform:translate(-50%,-50%) scale(var(--chapter-scale,1));transform-origin:center;overflow:hidden;transition:none!important}
+#chapterSignature{opacity:var(--chapter-signature-opacity,0)}
+#chapterPortrait{opacity:var(--chapter-portrait-opacity,0)}
+html[data-chapter-scene] .hero-grid>.hero-visual-space{visibility:hidden}
+html[data-chapter-scene] .hero-panel{background:transparent!important}
+html[data-chapter-scene] .hero-panel::before{display:none}
+html[data-chapter-scene] .hero-copy{background:var(--bg);box-shadow:0 0 40px 30px var(--bg)}
+html[data-chapter-scene] #highlights{background:var(--bg)}
+html[data-chapter-scene] .project-list,html[data-chapter-scene] .project-keyboard-hint{background:var(--bg)}
+html[data-chapter-scene] .skill-grid,html[data-chapter-scene] #skillAssessmentNote{background:var(--bg)}
+html[data-chapter-scene] .card{background:var(--surface-solid)}
+.chapter-about{min-height:78svh;display:flex;align-items:center;position:relative}
+.chapter-about-copy{width:43%;max-width:490px;padding:30px 0;color:var(--text);background:var(--bg);box-shadow:0 0 35px 25px var(--bg)}
+.chapter-about-copy h2{font-family:"Songti SC","SimSun",serif;font-weight:400;font-size:clamp(30px,2.8vw,43px);margin-bottom:30px}
+.chapter-about-copy p{font-size:17px;line-height:2;color:#c8d2e3;margin-bottom:28px}
+.chapter-about-copy a{color:#e5b582;text-underline-offset:6px;text-decoration:underline}
+.chapter-contact{min-height:calc(100svh - 80px);padding-top:90px;display:flex;flex-direction:column;justify-content:center}
+.chapter-contact h2{font-family:"Songti SC","SimSun",serif;font-size:clamp(30px,2.8vw,43px);font-weight:400}
+.chapter-contact .contact-row{margin-top:12px}
+.chapter-contact .button{padding:11px 18px;background:var(--surface-solid);color:var(--text);border-color:var(--line);font-weight:400}
+.chapter-contact .button:hover{border-color:var(--primary);transform:none}
+html[data-chapter-scene] :is(main,section,footer){scroll-margin-top:100px}
+@media(max-width:1100px){.chapter-actor.hero-visual-space{width:calc(51.3vw + 50px)}.nav-links{gap:12px!important;font-size:.78rem!important}.chapter-about-copy{width:45%;padding-right:12px}.chapter-about-copy p{font-size:15px}}
+@media(max-width:760px),(pointer:coarse) and (max-width:1024px){
+  .chapter-actor.hero-visual-space{width:calc(100vw - 16px);max-width:none;height:clamp(220px,59vw,420px)}
+  .chapter-about{min-height:92svh;align-items:flex-start;padding-top:70px;padding-bottom:46vh}
+  .chapter-about-copy{width:100%;max-width:none;padding:0}
+  .chapter-about-copy p{font-size:15px;line-height:1.95}
+  .chapter-contact{min-height:calc(100svh - 68px);padding-top:60px}
+  html[data-chapter-scene] :is(main,section,footer){scroll-margin-top:82px}
+}
+html[data-chapter-scene][data-theme="light"]{--bg:#f4f2ee;--surface:rgba(255,255,255,.96);--surface-solid:#fff;--text:#292724;--muted:#67625e;--line:#ddd8d1;--primary:#8b5026;--primary-2:#b87b46;--accent:#b87b46}
+html[data-chapter-scene][data-theme="light"] body{background:var(--bg)}
+html[data-chapter-scene][data-theme="light"] .hero-panel,html[data-chapter-scene][data-theme="light"] .hero-subtitle{color:var(--text)}
+html[data-chapter-scene][data-theme="light"] :is(.summary,.eyebrow,#heroName,.hero .badge,.chapter-about-copy p){color:var(--muted)}
+html[data-chapter-scene][data-theme="light"] .hero .button{color:var(--primary);border-color:var(--line)}
+html[data-chapter-scene][data-theme="light"] .chapter-about-copy a{color:var(--primary)}
+html[data-chapter-scene][data-theme="light"] .chapter-actor{filter:brightness(.42)}
+@media print{#chapterVisuals{display:none!important}.chapter-about{min-height:0}.chapter-about-copy{width:100%;max-width:none;box-shadow:none;padding:0}.chapter-about-copy p{color:var(--text);font-size:10.5pt}.chapter-contact{min-height:0;padding-top:26px}.chapter-about-copy h2,.chapter-contact h2{font:700 16pt "Microsoft YaHei",sans-serif}html[data-chapter-scene] .hero-copy{box-shadow:none}html[data-chapter-scene] .card{background:#fff}}

@@ -1,0 +1,14 @@
+{
+  "analysisFailureFallbackAndRetry": true,
+  "playbackFailureAndRetry": true,
+  "review": {
+    "singleEmbeddedAudio": true,
+    "realPlaybackFromParentButtons": true,
+    "seekToScenes": true,
+    "visualTogglePreservesMusic": true,
+    "imageModes": true,
+    "reducedMotionPreservesPlayButton": true,
+    "mobileNoOverflow": true
+  },
+  "browserErrors": []
+}
